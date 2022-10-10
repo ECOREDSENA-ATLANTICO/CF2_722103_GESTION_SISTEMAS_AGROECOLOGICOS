@@ -69,71 +69,61 @@
     .row.justify-content-center.align-items-center.my-3
       .col-7.col-lg-12
         SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_1.svg')
-              .p-4 
-                h4.text-center.mb-0 Dependencia creciente de agroquímicos.  
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_2.svg')
-              .p-4 
-                h4.text-center.mb-0 Contaminación de alimentos, recurso hídrico, suelo por pesticidas y de fertilizantes sintéticos.
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_3.svg')
-              .p-4 
-                h4.text-center.mb-0 Desarrollo de resistencia a los plaguicidas de ciertos patógenos y plagas.
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_4.svg')
-              .p-4 
-                h4.text-center.mb-0 Pérdida de la capacidad productiva de los suelos.
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_6.svg')
-              .p-4 
-                h4.text-center.mb-0 Eutrofización de embalses, disminución de acuíferos en zonas de regadío.
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_7.svg')
-              .p-4 
-                h4.text-center.mb-0 Pérdida de biodiversidad.
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_8.svg')
-              .p-4 
-                h4.text-center.mb-0 Pérdida de variabilidad genética.
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_9.svg')
-              .p-4 
-                h4.text-center.mb-0 Desplazamiento de algunas técnicas de cultivo propias de agricultores.
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_10.svg')
-              .p-4 
-                h4.text-center.mb-0 Contribución al calentamiento global. 
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_11.svg')
-              .p-4 
-                h4.text-center.mb-0 Dependencia de los combustibles fósiles y la disminución de la eficiencia productiva en términos energéticos.
-
-          .tarjeta.tarjeta_grey-1
-            .row.justify-content-center.align-items-center
-              img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_12.svg')
-              .p-4 
-                h4.text-center.mb-0 No ha solucionado el problema de pobreza rural y no ha sido aplicable a todos los agricultores.
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_1.svg')
+                .p-4 
+                  h4.text-center.mb-0 Dependencia creciente de agroquímicos.  
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_2.svg')
+                .p-4 
+                  h4.text-center.mb-0 Contaminación de alimentos, recurso hídrico, suelo por pesticidas y de fertilizantes sintéticos.
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_3.svg')
+                .p-4 
+                  h4.text-center.mb-0 Desarrollo de resistencia a los plaguicidas de ciertos patógenos y plagas.
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_4.svg')
+                .p-4 
+                  h4.text-center.mb-0 Pérdida de la capacidad productiva de los suelos.
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_6.svg')
+                .p-4 
+                  h4.text-center.mb-0 Eutrofización de embalses, disminución de acuíferos en zonas de regadío.
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_7.svg')
+                .p-4 
+                  h4.text-center.mb-0 Pérdida de biodiversidad.
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_8.svg')
+                .p-4 
+                  h4.text-center.mb-0 Pérdida de variabilidad genética.
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_9.svg')
+                .p-4 
+                  h4.text-center.mb-0 Desplazamiento de algunas técnicas de cultivo propias de agricultores.
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_10.svg')
+                .p-4 
+                  h4.text-center.mb-0 Contribución al calentamiento global. 
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_11.svg')
+                .p-4 
+                  h4.text-center.mb-0 Dependencia de los combustibles fósiles y la disminución de la eficiencia productiva en términos energéticos.
+            .tarjeta.tarjeta_grey-1
+              .row.justify-content-center.align-items-center
+                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_12.svg')
+                .p-4 
+                  h4.text-center.mb-0 No ha solucionado el problema de pobreza rural y no ha sido aplicable a todos los agricultores.
      
     p.mb-3 Si bien, se pueden evidenciar que los impactos ambientales han generado mayor cantidad de impactos ambientales, los impactos sociales no son de menor relevancia, dado que los conocimientos locales en la implementación de este modelo fueron visibilizados como primitivos, inútiles, atrasados o arcaicos, negando y subvalorando los saberes locales, las técnicas tradicionales de cultivo y de las bases ecológicas y culturales entre los agricultores, produciendo una erosión cultural que ha presentado variadas consecuencias relacionadas con la conservación de la diversidad biológica in situ (Shiva, 1991).
 
@@ -426,27 +416,34 @@
 
     p.mb-5 Se han reconocido cinco criterios claves para clasificar los agroecosistemas de una región que son: 
 
-    .row.align-items-center.justify-content-strech.mb-5 
-      .col-8.col-md-3.col-lg.mb-5.mb-lg-0.bgr_1.d-flex.mx-2
-        img(src='@/assets/curso/images/tema1/tj_1_1.png'  alt='')
-      
-   
-      .col-8.col-md-3.col-lg.mb-5.mb-lg-0.bgr_1.d-flex.mx-2
-        img(src='@/assets/curso/images/tema1/tj_2_2.png'  alt='')
+    
+    .row.aling-items-center.justify-content-center(data-aos="zoom-in-down")
+      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+        .bg
+          .tarjeta_Sp.p-4
+            p.text-center.m-top-4 La asociación de cultivos y ganado.
+      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+        .bg
+          .tarjeta_Sp-1.p-4
+            p.text-center.m-top-4  Los métodos para producir los cultivos y el ganado.
 
-   
-      .col-8.col-md-3.col-lg.mb-5.mb-lg-0.bgr_1.d-flex.mx-2
-        img(src='@/assets/curso/images/tema1/tj_3_3.png'  alt='')
+      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+        .bg
+          .tarjeta_Sp-2.p-4
+            p.text-center.m-top-4  Intensidad en la mano de obra, capital, organización y producción.
 
-      .col-8.col-md-3.col-lg.mb-5.mb-lg-0.bgr_1.d-flex.mx-2
-        img(src='@/assets/curso/images/tema1/tj_4_4.png'  alt='')
+      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+        .bg
+          .tarjeta_Sp-3.p-4
+            p.text-center.m-top-4  La distribución de los productos para el consumo subsistencia y/o venta, entre otros
 
-   
-      .col-8.col-md-3.col-lg.mb-5.mb-lg-0.bgr_1.d-flex.mx-2
-        img(src='@/assets/curso/images/tema1/tj_5_5.png'  alt='')
+      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+        .bg
+          .tarjeta_Sp-4.p-4
+            p.text-center.m-top-4  Estructuras usadas para la casa y facilitar las operaciones en la unidad productiva.
 
 
-    p.mb-5 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas los cuales son:
+    p.my-3 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas los cuales son:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-4 
