@@ -41,7 +41,7 @@
 
     p.mb-5 Asimismo, la agroecología busca promover el manejo de los agroecosistemas bajo las siguientes estrategias:
 
-    h3.text-center Estrategias para promover el manejo agroecológico de los agroecosistemas.
+    h3.text-center Estrategias para promover el manejo agroecológico de los agroecosistemas
 
     .row.justify-content-center.align-items-center
       .col-lg-8
@@ -111,6 +111,8 @@
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_12.svg', alt='')
             .col-lg-7.my-3 
               p(data-aos="fade-down") Un ajuste de los sistemas de cultivo a la productividad potencial y a las limitantes físicas, económicas y socioculturales de los agroecosistemas. 
+      
+    p.mb-3 Un mayor aprovechamiento de procesos naturales en la producción agrícola (reciclaje de materia orgánica y nutrientes, fijación de nitrógeno, alelopatía y relaciones predador-presa). 
 
     Separador
 
@@ -239,7 +241,10 @@
       .col-7.col-lg-2(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/ico_2.svg'  alt='')
       .col-lg-10(data-aos="fade-left")
-        p.mb-0 El ambiente, la economía, la tecnología y la sociedad son los cuatro componentes clave para el desarrollo sostenible ya que este desarrollo genera una compleja red de condiciones y procesos en la búsqueda del bienestar de la comunidad en su conjunto. Actualmente, el ambiente ha ganado espacio científico, académico y gerencial a escala planetaria; mientras la economía es el nervio de la actividad financiera que guarda equilibrio con las demás categorías; en tanto que la tecnología que va a tener mayor demanda es la amigable lo que tiende a disminuir el deterioro ambiental y la sociedad se convierta en el actor principal por excelencia para la gestión del desarrollo armónico y equilibrado.
+        p.mb-3 Estas huellas consolidan un análisis de potenciales impactos ambientales que se generan de forma directa o indirectamente a lo largo del ciclo de vida de un producto, servicio u organización. Esta medición ha concretado la metodología de Análisis de Ciclo de Vida (ACV), especificando los impactos que deben incluirse en este análisis. La huella ambiental define de manera concreta la ejecución del ACV y determina alcances y categorías de impacto para que los resultados puedan ser comparables entre sí.
+
+        p.mb-0 Dentro de la huella ambiental se consideran un máximo de 14 tipos diferentes de impactos ambientales como se muestra a continuación: 
+
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
@@ -459,14 +464,14 @@
         .jumbotron-7.p-5(data-aos="fade-right") 
             .col-5.col-lg-10
             img.mb-4(src='@/assets/curso/images/tema2/ico_18.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
-            h3.mt-3 Huella de carbono organizacional:
-            p.mb-5 cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización
+            h3.mt-3 Huella de carbono organizacional
+            p.mb-5 Cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización
       .col-lg-5.lg-0
         .jumbotron-8.p-5(data-aos="fade-left")
             .col-5.col-lg-10
             img(src='@/assets/curso/images/tema2/ico_18.svg',  alt='', style="width:90px; display:block; margin:auto 0 ;")
-            h3.mt-3 Huella de carbono de producto:
-            p.mb-2 cuantifica la emisión de GEI a lo largo del ciclo de vida del producto, iniciando en la obtención de las materias primas, la fabricación, la distribución, el uso, hasta la etapa final de la vida útil de este (reutilización, reciclado o disposición final).
+            h3.mt-3 Huella de carbono de producto
+            p.mb-2 Cuantifica la emisión de GEI a lo largo del ciclo de vida del producto, iniciando en la obtención de las materias primas, la fabricación, la distribución, el uso, hasta la etapa final de la vida útil de este (reutilización, reciclado o disposición final).
 
     Separador
 
@@ -527,7 +532,7 @@
 
     p.mb-3 Las exigencias de implementar mecanismos de producción agroecológicas no solo corresponden a índoles técnicos o biológicos, también se debe a factores sociales, políticos y económicos que reflejan las necesidades de producir y consumir productos más saludables y con un impacto ambiental menor.
 
-    p.mb-5 A continuación, se presentan algunos elementos técnicos básicos de una estrategia agroecológica
+    p.mb-5 A continuación, se presentan algunos elementos técnicos básicos de una estrategia agroecológica.
 
     .row.justify-content-center.align-items-star.mb-3
       .col-lg-9.lg-0

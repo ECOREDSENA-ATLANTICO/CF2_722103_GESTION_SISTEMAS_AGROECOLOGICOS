@@ -11,11 +11,13 @@
       .col-7.col-lg-4(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema1/img_1.png'  alt='')
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 Uno de los mayores retos que afronta la humanidad en este siglo es lograr un crecimiento económico mundial sostenible que garantice la protección y conservación del medio ambiente y la seguridad alimentaria para las generaciones futuras. Los problemas ambientales han dejado de ser un campo de construcción teórico, para convertirse en un referente del fenómeno real perceptible por sectores que resultan afectados en diversos escenarios tanto en el ámbito global como local.
+        p.mb-3 Uno de los mayores retos que afronta la humanidad en este siglo es lograr un crecimiento económico mundial sostenible que garantice la protección y conservación del medio ambiente y la seguridad alimentaria para las generaciones futuras. Los problemas ambientales han dejado de ser un campo de construcción teórico, para convertirse en un referente del fenómeno real perceptible por sectores que resultan afectados en diversos escenarios tanto en el ámbito global como local.
+
+        p.mb-0 Dentro de los principales desafíos de sostenibilidad a nivel mundial se encuentran los cultivos de alimentos y la ganadería, los cuales aportan en conjunto entre:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-lg-12.lg-0
-        .row.justify-content-center.align-items-center
+        .row.justify-content-star.align-items-star
             .col-4-md-4.col-lg.mb-5.mb-lg-0
               .tarjeta-avatar.text-center
                 img(src='@/assets/curso/images/tema1/ico_1.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;")
@@ -125,13 +127,13 @@
                 .p-4 
                   h4.text-center.mb-0 No ha solucionado el problema de pobreza rural y no ha sido aplicable a todos los agricultores.
      
-    p.mb-3 Si bien, se pueden evidenciar que los impactos ambientales han generado mayor cantidad de impactos ambientales, los impactos sociales no son de menor relevancia, dado que los conocimientos locales en la implementación de este modelo fueron visibilizados como primitivos, inútiles, atrasados o arcaicos, negando y subvalorando los saberes locales, las técnicas tradicionales de cultivo y de las bases ecológicas y culturales entre los agricultores, produciendo una erosión cultural que ha presentado variadas consecuencias relacionadas con la conservación de la diversidad biológica in situ (Shiva, 1991).
+    p.mb-3 Si bien, se pueden evidenciar que los impactos ambientales han generado mayor cantidad de impactos ambientales, los impactos sociales no son de menor relevancia, dado que los conocimientos locales en la implementación de este modelo fueron visibilizados como primitivos, inútiles, atrasados o arcaicos, negando y subvalorando los saberes locales, las técnicas tradicionales de cultivo y de las bases ecológicas y culturales entre los agricultores, produciendo una erosión cultural que ha presentado variadas consecuencias relacionadas con la conservación de la diversidad biológica  #[em <b>in situ</b>] (Shiva, 1991).
 
     .row.align-items-center.justify-content-center.mb-5
       .col-7.col-lg-4(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema1/img_4.png'  alt='')
       .col-lg-8(data-aos="fade-left")
-        p.mb-3 Asimismo, este modelo ha traído consigo la exclusión de gran parte de familias agricultoras de países en desarrollo de los continentes africano, asiático y americano, ya que para poder establecer este modelo de agricultura es necesario contar con un músculo financiero considerable para poder adquirir la maquinaria e insumos agrícolas como fertilizantes y pesticidas, produciendo el decrecimiento de los sistemas de producción por la notable disminución de pequeños agricultores y la concentración de las tierras productivas en manos de grandes productores.
+        p.mb-3 Asimismo, este modelo ha traído consigo la exclusión de gran parte de familias agricultoras de países en desarrollo de los continentes africano, asiático y americano, ya que para poder establecer este modelo de agricultura es necesario contar con un músculo financiero considerable para poder adquirir la maquinaria e insumos agrícolas como #[em <b>fertilizantes y pesticidas</b>], produciendo el decrecimiento de los sistemas de producción por la notable disminución de pequeños agricultores y la concentración de las tierras productivas en manos de grandes productores.
 
         p.mb-0 Por ello, para lograr una agricultura sostenible se requiere la vinculación de conocimientos técnicos de la agronomía, ecología, la etnobotánica y otras ciencias y, un manejo ecológicamente adecuado de los recursos naturales existentes en el agroecosistema, teniendo en cuenta las prácticas agrícolas utilizadas por familias agricultoras y productores tradicionales e incorporar la idea del uso múltiple del territorio, la multifuncionalidad de la agricultura que los agroecosistemas no solo deben producir, sino que sirven para conservar la biodiversidad y otros atributos o funciones.
 
@@ -154,7 +156,7 @@
             .col-lg-2
               img.mx-1(src="@/assets/curso/images/tema1/ico_5.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
-              h3.text-white Enlace web
+              h3.text-white Enlace <i>web</i>
               p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b> que se encuentra en el material comentario. 
             .col-md-auto
               a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y')" target="_blank")
@@ -217,7 +219,7 @@
             .col-lg-2
               img.mx-1(src="@/assets/curso/images/tema1/ico_8.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
-              h3.text-white Enlace web
+              h3.text-white Enlace <i>web</i>
               p.mb-1.text-white En este video se puede detallar los 7 principios de la agroecología, creado por el Programa de las Naciones Unidas para el Desarrollo (PNUD).
             .col-md-auto
               a.boton(:href="('https://www.youtube.com/watch?v=cZwVQuvxohg&ab_channel=PNUDCostaRica ')" target="_blank")
@@ -242,7 +244,7 @@
             caption(style="font-weight:500;background-color:#F8F8F8;") Nota. Tomada de Casimiro (2016).  
             thead(style="border:5")
               tr.th
-                <th colspan="1">  Principios Agroecológicos </th>
+                <th colspan="1">  Principios agroecológicos </th>
                 <th colspan="2"> Tecnologías o procesos socio ecológicos asociados al desarrollo de fincas familiares </th>
             tbody
               tr
@@ -338,7 +340,7 @@
       .col-lg-8(data-aos="fade-left")
         p.mb-3 El agroecosistema, está compuesto por componentes bióticos y abióticos interdependientes, a través de los cuales se procesan los nutrientes y se dan los intercambios de flujos energéticos.
 
-        p.mb-0 La función de los agroecosistemas se relaciona con los flujos energéticos y con los diferentes ciclos de los nutrientes como el carbono, fósforo, oxígeno, agua, el azufre y nitrógeno, conocidos como macronutrientes, a excepción del agua, que por medio de los componentes estructurales del ecosistema son modificados de acuerdo con el manejo de diferentes insumos agrícolas. El flujo energético está directamente relacionado con la captura de la energía solar por parte del material vegetal del agroecosistema, y esta energía es almacenada en la estructura química de la biomasa de la planta. 
+        p.mb-0 El flujo energético total que fluye a través del agroecosistema depende de la cantidad de energía fijada por las plantas y por los nutrientes suministrados. El flujo energético al estar relacionado con la cadena trófica, a medida que se transfiere de un nivel trófico a otro se pierde una cantidad de esta lo que limita la cantidad de organismos que pueden estar y mantenerse en cada nivel trófico.
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-10(data-aos="zoom-in-down")
@@ -347,7 +349,7 @@
             .col-lg-2
               img.mx-1(src="@/assets/curso/images/tema1/ico_new.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
-              h3.text-white Enlace web
+              h3.text-white Enlace <i>web</i>
               p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad los diferentes ciclos de los nutrientes o ciclos biogeoquímicos nombrados anteriormente:
             .col-md-auto
               a.boton(:href="('https://youtu.be/_Kmlr3V10SU')" target="_blank")
@@ -362,7 +364,7 @@
         p.mb-3 Los organismos del agroecosistema necesitan flujo energético, también requieren de entradas de materia prima para poder mantener y desarrollar sus funciones vitales, esta materia prima está relacionada con los nutrientes que contienen una variedad de elementos y compuestos cruciales para la formación de células, tejidos y moléculas orgánicas complejas requeridas, para el óptimo funcionamiento de los organismos. La circulación de estos nutrientes en el agroecosistema se encuentra directamente relacionado con el flujo energético y se puede dar desde una forma inorgánica a una orgánica y viceversa. 
 
         .jumbotron-4.p-4
-          p.mb-0 La función de los agroecosistemas se relaciona con los flujos energéticos y con los diferentes ciclos de los nutrientes como el carbono, fósforo, oxígeno, agua, el azufre y nitrógeno, conocidos como macronutrientes, a excepción del agua, que por medio de los componentes estructurales del ecosistema son modificados de acuerdo con el manejo de diferentes insumos agrícolas. El flujo energético está directamente relacionado con la captura de la energía solar por parte del material vegetal del agroecosistema, y esta energía es almacenada en la estructura química de la biomasa de la planta. 
+          p.mb-0 El flujo energético total que fluye a través del agroecosistema depende de la cantidad de energía fijada por las plantas y por los nutrientes suministrados. El flujo energético al estar relacionado con la cadena trófica, a medida que se transfiere de un nivel trófico a otro se pierde una cantidad de esta lo que limita la cantidad de organismos que pueden estar y mantenerse en cada nivel trófico.
 
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_9.png'  alt='')
@@ -374,7 +376,7 @@
             .col-lg-2
               img.mx-1(src="@/assets/curso/images/tema1/ico_10.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
-              h3.text-white Enlace web
+              h3.text-white Enlace <i>web</i>
               p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad que es la cadena trófica o cadena alimenticia:
             .col-md-auto
               a.boton(:href="('https://youtu.be/RtpjVC6FGxE')" target="_blank")
@@ -505,17 +507,18 @@
     p.mb-5 Se debe tener presente que los ecosistemas evolucionan, maduran y cambian por las presiones poblacionales, la disponibilidad de recursos, las dinámicas económicas y políticas, así como la degradación ambiental; y se evidencian en las variaciones físicas del territorio, en la aplicación de tecnologías, crecimiento poblacional y los insumos y productos agrícolas.
 
 
-    .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
+    .row.align-items-center.justify-content-star.mb-2.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-3
         .h4.mx-3.mb-0 Recursos de los agroecosistemas
 
+    p.mb-3 En los agroecosistemas se pueden encontrar generalmente cuatro categorías de recursos, a saber: 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
-                h4.mb-5 Recursos naturales
+                h4.mb-5 Recursos humanos
                 ul.lista-ul.mt-5
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
@@ -603,7 +606,7 @@
                   | La energía humana forma la estructura del agroecosistema, por consiguiente, el flujo de energía a través de decisiones acerca de la producción primaria y la proporción de esa producción se canaliza a los productos para el uso humano. 
                 li 
                   i.fas.fa-angle-right.th-2
-                  p.mb-0 <b>Los diversos insumos de un sistema agrícola:</b>radiación solar, mano de obra, trabajo de las máquinas, fertilizantes y herbicidas, se pueden convertir en valores energéticos. Asimismo, los productos del sistema: vegetales y animales, también pueden expresarse en términos de energía.
+                  p.mb-0 Los diversos insumos de un sistema agrícola: radiación solar, mano de obra, trabajo de las máquinas, fertilizantes y herbicidas, se pueden convertir en valores energéticos. Asimismo, los productos del sistema: vegetales y animales, también pueden expresarse en términos de energía.
 
             .col-5.col-md-3.mb-4.mb-md-0
               img(src='@/assets/curso/images/tema1/img_14.svg')
@@ -710,7 +713,7 @@
                   ul.lista-ul--color
                     li 
                       i.fas.fa-circle.th-3
-                      p.mb-0 <b>Acción preventiva:</b>
+                      p.mb-0 <b>Acción sucesiva:</b>
                     li 
                       i.fas.fa-angle-right.th-3
                       | Pesticidas químicos.
