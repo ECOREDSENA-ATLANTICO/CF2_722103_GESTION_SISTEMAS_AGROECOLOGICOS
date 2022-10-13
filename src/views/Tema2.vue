@@ -111,6 +111,12 @@
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_12.svg', alt='')
             .col-lg-7.my-3 
               p(data-aos="fade-down") Un ajuste de los sistemas de cultivo a la productividad potencial y a las limitantes físicas, económicas y socioculturales de los agroecosistemas. 
+
+          .row.justify-content-center.align-items-center
+            .col-lg-7.my-3.text-start
+              p(data-aos="fade-down") Un mayor aprovechamiento de procesos naturales en la producción agrícola (reciclaje de materia orgánica y nutrientes, fijación de nitrógeno, alelopatía y relaciones predador-presa).
+            .col-7.col-lg-3.my-3 
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/planta.svg', alt='')
       
     p.mb-3 Un mayor aprovechamiento de procesos naturales en la producción agrícola (reciclaje de materia orgánica y nutrientes, fijación de nitrógeno, alelopatía y relaciones predador-presa). 
 
@@ -285,8 +291,10 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right") 
-        p.mb-3 El ambiente, la economía, la tecnología y la sociedad son los cuatro componentes clave para el desarrollo sostenible ya que este desarrollo genera una compleja red de condiciones y procesos en la búsqueda del bienestar de la comunidad en su conjunto. Actualmente, el ambiente ha ganado espacio científico, académico y gerencial a escala planetaria; mientras la economía es el nervio de la actividad financiera que guarda equilibrio con las demás categorías; en tanto que la tecnología que va a tener mayor demanda es la amigable lo que tiende a disminuir el deterioro ambiental y la sociedad se convierta en el actor principal por excelencia para la gestión del desarrollo armónico y equilibrado.
+        p.mb-3 Estas huellas consolidan un análisis de potenciales impactos ambientales que se generan de forma directa o indirectamente a lo largo del ciclo de vida de un producto, servicio u organización. Esta medición ha concretado la metodología de Análisis de Ciclo de Vida (ACV), especificando los impactos que deben incluirse en este análisis. La huella ambiental define de manera concreta la ejecución del ACV y determina alcances y categorías de impacto para que los resultados puedan ser comparables entre sí.
+
         p.mb-0 Dentro de la huella ambiental se consideran un máximo de 14 tipos diferentes de impactos ambientales como se muestra a continuación: 
+
 
       .col-5.col-lg-2(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/ico_19.svg'  alt='')
@@ -582,7 +590,7 @@
         img(src='@/assets/curso/images/tema2/img_26.png'  alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-3 Desde el componente práctico se han identificado una serie de limitaciones o barreras técnicas relacionadas con la falta de asistencia técnica y de información; sumado a la escasez de referencias técnicas adaptadas localmente; problemas asociados a la degradación previa del agroecosistema; falta de semillas certificadas adaptadas a cada latitud y las dificultades para la diversificación a nivel productivo y comercial. 
-        p.mb-0 En cuanto a las barreras sociales identificadas, existen barreras asociadas al bajo compromiso desarrollado por actividades de conversión, así como la exigencia mayor de mano de obra para la producción agroecológica. Con respecto a las barreras de índole económico, se puede decir que estas corresponden a las dificultades para la comercialización de un producto más ecológico, y en el subsiguiente acceso a mercados que valoren la oferta de un producto diferenciado; sin mencionar las pérdidas productivas por contaminación por el uso de agroquímicos; la falta de apoyos indirectos o directos versus la producción convencional; sin mencionar los altos costos de los insumos ecológicos; problemas de liquidez para la readaptación de los terrenos hacia un modelo agroecológico y los altos costos asociados con la obtención de certificaciones para pequeños y medianos productores
+        p.mb-0 En cuanto a las barreras sociales identificadas, existen barreras asociadas al bajo compromiso desarrollado por actividades de conversión, así como la exigencia mayor de mano de obra para la producción agroecológica. Con respecto a las barreras de índole económico, se puede decir que estas corresponden a las dificultades para la comercialización de un producto más ecológico, y en el subsiguiente acceso a mercados que valoren la oferta de un producto diferenciado; sin mencionar las pérdidas productivas por contaminación por el uso de agroquímicos; la falta de apoyos indirectos o directos versus la producción convencional; sin mencionar los altos costos de los insumos ecológicos; problemas de liquidez para la readaptación de los terrenos hacia un modelo agroecológico y los altos costos asociados con la obtención de certificaciones para pequeños y medianos productores.
 
 
 

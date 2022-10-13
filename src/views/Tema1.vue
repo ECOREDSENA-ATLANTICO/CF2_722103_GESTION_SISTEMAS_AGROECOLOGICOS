@@ -127,7 +127,7 @@
                 .p-4 
                   h4.text-center.mb-0 No ha solucionado el problema de pobreza rural y no ha sido aplicable a todos los agricultores.
      
-    p.mb-3 Si bien, se pueden evidenciar que los impactos ambientales han generado mayor cantidad de impactos ambientales, los impactos sociales no son de menor relevancia, dado que los conocimientos locales en la implementación de este modelo fueron visibilizados como primitivos, inútiles, atrasados o arcaicos, negando y subvalorando los saberes locales, las técnicas tradicionales de cultivo y de las bases ecológicas y culturales entre los agricultores, produciendo una erosión cultural que ha presentado variadas consecuencias relacionadas con la conservación de la diversidad biológica  #[em <b>in situ</b>] (Shiva, 1991).
+    p.mb-3 Si bien, se pueden evidenciar que los impactos ambientales han generado mayor cantidad de impactos ambientales, los impactos sociales no son de menor relevancia, dado que los conocimientos locales en la implementación de este modelo fueron visibilizados como primitivos, inútiles, atrasados o arcaicos, negando y subvalorando los saberes locales, las técnicas tradicionales de cultivo y de las bases ecológicas y culturales entre los agricultores, produciendo una erosión cultural que ha presentado variadas consecuencias relacionadas con la conservación de la diversidad biológica  #[em in situ] (Shiva, 1991).
 
     .row.align-items-center.justify-content-center.mb-5
       .col-7.col-lg-4(data-aos="fade-right") 
@@ -518,7 +518,7 @@
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
-                h4.mb-5 Recursos humanos
+                h4.mb-5 Recursos naturales
                 ul.lista-ul.mt-5
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
@@ -534,7 +534,7 @@
                 img(src="@/assets/curso/images/tema1/img_10.png").mb-3
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
-                h4.mb-5 Recursos naturales
+                h4.mb-5 Recursos humanos
                 ul.lista-ul.mt-5
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
