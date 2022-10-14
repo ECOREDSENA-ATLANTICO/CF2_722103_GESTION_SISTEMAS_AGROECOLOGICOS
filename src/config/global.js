@@ -185,7 +185,8 @@ export default {
     {
       referencia:
         'Sarandón, S. (2009). Biodiversidad, agrobiodiversidad y agricultura sustentable: análisis del Convenio sobre Diversidad Biológica. En M. A. Altieri (Ed). Vertientes del pensamiento agroecológico: fundamentos y aplicaciones. Sociedad Científica Latinoamericana de Agroecología. Socla',
-      link: 'www.agroeco.org/socla ',
+      link:
+        'https://www.agroecologia.net/wp-content/uploads/2020/12/biodiversidad-agroecologia-santiago-sarandon.pdf',
     },
     {
       referencia:
