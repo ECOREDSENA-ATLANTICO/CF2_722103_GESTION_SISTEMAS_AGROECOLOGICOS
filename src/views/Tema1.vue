@@ -19,7 +19,7 @@
       .col-lg-12.lg-0
         .row.justify-content-star.align-items-star
             .col-4-md-4.col-lg.mb-5.mb-lg-0
-              .tarjeta-avatar.text-center
+              .tarjeta-avatar
                 img(src='@/assets/curso/images/tema1/ico_1.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 .tarjeta.color-custom
                   .p-5
@@ -32,7 +32,7 @@
                     p.mb-4 Consumo de agua dulce, este genera una sustantiva pérdida de suelos, son la causa del rompimiento de los ciclos del fósforo y nitrógeno, y es una causa importante de la contaminación de las aguas y la degradación de los suelos como consecuencia del uso de agroquímicos.
 
             .col-4-md-4.col-lg.mb-5.mb-lg-0
-              .tarjeta-avatar.text-center
+              .tarjeta-avatar
                 img(src='@/assets/curso/images/tema1/ico_3.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 .tarjeta.color-custom
                   .p-5
@@ -60,7 +60,7 @@
       .video
         <iframe width="560" height="315" src="https://www.youtube.com/embed/X1UbgMwNhxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    p.mb-3 De igual manera, se hace necesario considerar que los bienes biológicos de la Tierra son vitales para el desarrollo económico y social de la humanidad. Sin embargo, las especies y los ecosistemas están hoy severamente amenazados a causa de un desarrollo incompatible con la sostenibilidad ecológica y el crecimiento económico (Shiva, 2014). Como resultado, existe un creciente reconocimiento de que la diversidad biológica es un bien global de enorme valor para las generaciones presentes y futuras y, debe ser conservado.
+    p.mb-5 De igual manera, se hace necesario considerar que los bienes biológicos de la Tierra son vitales para el desarrollo económico y social de la humanidad. Sin embargo, las especies y los ecosistemas están hoy severamente amenazados a causa de un desarrollo incompatible con la sostenibilidad ecológica y el crecimiento económico (Shiva, 2014). Como resultado, existe un creciente reconocimiento de que la diversidad biológica es un bien global de enorme valor para las generaciones presentes y futuras y, debe ser conservado.
 
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-3
@@ -71,61 +71,72 @@
     .row.justify-content-center.align-items-center.my-3
       .col-7.col-lg-12
         SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_1.svg')
                 .p-4 
-                  h4.text-center.mb-0 Dependencia creciente de agroquímicos.  
+                  h4.text-center.mt-4 Dependencia creciente de agroquímicos. 
+          .bg-1         
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_2.svg')
                 .p-4 
-                  h4.text-center.mb-0 Contaminación de alimentos, recurso hídrico, suelo por pesticidas y de fertilizantes sintéticos.
+                  h4.text-center.mt-3 Contaminación de alimentos, recurso hídrico, suelo por pesticidas y de fertilizantes sintéticos.
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_3.svg')
                 .p-4 
-                  h4.text-center.mb-0 Desarrollo de resistencia a los plaguicidas de ciertos patógenos y plagas.
+                  h4.text-center.mt-4 Desarrollo de resistencia a los plaguicidas de ciertos patógenos y plagas.
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_4.svg')
                 .p-4 
-                  h4.text-center.mb-0 Pérdida de la capacidad productiva de los suelos.
+                  h4.text-center.mt-4 Pérdida de la capacidad productiva de los suelos.
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_6.svg')
                 .p-4 
-                  h4.text-center.mb-0 Eutrofización de embalses, disminución de acuíferos en zonas de regadío.
+                  h4.text-center.mt-4 Eutrofización de embalses, disminución de acuíferos en zonas de regadío.
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_7.svg')
                 .p-4 
-                  h4.text-center.mb-0 Pérdida de biodiversidad.
+                  h4.text-center.mt-5 Pérdida de biodiversidad.
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_8.svg')
                 .p-4 
-                  h4.text-center.mb-0 Pérdida de variabilidad genética.
+                  h4.text-center.mt-5 Pérdida de variabilidad genética.
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_9.svg')
                 .p-4 
-                  h4.text-center.mb-0 Desplazamiento de algunas técnicas de cultivo propias de agricultores.
+                  h4.text-center.mt-4 Desplazamiento de algunas técnicas de cultivo propias de agricultores.
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_10.svg')
-                .p-4 
-                  h4.text-center.mb-0 Contribución al calentamiento global. 
+                .p-3 
+                  h4.text-center.mt-5 Contribución al calentamiento global. 
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_11.svg')
-                .p-4 
-                  h4.text-center.mb-0 Dependencia de los combustibles fósiles y la disminución de la eficiencia productiva en términos energéticos.
+                .p-2
+                  h4.text-center.mt-4 Dependencia de los combustibles fósiles y la disminución de la eficiencia productiva en términos energéticos.
+          .bg-1
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_12.svg')
-                .p-4 
-                  h4.text-center.mb-0 No ha solucionado el problema de pobreza rural y no ha sido aplicable a todos los agricultores.
+                .p-3 
+                  h4.text-center.mt-4 No ha solucionado el problema de pobreza rural y no ha sido aplicable a todos los agricultores.
      
     p.mb-3 Si bien, se pueden evidenciar que los impactos ambientales han generado mayor cantidad de impactos ambientales, los impactos sociales no son de menor relevancia, dado que los conocimientos locales en la implementación de este modelo fueron visibilizados como primitivos, inútiles, atrasados o arcaicos, negando y subvalorando los saberes locales, las técnicas tradicionales de cultivo y de las bases ecológicas y culturales entre los agricultores, produciendo una erosión cultural que ha presentado variadas consecuencias relacionadas con la conservación de la diversidad biológica  #[em in situ] (Shiva, 1991).
 
@@ -149,7 +160,7 @@
       .col-lg-10(data-aos="fade-left")
         p.mb-0 La agroecología vincula una orientación de la agricultura basada en criterios ambientales y con mayor sensibilidad social; donde la agricultura no solo está centrada en la producción, sino también en la sostenibilidad ecológica del sistema de producción. Lo que involucra que la producción agrícola va más allá de los límites físicos de un predio, ya que permite que se desarrollen fenómenos ecológicos como relaciones de competencia entre el cultivo-maleza hasta de depredador-presa, entre otros, y se comprenda la compleja interacción que existe entre los procesos sociales y entre los procesos biológicos y ambientales que pueden darse espacialmente en una unidad de producción agrícola. 
 
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-center.justify-content-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
           .row.justify-content-center.align-items-center
@@ -171,7 +182,7 @@
       .col-lg-12(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema1/img_6.svg')
 
-    p.mb-3 La agroecología contempla diferentes dimensiones, las cuales según las propuestas de Ottmann pueden ser tres, dada su complementariedad y que articuladas permiten transformar los procesos agrícolas insostenibles a procesos agroecológicos. A continuación, se podrán observar las tres dimensiones y algunas propuestas de acción agroecológicas.
+    p.mb-5 La agroecología contempla diferentes dimensiones, las cuales según las propuestas de Ottmann pueden ser tres, dada su complementariedad y que articuladas permiten transformar los procesos agrícolas insostenibles a procesos agroecológicos. A continuación, se podrán observar las tres dimensiones y algunas propuestas de acción agroecológicas.
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
@@ -209,7 +220,7 @@
               p.mt-4  El poder se distribuye en el sistema social a través de las instituciones descentralizadas y de la participación popular.
 
 
-    p.mb-3 En la agroecología se tiene en cuenta el sistema agroecológico y el sistema social en el que se desarrollan las actividades de los agricultores para permitir una mayor participación de estos en el proceso de transición agroecológica y está fundamentada en siete principios que se detallan en el siguiente video.
+    p.mb-5 En la agroecología se tiene en cuenta el sistema agroecológico y el sistema social en el que se desarrollan las actividades de los agricultores para permitir una mayor participación de estos en el proceso de transición agroecológica y está fundamentada en siete principios que se detallan en el siguiente video.
 
 
     .row.align-items-center.justify-content-center.mb-0
@@ -239,72 +250,66 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade")
-        .tabla-a.color-acento-contenido.mb-5 
+        .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-up") 
           table
-            caption(style="font-weight:500;background-color:#F8F8F8;") Nota. Tomada de Casimiro (2016).  
-            thead(style="border:5")
-              tr.th
-                <th colspan="1">  Principios agroecológicos </th>
-                <th colspan="2"> Tecnologías o procesos socio ecológicos asociados al desarrollo de fincas familiares </th>
+            caption Nota. Tomada de Casimiro (2016).  
+            thead
+              tr
+                th.th-4  Principios agroecológicos
+                th.th-5 Tecnologías o procesos socio ecológicos asociados al desarrollo de fincas familiares
+     
             tbody
               tr
-                <td colspan="1"> 
-                  .row.justify-content-center.align-items-center.mb-5
-                    .col-lg-12
-                      p.mb-0.mt-5 Reciclaje de nutrientes y materia orgánica, optimización de la disponibilidad y balances del flujo de nutrientes (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
-                <td colspan="2"> No generar desechos, cierre de ciclos, aprovechamiento de oportunidades, fomento de la biodiversidad debajo del suelo y tratamiento de residuales. Proceso de capacitación, sensibilización, acción participativa y gestión del conocimiento por parte de familias campesinas y actores implicados en el desarrollo de la agroecología familiar (para todos los principios).</td>  
-     
-              tr
-                td
-                  .row.justify-content-center.align-items-center.mb-5
-                    .col-lg-12
-                      p.mb-0.mt-5 Diversificación vegetal y animal a nivel de especies o genética en tiempo y en espacio (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
-                <td colspan="2"> Policultivos, rotaciones, integración ganadería-agricultura, máxima biodiversidad posible y fomento de la diversidad funcional.</td>  
-    
-
-              tr
-                td
-                  .row.justify-content-center.align-items-center.mb-5
-                    .col-lg-12
-                      p.mb-0.mt-5 Optimización del flujo de nutrientes y agua (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
-                <td colspan="2"> Producción de abonos orgánicos a partir de los residuos de cosecha o excretas de animales, zanjas de infiltración, barreras de contención, cosechas de agua, laboreo mínimo, surcos en contorno, integración de cultivos y crías animales. </td>  
-
-              tr
-                td
-                  .row.justify-content-center.align-items-center.mb-5
-                    .col-lg-12
-                      p.mb-0.mt-5 Provisión de condiciones edáficas óptimas para el crecimiento de cultivos, manejando materia orgánica y estimulando la biología del suelo (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
-                <td colspan="2"> Adición de abonos orgánicos, coberturas, abonos verdes, incorporación de Mulch, riego óptimo, uso de insumos biológicos. </td>  
-       
-
-              tr
-                td
-                  .row.justify-content-center.align-items-center.mb-5
-                    .col-lg-12
-                      p.mb-0.mt-5 Minimización de pérdidas por insectos, patógenos y malezas mediante medidas preventivas y estímulo de fauna benéfica, antagonistas, alelopatía, etcétera. (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013)
-                <td colspan="2"> Coberturas, barreras de contención, terrazas, cortinas rompe-vientos, estímulo de fauna benéfica, cierre de ciclos.   </td>  
-   
+                td 
+                  p.mb-0 Reciclaje de nutrientes y materia orgánica, optimización de la disponibilidad y balances del flujo de nutrientes (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
+                td 
+                  p.mb-0 No generar desechos, cierre de ciclos, aprovechamiento de oportunidades, fomento de la biodiversidad debajo del suelo y tratamiento de residuales. Proceso de capacitación, sensibilización, acción participativa y gestión del conocimiento por parte de familias campesinas y actores implicados en el desarrollo de la agroecología familiar (para todos los principios)
+                  
+              
               tr
                 td 
-                  .row.justify-content-center.align-items-center.mb-5
-                    .col-lg-12
-                      p.mb-0.mt-5 Explotación de sinergias que emergen de interacciones planta-planta, plantas-animales y animales-animales (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
-                <td colspan="2"> Policultivos y rotaciones, incorporación de árboles frutales o forestales, incorporación de animales, uso de las fuentes renovables de energía. Cada elemento realizando varias funciones y cada función soportada por varios elementos (Cruz y Cabrera, 2015).  </td>  
+                  p.mb-0 Diversificación vegetal y animal a nivel de especies o genética en tiempo y en espacio (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
+                td 
+                  p.mb-0 Policultivos, rotaciones, integración ganadería-agricultura, máxima biodiversidad posible y fomento de la diversidad funcional.
+                  
+              tr
+                td 
+                  p.mb-0 Optimización del flujo de nutrientes y agua (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
 
+                td 
+                  p.mb-0 Producción de abonos orgánicos a partir de los residuos de cosecha o excretas de animales, zanjas de infiltración, barreras de contención, cosechas de agua, laboreo mínimo, surcos en contorno, integración de cultivos y crías animales.
+              tr
+                td 
+                  p.mb-0 Provisión de condiciones edáficas óptimas para el crecimiento de cultivos, manejando materia orgánica y estimulando la biología del suelo (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
+
+                td 
+                  p.mb-0 Adición de abonos orgánicos, coberturas, abonos verdes, incorporación de Mulch, riego óptimo, uso de insumos biológicos.
+                  
+              tr
+                td 
+                  p.mb-0 Minimización de pérdidas por insectos, patógenos y malezas mediante medidas preventivas y estímulo de fauna benéfica, antagonistas, alelopatía, etcétera. (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013)
+                td 
+                  p.mb-0 Coberturas, barreras de contención, terrazas, cortinas rompe-vientos, estímulo de fauna benéfica, cierre de ciclos.  
+
+              tr 
+                td 
+                  p.mb-0 Explotación de sinergias que emergen de interacciones planta-planta, plantas-animales y animales-animales (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
+
+                td 
+                  p.mb-0 Policultivos y rotaciones, incorporación de árboles frutales o forestales, incorporación de animales, uso de las fuentes renovables de energía. Cada elemento realizando varias funciones y cada función soportada por varios elementos (Cruz y Cabrera, 2015).
+
+              tr 
+                td 
+                  h4.text-center.mb-0 Viabilidad económica         
+                td
+                  p.mb-0 Uso de las fuentes renovables de energía y las tecnologías apropiadas para lograr la máxima eficiencia posible; independencia del mercado de insumos externos; innovación, experimentación campesina y diálogo de saberes; utilización óptima de los recursos disponibles. Precios de las producciones familiares ajustadas a los costos de producción. Desarrollo de razas rústicas y cultivos adaptados al entorno y posibilidades locales, conservación de las semillas autóctonas o adaptadas, ajuste a las preferencias de la familia y al mercado de consumidores locales. Máximo valor agregado a las producciones. Articulación de canales cortos de comercialización de las producciones familiares agroecológicas y políticas de mercado que las favorezcan.
 
               tr
-                td
-                  .row.justify-content-center.align-items-center.mb-5
-                    .col-lg-12
-                      p.mb-0.mt-5.text-center Viabilidad económica
-                <td colspan="2"> Uso de las fuentes renovables de energía y las tecnologías apropiadas para lograr la máxima eficiencia posible; independencia del mercado de insumos externos; innovación, experimentación campesina y diálogo de saberes; utilización óptima de los recursos disponibles. Precios de las producciones familiares ajustadas a los costos de producción. Desarrollo de razas rústicas y cultivos adaptados al entorno y posibilidades locales, conservación de las semillas autóctonas o adaptadas, ajuste a las preferencias de la familia y al mercado de consumidores locales. Máximo valor agregado a las producciones. Articulación de canales cortos de comercialización de las producciones familiares agroecológicas y políticas de mercado que las favorezcan. </td>  
-             
-            tr
-                td
-                  .row.justify-content-center.align-items-center.mb-5
-                    .col-lg-12
-                      p.mb-0.mt-5.text-center Justicia social
-                <td colspan="2"> Articulación local, políticas públicas de fomento y apoyo, institucionalización de la agricultura familiar, mercados justos, economía solidaria, consumidores conscientes de la importancia del consumo de alimentos sanos y el desarrollo de la agricultura familiar, valorización de la calidad de los productos agroecológicos, “denominación de origen familiar”, certificación popular, reconocimiento social de la ética de la agroecología.. </td>  
+                td 
+                  h4.text-center.mb-0 Justicia social
+
+                td 
+                  p.mb-0 Articulación local, políticas públicas de fomento y apoyo, institucionalización de la agricultura familiar, mercados justos, economía solidaria, consumidores conscientes de la importancia del consumo de alimentos sanos y el desarrollo de la agricultura familiar, valorización de la calidad de los productos agroecológicos, “denominación de origen familiar”, certificación popular, reconocimiento social de la ética de la agroecología.
 
 
     Separador
@@ -325,7 +330,7 @@
           h5 Figura 2
           span <i>Estructura de un agroecosistema.</i>
 
-    .row.align-items-center.justify-content-center.my-5
+    .row.align-items-center.justify-content-center.my-3
       .col-lg-12(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/fig_2.svg')
     .row.mb-5
@@ -369,7 +374,7 @@
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_9.png'  alt='')
       
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-center.justify-content-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
           .row.justify-content-center.align-items-center
@@ -387,26 +392,17 @@
 
 
     p.mb-5 Una gran proporción del componente orgánico del ecosistema está compuesto por biomasa que es la materia viva que tiene un organismo, y puede variar de acuerdo con el tipo de organismo, el ambiente, el estado del ecosistema y por las actividades humanas. Esta biomasa se encuentra en el agroecosistema en forma de materia orgánica muerta proveniente de las plantas.
+    
+    
+    .row.fondo-1.mb-0
+      .col-lg-8.mb-3.mb-lg-0.p-5(style="place-self:center")
+        p.mb-0.mx-4.mt-3 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.
 
-    .row.d-none.d-lg-block.mb-5
-      .row.fondo-1.mb-0
-        .col-lg-7.mb-3.mb-lg-0.p-5(style="place-self:center")
-          p.mb-0.mx-5.mt-3 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.
+      .col-lg-4.mb-3.mb-lg-0.ps-0.pe-5(style="place-self:center")
+        figure.text-center
+          img.mt-4(src="@/assets/curso/images/tema1/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:340px;")
 
-        .col-lg-5.mb-3.mb-lg-0.ps-4.pe-4(style="place-self:center")
-          figure.text-center
-            img.mt-4(src="@/assets/curso/images/tema1/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:320px;")
-
-    .row.d-block.d-lg-none
-      .row.mb-0
-        .col-12.col-lg-7.mb-3.mb-lg-0.p-2(style="place-self:center")
-          p.mb-0 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.
-
-        .col-lg-5.mb-3.mb-lg-0.ps-4.pe-4(style="place-self:center")
-          figure.text-center
-            img.mt-4(src="@/assets/curso/images/tema1/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:320px;")
-
-
+ 
     p.mb-5 Cuando una población llega al límite establecido por el ecosistema, el número de especies de esta debe llegar a un equilibrio, si este equilibrio no se da, puede ser debido a enfermedades, procesos de depredación o competencia, hasta la reducción de los patrones de reproducción o cambios o fluctuaciones en el ambiente pueden ocasionar que la población descienda drásticamente para que el ecosistema logre su estabilización debido a las presiones selectivas sobre esta.
 
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
@@ -419,35 +415,35 @@
     p.mb-5 Se han reconocido cinco criterios claves para clasificar los agroecosistemas de una región que son: 
 
     
-    .row.aling-items-center.justify-content-center(data-aos="zoom-in-down")
-      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+    .row.aling-items-center.justify-content(data-aos="zoom-in-down")
+      .col-md-2.col-lg.mb-5.mb-lg-0
         .bg
-          .tarjeta_Sp.p-4
-            p.text-center.m-top-4 La asociación de cultivos y ganado.
-      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+          img(src='@/assets/curso/images/tema1/img_new_1.png'  alt='')
+          p.text-center.mt-3.p-3 La asociación de cultivos y ganado.
+
+      .col-md-2.col-lg.mb-5.mb-lg-0
         .bg
-          .tarjeta_Sp-1.p-4
-            p.text-center.m-top-4  Los métodos para producir los cultivos y el ganado.
+          img(src='@/assets/curso/images/tema1/img_new_2.png'  alt='')
+          p.text-center.mt-3.p-3 Los métodos para producir los cultivos y el ganado.
 
-      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+      .col-md-2.col-lg.mb-5.mb-lg-0
         .bg
-          .tarjeta_Sp-2.p-4
-            p.text-center.m-top-4  Intensidad en la mano de obra, capital, organización y producción.
+          img(src='@/assets/curso/images/tema1/img_new_3.png'  alt='')
+          p.text-center.mt-3.p-3 Intensidad en la mano de obra, capital, organización y producción.
 
-      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+      .col-md-2.col-lg.mb-5.mb-lg-0
         .bg
-          .tarjeta_Sp-3.p-4
-            p.text-center.m-top-4  La distribución de los productos para el consumo subsistencia y/o venta, entre otros
+          img(src='@/assets/curso/images/tema1/img_new_4.png'  alt='')
+          p.text-center.mt-3.p-3 La distribución de los productos para el consumo subsistencia y/o venta, entre otros
 
-      .col-md-2.col-lg.mb-5.mb-lg-0.d-flex
+      .col-md-2.col-lg.mb-5.mb-lg-0
         .bg
-          .tarjeta_Sp-4.p-4
-            p.text-center.m-top-4  Estructuras usadas para la casa y facilitar las operaciones en la unidad productiva.
+          img(src='@/assets/curso/images/tema1/img_new_5.png'  alt='')
+          p.text-center.mt-3.p-3 Estructuras usadas para la casa y facilitar las operaciones en la unidad productiva.
 
+    p.my-4 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas los cuales son:
 
-    p.my-3 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas los cuales son:
-
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg-4 
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -494,7 +490,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_16.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-4
+            .p-3
               p.mt-0 Sistemas con ganado cultivo (alternando cultivos arables con sembrado de pasturas).
 
     p.mb-3 Asimismo, se han reconocido los tipos de determinantes del agroecosistema que influyen en el tipo de agricultura de cada región, estos se pueden visualizar en la siguiente infografía.
@@ -507,19 +503,19 @@
     p.mb-5 Se debe tener presente que los ecosistemas evolucionan, maduran y cambian por las presiones poblacionales, la disponibilidad de recursos, las dinámicas económicas y políticas, así como la degradación ambiental; y se evidencian en las variaciones físicas del territorio, en la aplicación de tecnologías, crecimiento poblacional y los insumos y productos agrícolas.
 
 
-    .row.align-items-center.justify-content-star.mb-2.ps-2(data-aos="zoom-in-down")
+    .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-3
         .h4.mx-3.mb-0 Recursos de los agroecosistemas
 
-    p.mb-3 En los agroecosistemas se pueden encontrar generalmente cuatro categorías de recursos, a saber: 
+    p.mb-5 En los agroecosistemas se pueden encontrar generalmente cuatro categorías de recursos, a saber: 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
-                h4.mb-5 Recursos naturales
-                ul.lista-ul.mt-5
+                h4 Recursos naturales
+                ul.lista-ul.mt-3
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
                     | El área del predio incluye su topografía, el grado de fragmentación de la propiedad, su ubicación con respecto a los mercados, la profundidad del suelo, la condición química y los atributos físicos.
@@ -534,8 +530,8 @@
                 img(src="@/assets/curso/images/tema1/img_10.png").mb-3
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
-                h4.mb-5 Recursos humanos
-                ul.lista-ul.mt-5
+                h4 Recursos humanos
+                ul.lista-ul.mt-3
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
                     | El número de personas que el predio tiene que sustentar en relación con la fuerza de trabajo y su productividad, la cual gobierna el superávit disponible para la venta, trueque u obligaciones culturales.
@@ -552,8 +548,8 @@
 
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
-                h4.mb-5 Recursos de capital
-                ul.lista-ul.mt-5
+                h4 Recursos de capital
+                ul.lista-ul.mt-3
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
                     | Recursos permanentes como modificaciones duraderas a los recursos de tierra o agua orientados hacia la producción agrícola.
@@ -571,8 +567,8 @@
 
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
-                h4.mb-5 Recursos de producción
-                ul.lista-ul.mt-5
+                h4 Recursos de producción
+                ul.lista-ul.mt-3
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
                     | Comprenden la producción agrícola del predio como de los cultivos y el ganado. Estos se transforman en recursos de capital si se venden y los residuos (cultivos, abono) son insumos nutrientes reinvertidos en el sistema.
@@ -613,7 +609,7 @@
             
           .row.justify-content-center.align-items-center(titulo="Procesos biogeoquímicos")
             .col-md-7.mb-4.mb-md-0
-              h3 Los principales insumos biogeoquímicos de un agroecosistema son los nutrientes:
+              h4 Los principales insumos biogeoquímicos de un agroecosistema son los nutrientes:
               ul.lista-ul--color
                 li 
                   i.fas.fa-angle-right.th-2
@@ -685,13 +681,14 @@
                   | Los agricultores han usado diversos métodos en forma universal. Estos son:
             .row.justify-content-center.align-items-center
               .col-md-3.mb-4.mb-md-0
-                .jumbotron-5.p-5
-                  ul.lista-ul--color.mt-4
+                .jumbotron-5.p-3
+                  ul.lista-ul--color
                     li 
                       i.fas.fa-circle.th-3
                       p <b>Ninguna acción.</b>
                       p.my-5
-      
+                    p.my-5
+              
               
               .col-md-3.mb-4.mb-md-0
                 .jumbotron-5.p-4
