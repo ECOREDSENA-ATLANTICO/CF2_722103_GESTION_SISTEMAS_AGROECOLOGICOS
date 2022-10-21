@@ -47,18 +47,17 @@
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_2.png'  alt='')
 
+    .row.justify-content-center.align-items-center          
+      .col-8-lg-10
+        .custom_box_left-3(data-aos="fade-left") 
+          p.mb-0 Esto en un contexto agrícola tradicional, ahora como se verá impactado el medio ambiente, la sociedad y la economía nacional y global con la introducción de los Organismos Vivos Modificados (OVM) en el modelo de desarrollo agroindustrial, que busca, inicialmente, bajo una mirada de revolución del sector, ser parte de la solución de algunas de las problemáticas anteriormente expuestas, pero que trae consigo a su vez impactos que deben ser gestionados de manera adecuada para no convertirse en otro reto a solucionar, tal como lo plantea la Convención sobre Diversidad Biológica y sus diferentes protocolos.
 
-    .row.align-items-center.justify-content-center.mb-5
-      .col-5.col-lg-2(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema1/img_3.svg'  alt='')
-      .col-lg-10(data-aos="fade-left")
-        p.mb-0 Esto en un contexto agrícola tradicional, ahora como se verá impactado el medio ambiente, la sociedad y la economía nacional y global con la introducción de los Organismos Vivos Modificados (OVM) en el modelo de desarrollo agroindustrial, que busca, inicialmente, bajo una mirada de revolución del sector, ser parte de la solución de algunas de las problemáticas anteriormente expuestas, pero que trae consigo a su vez impactos que deben ser gestionados de manera adecuada para no convertirse en otro reto a solucionar, tal como lo plantea la Convención sobre Diversidad Biológica y sus diferentes protocolos.
 
     p.mb-5 A mediados del siglo XX surgió un aumento en la producción agrícola y este superó el aumento actual que se tenía de población y a esto se le llamó “revolución verde”. Esta fue una renovación en la manera de producir fuentes de comercio esta se basaba en la producción del monocultivo y donde se utilizaron con mayor proporción los fertilizantes y plaguicidas, en el siguiente video se profundiza sobre la revolución verde: 
 
     figure.mb-5(data-aos="fade-right")
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/X1UbgMwNhxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wbmaK0eQw5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     p.mb-5 De igual manera, se hace necesario considerar que los bienes biológicos de la Tierra son vitales para el desarrollo económico y social de la humanidad. Sin embargo, las especies y los ecosistemas están hoy severamente amenazados a causa de un desarrollo incompatible con la sostenibilidad ecológica y el crecimiento económico (Shiva, 2014). Como resultado, existe un creciente reconocimiento de que la diversidad biológica es un bien global de enorme valor para las generaciones presentes y futuras y, debe ser conservado.
 
@@ -153,24 +152,23 @@
     #t_1_1.titulo-segundo
       .h2 1.1  Evolución del pensamiento agroecológico
 
+    .row.justify-content-center.align-items-center          
+      .col-8-lg-10
+        .custom_box_left-4(data-aos="fade-left") 
+          p.mb-0 La agroecología vincula una orientación de la agricultura basada en criterios ambientales y con mayor sensibilidad social; donde la agricultura no solo está centrada en la producción, sino también en la sostenibilidad ecológica del sistema de producción. Lo que involucra que la producción agrícola va más allá de los límites físicos de un predio, ya que permite que se desarrollen fenómenos ecológicos como relaciones de competencia entre el cultivo-maleza hasta de depredador-presa, entre otros, y se comprenda la compleja interacción que existe entre los procesos sociales y entre los procesos biológicos y ambientales que pueden darse espacialmente en una unidad de producción agrícola. 
 
-    .row.align-items-center.justify-content-center.mb-5
-      .col-5.col-lg-2(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema1/img_5.svg'  alt='')
-      .col-lg-10(data-aos="fade-left")
-        p.mb-0 La agroecología vincula una orientación de la agricultura basada en criterios ambientales y con mayor sensibilidad social; donde la agricultura no solo está centrada en la producción, sino también en la sostenibilidad ecológica del sistema de producción. Lo que involucra que la producción agrícola va más allá de los límites físicos de un predio, ya que permite que se desarrollen fenómenos ecológicos como relaciones de competencia entre el cultivo-maleza hasta de depredador-presa, entre otros, y se comprenda la compleja interacción que existe entre los procesos sociales y entre los procesos biológicos y ambientales que pueden darse espacialmente en una unidad de producción agrícola. 
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-2
+            .col-3.col-lg-2
               img.mx-1(src="@/assets/curso/images/tema1/ico_5.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
               p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b> que se encuentra en el material comentario. 
             .col-md-auto
-              a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y')" target="_blank")
+              a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y&ab_channel=SemillasdeIdentidadColombia')" target="_blank")
                 span Enlace
                 .row
                   .col-auto
@@ -205,18 +203,19 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-up")
       .col-lg-6.lg-0
-        .jumbotron-1.py-4.px-4
+        .jumbotron-1.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
               img(src='@/assets/curso/images/tema1/ico_6.svg' alt='' , style="width:90px; display:block; margin:auto 0 ;")
-            .col-lg-10
+            .col.mb-3.mb-sm-0
               p.mt-1 Agricultura considerada como proceso que sigue principios ecológicos, y provee nuevo conocimiento sobre el manejo y comportamiento del agroecosistema.
+    
       .col-lg-6.lg-0
-        .jumbotron-2.p-4.px-4
+        .jumbotron-2.p-4
           .row.justify-content-center.align-items-center
             .col-4.col-lg-2
               img(src='@/assets/curso/images/tema1/ico_7.svg' alt='' , style="width:90px; display:block; margin:auto 0 ;")
-            .col-lg-10
+            .col.mb-3.mb-sm-0
               p.mt-4  El poder se distribuye en el sistema social a través de las instituciones descentralizadas y de la participación popular.
 
 
@@ -227,7 +226,7 @@
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-2
+            .col-3.col-lg-2
               img.mx-1(src="@/assets/curso/images/tema1/ico_8.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
@@ -317,11 +316,11 @@
     #t_1_3.titulo-segundo
       .h2 1.3  Componentes, determinantes, recursos, procesos y estructura de los agroecosistemas 
 
-    .row.align-items-center.justify-content-center.mb-5
-      .col-5.col-lg-2(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema1/img_7.svg'  alt='')
-      .col-lg-10(data-aos="fade-left")
-        p.mb-0 Un agroecosistema es el sitio en el cual se establecerá la unidad de producción agrícola, es considerado la unidad de ecología principal, siendo este el concepto bajo el cual se sustenta el análisis de la totalidad del sistema de producción de alimentos, este incluye entradas y salidas; y las interacciones entre sus partes a continuación se puede observar: 
+
+    .row.justify-content-center.align-items-center          
+      .col-8-lg-10
+        .custom_box_left-5(data-aos="fade-left") 
+          p.mb-0 Un agroecosistema es el sitio en el cual se establecerá la unidad de producción agrícola, es considerado la unidad de ecología principal, siendo este el concepto bajo el cual se sustenta el análisis de la totalidad del sistema de producción de alimentos, este incluye entradas y salidas; y las interacciones entre sus partes a continuación se puede observar: 
 
 
     .row.align-items-center.justify-content-center.mb-3
@@ -351,7 +350,7 @@
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-2
+            .col-3.col-lg-2
               img.mx-1(src="@/assets/curso/images/tema1/ico_new.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
@@ -378,7 +377,7 @@
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-2
+            .col-3.col-lg-2
               img.mx-1(src="@/assets/curso/images/tema1/ico_10.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
@@ -394,7 +393,7 @@
     p.mb-5 Una gran proporción del componente orgánico del ecosistema está compuesto por biomasa que es la materia viva que tiene un organismo, y puede variar de acuerdo con el tipo de organismo, el ambiente, el estado del ecosistema y por las actividades humanas. Esta biomasa se encuentra en el agroecosistema en forma de materia orgánica muerta proveniente de las plantas.
     
     
-    .row.fondo-1.mb-0
+    .row.fondo-1.mb-3
       .col-lg-8.mb-3.mb-lg-0.p-5(style="place-self:center")
         p.mb-0.mx-4.mt-3 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.
 
@@ -444,7 +443,7 @@
     p.my-4 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas los cuales son:
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-4 
+      .col-10.col-lg-4.lg-0
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_11.svg' alt='AvatarTop')
@@ -452,24 +451,24 @@
             .p-4
               p.mt-4 Sistemas de cultivo itinerante.
 
-      .col-lg-4
+      .col-10.col-lg-4.lg-0
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_12.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
             .p-4
-              p.mt-2 Sistemas semipermanentes de cultivo secano.
+              p.mt-4 Sistemas semipermanentes de cultivo secano.
 
-      .col-lg-4
+      .col-10.col-lg-4.lg-0
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
             .p-4
-              p.mt-2 Sistemas permanentes de cultivo secano.
+              p.mt-4 Sistemas permanentes de cultivo secano.
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-4 
+      .col-10.col-lg-4.lg-0
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop')
@@ -477,7 +476,7 @@
             .p-4
               p.my-4 Sistemas arables de bajo riego.
 
-      .col-lg-4
+      .col-10.col-lg-4.lg-0
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_15.svg' alt='AvatarTop')
@@ -485,13 +484,13 @@
             .p-4
               p.my-4 Sistema de cultivos perennes.
 
-      .col-lg-4
+      .col-10.col-lg-4.lg-0
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_16.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
             .p-3
-              p.mt-0 Sistemas con ganado cultivo (alternando cultivos arables con sembrado de pasturas).
+              p.mt-4 Sistemas con ganado cultivo (alternando cultivos arables con sembrado de pasturas).
 
     p.mb-3 Asimismo, se han reconocido los tipos de determinantes del agroecosistema que influyen en el tipo de agricultura de cada región, estos se pueden visualizar en la siguiente infografía.
 
@@ -526,7 +525,7 @@
                     i.fas.fa-circle(style="color:#FFA686;")
                     | La vegetación natural puede ser una fuente importante de alimento, forraje para animales, materiales de construcción o medicinas para los seres humanos, influyendo en la productividad del suelo de los sistemas de cultivos migratorios.
                     
-              .col-12.col-lg-5
+              .col-md-10.col-lg.mb-5.mb-lg-0 
                 img(src="@/assets/curso/images/tema1/img_10.png").mb-3
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
@@ -543,7 +542,7 @@
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
                     | La flexibilidad de la fuerza de trabajo para adaptarse a variaciones estacionales en la demanda de trabajo, es decir, la disponibilidad de la mano de obra contratada y el grado de cooperación entre los agricultores.
-              .col-lg-5
+              .col-md-10.col-lg.mb-5.mb-lg-0
                 img(src="@/assets/curso/images/tema1/img_11.png").mb-3
 
             .row.justify-content-center.align-items-star.p-3
@@ -562,7 +561,7 @@
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
                     | Recursos potenciales o aquellos que el agricultor no posee, pero de los que puede disponer teniendo que reemplazarlos en el tiempo, como el crédito y la ayuda de parientes o amigos. 
-              .col-lg-5
+              .col-md-10.col-lg.mb-5.mb-lg-0
                 img(src="@/assets/curso/images/tema1/img_12.png").mb-3
 
             .row.justify-content-center.align-items-star.p-3
@@ -572,7 +571,7 @@
                   li(data-aos="fade-up" style="position:relative")
                     i.fas.fa-circle(style="color:#FFA686;")
                     | Comprenden la producción agrícola del predio como de los cultivos y el ganado. Estos se transforman en recursos de capital si se venden y los residuos (cultivos, abono) son insumos nutrientes reinvertidos en el sistema.
-              .col-lg-5
+              .col-md-10.col-lg.mb-5.mb-lg-0
                 img(src="@/assets/curso/images/tema1/img_13.png").mb-3
 
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
@@ -603,8 +602,7 @@
                 li 
                   i.fas.fa-angle-right.th-2
                   p.mb-0 Los diversos insumos de un sistema agrícola: radiación solar, mano de obra, trabajo de las máquinas, fertilizantes y herbicidas, se pueden convertir en valores energéticos. Asimismo, los productos del sistema: vegetales y animales, también pueden expresarse en términos de energía.
-
-            .col-5.col-md-3.mb-4.mb-md-0
+            .col-5.col-md-6.col-lg-3.mb-5.mb-lg-0 
               img(src='@/assets/curso/images/tema1/img_14.svg')
             
           .row.justify-content-center.align-items-center(titulo="Procesos biogeoquímicos")
@@ -630,7 +628,7 @@
                 li 
                   i.fas.fa-angle-right.th-2
                   | Del forraje para el ganado o del abono animal.
-            .col-5.col-md-3.mb-4.mb-md-0
+            .col-5.col-md-6.col-lg-3.mb-5.mb-lg-0 
               img(src='@/assets/curso/images/tema1/img_15.svg')
             
           .row.justify-content-center.align-items-center(titulo="Procesos hidrológicos")
@@ -652,7 +650,7 @@
                   i.fas.fa-angle-right.th-2
                   | El agua se almacena en el suelo, en donde es utilizada directamente por los cultivos y la vegetación, en forma de agua subterránea que puede extraerse para el uso humano, del ganado o de los cultivos y en almacenamientos construidos, tales como estanques del predio.
 
-            .col-5.col-md-3.mb-4.mb-md-0
+            .col-5.col-md-6.col-lg-3.mb-5.mb-lg-0 
               img(src='@/assets/curso/images/tema1/img_16.svg')
             
           .row.justify-content-center.align-items-center(titulo="Procesos sucesionales")
@@ -667,7 +665,7 @@
                 li 
                   i.fas.fa-angle-right.th-2
                   | En la agricultura convencional, la tendencia natural hacia la complejidad se detiene utilizando productos agroquímicos. Al sembrar policultivos, la estrategia agrícola acompaña la tendencia natural hacia la complejidad; el incremento de la biodiversidad del cultivo sobre y debajo del suelo imita la sucesión natural y así se requieren menos insumos externos para mantener la comunidad del cultivo.
-            .col-5.col-md-3.mb-4.mb-md-0
+            .col-5.col-md-6.col-lg-3.mb-5.mb-lg-0 
               img(src='@/assets/curso/images/tema1/img_17.svg')
 
           .row.justify-content-center.align-items-center(titulo="Procesos de regulación biótica")
@@ -681,7 +679,7 @@
                   | Los agricultores han usado diversos métodos en forma universal. Estos son:
             .row.justify-content-center.align-items-center
               .col-md-3.mb-4.mb-md-0
-                .jumbotron-5.p-3
+                .jumbotron-5.p-4
                   ul.lista-ul--color
                     li 
                       i.fas.fa-circle.th-3
@@ -706,7 +704,7 @@
                       i.fas.fa-angle-right.th-3
                       | Modificación del acceso de plagas a las plantas.
               .col-md-3.mb-4.mb-md-0
-                .jumbotron-5.p-5
+                .jumbotron-5.p-4
                   ul.lista-ul--color
                     li 
                       i.fas.fa-circle.th-3

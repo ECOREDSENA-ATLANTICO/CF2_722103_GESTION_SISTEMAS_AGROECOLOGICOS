@@ -87,9 +87,6 @@
   font-weight: 900
   line-height: 1.2
   color: #fff
-h4 
-  @media (max-width: 412px)
-    font-size: 2.5em
 
 .boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover * 
   color: #000
@@ -353,7 +350,12 @@ h4
 .jumbotron-5
   background-color: #FFD3C3
   border-radius: 20px
-  height: 100% !important
+  height: 230px !important
+  @media (max-width: 768px)
+    background-repeat: no-repeat
+    background-size: cover
+    font-size: 12px
+    height: 280px !important
 
 .jumbotron-6
   background-color: #DEEBAD
@@ -366,6 +368,13 @@ h4
 .jumbotron-8
   background-color: #FFD3C3 !important
   border-radius: 20px
+
+.jumbotron-9
+  background-color: #FFFF !important
+  @media (max-width: 768px)
+    img: none !important
+  @media (max-width: 412px)
+    img: none !important
   
 .tarjeta-avatar > img 
   position: absolute
@@ -459,7 +468,7 @@ h4
   @media (max-width: 576px)
     background-repeat: no-repeat
     background-size: cover
-    margin-left: 150px !important
+    margin-left: -2px !important
   @media (max-width: 412px)
     background-repeat: no-repeat
     background-size: cover
@@ -610,6 +619,105 @@ h4
     margin-left: 30px
     background-repeat: no-repeat
     z-index: 0
+
+// CUSTOM BOX - LEFT-3
+.custom_box_left-3     
+  position: relative
+  padding: 1rem 14.5rem 
+  background-image: url("../assets/curso/images/tema1/img_3.svg") !important
+  background-repeat: no-repeat
+  margin-left: 50px
+  margin-right: -180px
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: -55px
+    left: -50%
+    width: 50%
+    height: 130%
+    margin-left: 30px
+    background-repeat: no-repeat
+    z-index: 0
+  @media (max-width: 768px)
+    background-image: none !important
+    width: 1110px 
+    margin-left: -230px !important
+  @media (max-width: 576px)
+    background-image: none !important
+    width: 960px 
+    margin-left: -230px !important
+  @media (max-width: 412px)
+    background-image: none !important
+    width: 850px 
+    margin-left: -240px !important
+
+// CUSTOM BOX - LEFT-4
+.custom_box_left-4    
+  position: relative
+  padding: 1rem 14.5rem 
+  background-image: url("../assets/curso/images/tema1/img_5.svg") !important
+  background-repeat: no-repeat
+  margin-left: 50px
+  margin-right: -180px
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: -55px
+    left: -50%
+    width: 50%
+    height: 130%
+    margin-left: 30px
+    background-repeat: no-repeat
+    z-index: 0
+  @media (max-width: 768px)
+    background-image: none !important
+    width: 1110px 
+    margin-left: -230px !important
+  @media (max-width: 576px)
+    background-image: none !important
+    width: 960px 
+    margin-left: -230px !important
+  @media (max-width: 412px)
+    background-image: none !important
+    width: 850px 
+    margin-left: -240px !important
+
+// CUSTOM BOX - LEFT-5
+.custom_box_left-5   
+  position: relative
+  padding: 1rem 14.5rem 
+  background-image: url("../assets/curso/images/tema1/img_7.svg") !important
+  background-repeat: no-repeat
+  margin-left: 50px
+  margin-right: -180px
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: -55px
+    left: -50%
+    width: 50%
+    height: 130%
+    margin-left: 30px
+    background-repeat: no-repeat
+    z-index: 0
+  @media (max-width: 768px)
+    background-image: none !important
+    width: 1110px 
+    margin-left: -230px !important
+  @media (max-width: 576px)
+    background-image: none !important
+    width: 960px 
+    margin-left: -230px !important
+  @media (max-width: 412px)
+    background-image: none !important
+    width: 850px 
+    margin-left: -240px !important
 
 .onTop
   position: relative

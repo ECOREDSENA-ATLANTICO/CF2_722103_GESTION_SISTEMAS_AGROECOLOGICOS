@@ -308,86 +308,86 @@
 
     .row.justify-content-center.align-items-stretch.mb-4
       .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_3.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.my-5  Cambio climático.
+            .col-6.col-lg-8.lg-0
+              p.my-5  Cambio climático.
 
       .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_4.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.mt-5 Destrucción de la capa de ozono.
+            .col-6.col-lg-8.lg-0
+              p.mt-5 Destrucción de la capa de ozono.
 
       .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_5.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.mt-4 Toxicidad humana con efectos cancerígenos.
+            .col-6.col-lg-8.lg-0
+              p.mt-4 Toxicidad humana con efectos cancerígenos.
 
       .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_6.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.mt-4 Toxicidad humana sin efectos cancerígenos.
+            .col-6.col-lg-8.lg-0
+              p.mt-4 Toxicidad humana sin efectos cancerígenos.
 
     .row.justify-content-center.align-items-stretch.mb-4
       .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_7.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.mt-0  Partículas y aspectos respiratorios.
+            .col-6.col-lg-8.lg-0
+              p.mt-0  Partículas y aspectos respiratorios.
 
       .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_8.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.mt-5 Radiación ionizante.
+            .col-6.col-lg-8.lg-0
+              p.mt-5 Radiación ionizante.
 
       .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_9.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.mt-4 Formación de ozono fotoquímico.
+            .col-6.col-lg-8.lg-0
+              p.mt-4 Formación de ozono fotoquímico.
 
       .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_10.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.mt-5 Acidificación.
+            .col-6.col-lg-8.lg-0
+              p.mt-5 Acidificación.
 
     .row.justify-content-center.align-items-stretch.mb-4
       .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-4.mb-1
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_11.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.mt-4  Consumo de recursos hídricos.
+            .col-6.col-lg-8.lg-0
+              p.mt-4  Consumo de recursos hídricos.
 
       .col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_12.svg' alt='AvatarTop')
-            .col-lg-8.lg-0
-                p.mt-0 Consumo de recursos minerales y combustibles fósiles.
+            .col-6.col-lg-8.lg-0
+              p.mt-0 Consumo de recursos minerales y combustibles fósiles.
 
     .row.align-items-center.justify-content-star.my-5.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-3
@@ -469,7 +469,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-5.lg-0
-        .jumbotron-7.p-5(data-aos="fade-right") 
+        .jumbotron-7.p-5.mb-1(data-aos="fade-right") 
             .col-5.col-lg-10
             img.mb-4(src='@/assets/curso/images/tema2/ico_18.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
             h3.mt-3 Huella de carbono organizacional
@@ -521,7 +521,7 @@
 
     figure.mb-5(data-aos="fade-right")
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/X1UbgMwNhxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kDSRnk1oEEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
