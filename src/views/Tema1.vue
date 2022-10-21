@@ -415,27 +415,27 @@
 
     
     .row.aling-items-center.justify-content(data-aos="zoom-in-down")
-      .col-md-2.col-lg.mb-5.mb-lg-0
+      .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg
           img(src='@/assets/curso/images/tema1/img_new_1.png'  alt='')
           p.text-center.mt-3.p-3 La asociación de cultivos y ganado.
 
-      .col-md-2.col-lg.mb-5.mb-lg-0
+      .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg
           img(src='@/assets/curso/images/tema1/img_new_2.png'  alt='')
           p.text-center.mt-3.p-3 Los métodos para producir los cultivos y el ganado.
 
-      .col-md-2.col-lg.mb-5.mb-lg-0
+      .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg
           img(src='@/assets/curso/images/tema1/img_new_3.png'  alt='')
           p.text-center.mt-3.p-3 Intensidad en la mano de obra, capital, organización y producción.
 
-      .col-md-2.col-lg.mb-5.mb-lg-0
+      .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg
           img(src='@/assets/curso/images/tema1/img_new_4.png'  alt='')
           p.text-center.mt-3.p-3 La distribución de los productos para el consumo subsistencia y/o venta, entre otros
 
-      .col-md-2.col-lg.mb-5.mb-lg-0
+      .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg
           img(src='@/assets/curso/images/tema1/img_new_5.png'  alt='')
           p.text-center.mt-3.p-3 Estructuras usadas para la casa y facilitar las operaciones en la unidad productiva.
