@@ -247,10 +247,7 @@
       .col-7.col-lg-2(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/ico_2.svg'  alt='')
       .col-lg-10(data-aos="fade-left")
-        p.mb-3 Estas huellas consolidan un análisis de potenciales impactos ambientales que se generan de forma directa o indirectamente a lo largo del ciclo de vida de un producto, servicio u organización. Esta medición ha concretado la metodología de Análisis de Ciclo de Vida (ACV), especificando los impactos que deben incluirse en este análisis. La huella ambiental define de manera concreta la ejecución del ACV y determina alcances y categorías de impacto para que los resultados puedan ser comparables entre sí.
-
-        p.mb-0 Dentro de la huella ambiental se consideran un máximo de 14 tipos diferentes de impactos ambientales como se muestra a continuación: 
-
+        p.mb-3 El ambiente, la economía, la tecnología y la sociedad son los cuatro componentes clave para el desarrollo sostenible ya que este desarrollo genera una compleja red de condiciones y procesos en la búsqueda del bienestar de la comunidad en su conjunto. Actualmente, el ambiente ha ganado espacio científico, académico y gerencial a escala planetaria; mientras la economía es el nervio de la actividad financiera que guarda equilibrio con las demás categorías; en tanto que la tecnología que va a tener mayor demanda es la amigable lo que tiende a disminuir el deterioro ambiental y la sociedad se convierta en el actor principal por excelencia para la gestión del desarrollo armónico y equilibrado.
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12

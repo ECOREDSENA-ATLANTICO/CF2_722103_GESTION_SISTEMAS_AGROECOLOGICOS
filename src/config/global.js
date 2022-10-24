@@ -296,7 +296,7 @@ export default {
       },
       {
         nombre: 'Ingrid Natalia Lozano Muñoz',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
       {
@@ -307,7 +307,7 @@ export default {
       },
       {
         nombre: 'Carolina Coca Salazar',
-        cargo: 'Asesora Metodológica',
+        cargo: 'Asesora metodológica',
         centro: 'Centro de Diseño y Metrología  - Distrito Capital',
       },
       {
