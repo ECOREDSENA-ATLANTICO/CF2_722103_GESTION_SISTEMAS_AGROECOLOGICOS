@@ -18,25 +18,25 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-lg-12.lg-0
         .row.justify-content-star.align-items-star
-            .col-4-md-4.col-lg.mb-5.mb-lg-0
+            .col-md-10.col-lg-4.mb-5.mb-lg-0
               .tarjeta-avatar
                 img(src='@/assets/curso/images/tema1/ico_1.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 .tarjeta.color-custom
                   .p-5
                     p.my-5 Total de las emisiones de Gases Efecto Invernadero (GEI).
-            .col-4-md-4.col-lg.mb-5.mb-lg-0
+            .col-md-10.col-lg-4.mb-5.mb-lg-0
               .tarjeta-avatar
                 img(src='@/assets/curso/images/tema1/ico_2.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 .tarjeta.color-custom-7
                   .p-4
                     p.mb-4 Consumo de agua dulce, este genera una sustantiva pérdida de suelos, son la causa del rompimiento de los ciclos del fósforo y nitrógeno, y es una causa importante de la contaminación de las aguas y la degradación de los suelos como consecuencia del uso de agroquímicos.
 
-            .col-4-md-4.col-lg.mb-5.mb-lg-0
+            .col-md-12.col-lg-4.mb-5.mb-lg-0
               .tarjeta-avatar
                 img(src='@/assets/curso/images/tema1/ico_3.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;")
                 .tarjeta.color-custom
                   .p-5
-                    p.my-5 Pérdida de especies de la flora y fauna silvestres.
+                    p.my-5.px-5 Pérdida de especies de la flora y fauna silvestres.
         
 
     .row.align-items-center.justify-content-center.mb-5     
@@ -47,10 +47,10 @@
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_2.png'  alt='')
 
-    .row.justify-content-center.align-items-center          
-      .col-8-lg-10
-        .custom_box_left-3(data-aos="fade-left") 
-          p.mb-0 Esto en un contexto agrícola tradicional, ahora como se verá impactado el medio ambiente, la sociedad y la economía nacional y global con la introducción de los Organismos Vivos Modificados (OVM) en el modelo de desarrollo agroindustrial, que busca, inicialmente, bajo una mirada de revolución del sector, ser parte de la solución de algunas de las problemáticas anteriormente expuestas, pero que trae consigo a su vez impactos que deben ser gestionados de manera adecuada para no convertirse en otro reto a solucionar, tal como lo plantea la Convención sobre Diversidad Biológica y sus diferentes protocolos.
+    .row.justify-content-center.mb-5
+      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_3.svg', alt='')  
+      .col-lg-10
+        p Esto en un contexto agrícola tradicional, ahora como se verá impactado el medio ambiente, la sociedad y la economía nacional y global con la introducción de los Organismos Vivos Modificados (OVM) en el modelo de desarrollo agroindustrial, que busca, inicialmente, bajo una mirada de revolución del sector, ser parte de la solución de algunas de las problemáticas anteriormente expuestas, pero que trae consigo a su vez impactos que deben ser gestionados de manera adecuada para no convertirse en otro reto a solucionar, tal como lo plantea la Convención sobre Diversidad Biológica y sus diferentes protocolos.
 
 
     p.mb-5 A mediados del siglo XX surgió un aumento en la producción agrícola y este superó el aumento actual que se tenía de población y a esto se le llamó “revolución verde”. Esta fue una renovación en la manera de producir fuentes de comercio esta se basaba en la producción del monocultivo y donde se utilizaron con mayor proporción los fertilizantes y plaguicidas, en el siguiente video se profundiza sobre la revolución verde: 
@@ -68,75 +68,61 @@
     p.mb-5 El modelo establecido por la revolución verde trajo consigo un aumento considerable en la producción y productividad agrícola, sin embargo, al analizar este modelo en América Latina, se han podido observar diferentes problemáticas ambientales y sociales que ponen en tela de juicio la sostenibilidad de la agricultura en el tiempo. Las principales características que hacen que este modelo de agricultura sea inviable son: 
 
     .row.justify-content-center.align-items-center.my-3
-      .col-7.col-lg-12
+      .col-10.col-lg-12
         SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_1.svg')
-                .p-4 
-                  h4.text-center.mt-4 Dependencia creciente de agroquímicos. 
-          .bg-1         
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_2.svg')
-                .p-4 
-                  h4.text-center.mt-3 Contaminación de alimentos, recurso hídrico, suelo por pesticidas y de fertilizantes sintéticos.
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_3.svg')
-                .p-4 
-                  h4.text-center.mt-4 Desarrollo de resistencia a los plaguicidas de ciertos patógenos y plagas.
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_4.svg')
-                .p-4 
-                  h4.text-center.mt-4 Pérdida de la capacidad productiva de los suelos.
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_6.svg')
-                .p-4 
-                  h4.text-center.mt-4 Eutrofización de embalses, disminución de acuíferos en zonas de regadío.
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_7.svg')
-                .p-4 
-                  h4.text-center.mt-5 Pérdida de biodiversidad.
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_8.svg')
-                .p-4 
-                  h4.text-center.mt-5 Pérdida de variabilidad genética.
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_9.svg')
-                .p-4 
-                  h4.text-center.mt-4 Desplazamiento de algunas técnicas de cultivo propias de agricultores.
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_10.svg')
-                .p-3 
-                  h4.text-center.mt-5 Contribución al calentamiento global. 
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_11.svg')
-                .p-2
-                  h4.text-center.mt-4 Dependencia de los combustibles fósiles y la disminución de la eficiencia productiva en términos energéticos.
-          .bg-1
-            .tarjeta.tarjeta_grey-1
-              .row.justify-content-center.align-items-center
-                img.mt-3(src='@/assets/curso/images/tema1/ico_slyder_12.svg')
-                .p-3 
-                  h4.text-center.mt-4 No ha solucionado el problema de pobreza rural y no ha sido aplicable a todos los agricultores.
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_1.svg')
+            .p-4 
+              h4.text-center.mt-4 Dependencia creciente de agroquímicos. 
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_2.svg')
+            .p-4 
+              h4.text-center.mt-4 Contaminación de alimentos, recurso hídrico, suelo por pesticidas y de fertilizantes sintéticos.
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_3.svg')
+            .p-4 
+              h4.text-center.mt-4 Desarrollo de resistencia a los plaguicidas de ciertos patógenos y plagas.sintéticos.
+
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_4.svg')
+            .p-4 
+              h4.text-center.mt-4 Pérdida de la capacidad productiva de los suelos.
+
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_5.svg')
+            .p-4 
+              h4.text-center.mt-4 Eutrofización de embalses, disminución de acuíferos en zonas de regadío.
+          
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_6.svg')
+            .p-4 
+              h4.text-center.mt-4 Pérdida de biodiversidad.
+
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_7.svg')
+            .p-4 
+              h4.text-center.mt-4 Pérdida de variabilidad genética.
+
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_8.svg')
+            .p-4 
+              h4.text-center.mt-4 Desplazamiento de algunas técnicas de cultivo propias de agricultores.
+
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_9.svg')
+            .p-4 
+              h4.text-center.mt-4 Contribución al calentamiento global. 
+
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_10.svg')
+            .p-4 
+              h4.text-center.mt-4 Dependencia de los combustibles fósiles y la disminución de la eficiencia productiva en términos energéticos.
      
+          .bg-1.h-100
+            img.mt-3(src='@/assets/curso/images/tema1/back_slyder_11.svg')
+            .p-4 
+              h4.text-center.mt-4  No ha solucionado el problema de pobreza rural y no ha sido aplicable a todos los agricultores.
+ 
     p.mb-3 Si bien, se pueden evidenciar que los impactos ambientales han generado mayor cantidad de impactos ambientales, los impactos sociales no son de menor relevancia, dado que los conocimientos locales en la implementación de este modelo fueron visibilizados como primitivos, inútiles, atrasados o arcaicos, negando y subvalorando los saberes locales, las técnicas tradicionales de cultivo y de las bases ecológicas y culturales entre los agricultores, produciendo una erosión cultural que ha presentado variadas consecuencias relacionadas con la conservación de la diversidad biológica  #[em in situ] (Shiva, 1991).
 
     .row.align-items-center.justify-content-center.mb-5
@@ -155,8 +141,12 @@
     .row.justify-content-center.align-items-center          
       .col-8-lg-10
         .custom_box_left-4(data-aos="fade-left") 
-          p.mb-0 La agroecología vincula una orientación de la agricultura basada en criterios ambientales y con mayor sensibilidad social; donde la agricultura no solo está centrada en la producción, sino también en la sostenibilidad ecológica del sistema de producción. Lo que involucra que la producción agrícola va más allá de los límites físicos de un predio, ya que permite que se desarrollen fenómenos ecológicos como relaciones de competencia entre el cultivo-maleza hasta de depredador-presa, entre otros, y se comprenda la compleja interacción que existe entre los procesos sociales y entre los procesos biológicos y ambientales que pueden darse espacialmente en una unidad de producción agrícola. 
+          p.mb-0  
 
+    .row.justify-content-center.mb-5
+      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_5.svg', alt='')  
+      .col-lg-10
+        p La agroecología vincula una orientación de la agricultura basada en criterios ambientales y con mayor sensibilidad social; donde la agricultura no solo está centrada en la producción, sino también en la sostenibilidad ecológica del sistema de producción. Lo que involucra que la producción agrícola va más allá de los límites físicos de un predio, ya que permite que se desarrollen fenómenos ecológicos como relaciones de competencia entre el cultivo-maleza hasta de depredador-presa, entre otros, y se comprenda la compleja interacción que existe entre los procesos sociales y entre los procesos biológicos y ambientales que pueden darse espacialmente en una unidad de producción agrícola.
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
@@ -201,20 +191,20 @@
     p.mb-5 Las metodologías y prácticas de la agroecología proceden de diversos orígenes filosóficos que no son las mismas de las ciencias agrícolas tradicionales y al tener diferentes raíces las técnicas, metodologías y consecuencias sociales y ambientales difieren trascendentalmente de la agricultura convencional. La agroecología ha evolucionado dadas las siguientes condiciones: 
 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-up")
-      .col-lg-6.lg-0
-        .jumbotron-1.p-4.mb-1
+    .row.justify-content-center.align-items-betwen.mb-5(data-aos="zoom-in-up")
+      .col-lg-6.mb-lg-0.mb-3
+        .jumbotron-1.p-4
           .row.justify-content-center.align-items-center
-            .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema1/ico_6.svg' alt='' , style="width:90px; display:block; margin:auto 0 ;")
+            .col-auto.mb-4.mb-lg-0
+              img(src='@/assets/curso/images/tema1/ico_6.svg' alt='').p-4.h-100
             .col.mb-3.mb-sm-0
               p.mt-1 Agricultura considerada como proceso que sigue principios ecológicos, y provee nuevo conocimiento sobre el manejo y comportamiento del agroecosistema.
     
-      .col-lg-6.lg-0
+      .col-lg-6
         .jumbotron-2.p-4
           .row.justify-content-center.align-items-center
-            .col-4.col-lg-2
-              img(src='@/assets/curso/images/tema1/ico_7.svg' alt='' , style="width:90px; display:block; margin:auto 0 ;")
+            .col-auto.mb-4.mb-lg-0
+              img(src='@/assets/curso/images/tema1/ico_7.svg').p-4.h-100
             .col.mb-3.mb-sm-0
               p.mt-4  El poder se distribuye en el sistema social a través de las instituciones descentralizadas y de la participación popular.
 
@@ -316,11 +306,10 @@
     #t_1_3.titulo-segundo
       .h2 1.3  Componentes, determinantes, recursos, procesos y estructura de los agroecosistemas 
 
-
-    .row.justify-content-center.align-items-center          
-      .col-8-lg-10
-        .custom_box_left-5(data-aos="fade-left") 
-          p.mb-0 Un agroecosistema es el sitio en el cual se establecerá la unidad de producción agrícola, es considerado la unidad de ecología principal, siendo este el concepto bajo el cual se sustenta el análisis de la totalidad del sistema de producción de alimentos, este incluye entradas y salidas; y las interacciones entre sus partes a continuación se puede observar: 
+    .row.justify-content-center.mb-5
+      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_7.svg', alt='')  
+      .col-lg-10
+        p Un agroecosistema es el sitio en el cual se establecerá la unidad de producción agrícola, es considerado la unidad de ecología principal, siendo este el concepto bajo el cual se sustenta el análisis de la totalidad del sistema de producción de alimentos, este incluye entradas y salidas; y las interacciones entre sus partes a continuación se puede observar: 
 
 
     .row.align-items-center.justify-content-center.mb-3
@@ -329,7 +318,7 @@
           h5 Figura 2
           span <i>Estructura de un agroecosistema.</i>
 
-    .row.align-items-center.justify-content-center.my-3
+    .row.align-items-center.justify-content-center.mb-4
       .col-lg-12(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/fig_2.svg')
     .row.mb-5
@@ -391,7 +380,7 @@
 
 
     p.mb-5 Una gran proporción del componente orgánico del ecosistema está compuesto por biomasa que es la materia viva que tiene un organismo, y puede variar de acuerdo con el tipo de organismo, el ambiente, el estado del ecosistema y por las actividades humanas. Esta biomasa se encuentra en el agroecosistema en forma de materia orgánica muerta proveniente de las plantas.
-    
+
     
     .row.fondo-1.mb-3
       .col-lg-8.mb-3.mb-lg-0.p-5(style="place-self:center")
@@ -414,7 +403,7 @@
     p.mb-5 Se han reconocido cinco criterios claves para clasificar los agroecosistemas de una región que son: 
 
     
-    .row.aling-items-center.justify-content(data-aos="zoom-in-down")
+    .row.aling-items-center.justify-content.mb-4(data-aos="zoom-in-down")
       .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg
           img(src='@/assets/curso/images/tema1/img_new_1.png'  alt='')
@@ -440,7 +429,7 @@
           img(src='@/assets/curso/images/tema1/img_new_5.png'  alt='')
           p.text-center.mt-3.p-3 Estructuras usadas para la casa y facilitar las operaciones en la unidad productiva.
 
-    p.my-4 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas los cuales son:
+    p.mb-5 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas los cuales son:
 
     .row.justify-content-center.align-items-center.mb-0
       .col-10.col-lg-4.lg-0
@@ -448,7 +437,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_11.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-4
+            .p-4.ps-4
               p.mt-4 Sistemas de cultivo itinerante.
 
       .col-10.col-lg-4.lg-0
@@ -457,7 +446,7 @@
             img(src='@/assets/curso/images/tema1/ico_12.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
             .p-4
-              p.mt-4 Sistemas semipermanentes de cultivo secano.
+              p.mt-1 Sistemas semipermanentes de cultivo secano.
 
       .col-10.col-lg-4.lg-0
         .tarjeta-avatar-b.mb-5
@@ -465,7 +454,7 @@
             img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
             .p-4
-              p.mt-4 Sistemas permanentes de cultivo secano.
+              p.mt-1 Sistemas permanentes de cultivo secano.
 
     .row.justify-content-center.align-items-center.mb-3
       .col-10.col-lg-4.lg-0
@@ -481,7 +470,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_15.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-4
+            .p-4.ps-5
               p.my-4 Sistema de cultivos perennes.
 
       .col-10.col-lg-4.lg-0
@@ -489,8 +478,8 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_16.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-3
-              p.mt-4 Sistemas con ganado cultivo (alternando cultivos arables con sembrado de pasturas).
+            .p-3.ps-5
+              p.mt-0 Sistemas con ganado cultivo (alternando cultivos arables con sembrado de pasturas).
 
     p.mb-3 Asimismo, se han reconocido los tipos de determinantes del agroecosistema que influyen en el tipo de agricultura de cada región, estos se pueden visualizar en la siguiente infografía.
 
@@ -602,8 +591,7 @@
                 li 
                   i.fas.fa-angle-right.th-2
                   p.mb-0 Los diversos insumos de un sistema agrícola: radiación solar, mano de obra, trabajo de las máquinas, fertilizantes y herbicidas, se pueden convertir en valores energéticos. Asimismo, los productos del sistema: vegetales y animales, también pueden expresarse en términos de energía.
-            .col-5.col-md-6.col-lg-3.mb-5.mb-lg-0 
-              img(src='@/assets/curso/images/tema1/img_14.svg')
+            .col-6.col-lg-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_14.svg', alt='')  
             
           .row.justify-content-center.align-items-center(titulo="Procesos biogeoquímicos")
             .col-md-7.mb-4.mb-md-0
@@ -628,8 +616,8 @@
                 li 
                   i.fas.fa-angle-right.th-2
                   | Del forraje para el ganado o del abono animal.
-            .col-5.col-md-6.col-lg-3.mb-5.mb-lg-0 
-              img(src='@/assets/curso/images/tema1/img_15.svg')
+            .col-6.col-lg-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_15.svg', alt='')  
+     
             
           .row.justify-content-center.align-items-center(titulo="Procesos hidrológicos")
             .col-md-7.mb-4.mb-md-0
@@ -649,9 +637,8 @@
                 li 
                   i.fas.fa-angle-right.th-2
                   | El agua se almacena en el suelo, en donde es utilizada directamente por los cultivos y la vegetación, en forma de agua subterránea que puede extraerse para el uso humano, del ganado o de los cultivos y en almacenamientos construidos, tales como estanques del predio.
-
-            .col-5.col-md-6.col-lg-3.mb-5.mb-lg-0 
-              img(src='@/assets/curso/images/tema1/img_16.svg')
+            .col-6.col-lg-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_16.svg', alt='')
+        
             
           .row.justify-content-center.align-items-center(titulo="Procesos sucesionales")
             .col-md-7.mb-4.mb-md-0
@@ -665,8 +652,8 @@
                 li 
                   i.fas.fa-angle-right.th-2
                   | En la agricultura convencional, la tendencia natural hacia la complejidad se detiene utilizando productos agroquímicos. Al sembrar policultivos, la estrategia agrícola acompaña la tendencia natural hacia la complejidad; el incremento de la biodiversidad del cultivo sobre y debajo del suelo imita la sucesión natural y así se requieren menos insumos externos para mantener la comunidad del cultivo.
-            .col-5.col-md-6.col-lg-3.mb-5.mb-lg-0 
-              img(src='@/assets/curso/images/tema1/img_17.svg')
+            .col-6.col-lg-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_17.svg', alt='')
+        
 
           .row.justify-content-center.align-items-center(titulo="Procesos de regulación biótica")
             .col-md-12.mb-4.mb-md-0
@@ -678,8 +665,8 @@
                   i.fas.fa-angle-right.th-2
                   | Los agricultores han usado diversos métodos en forma universal. Estos son:
             .row.justify-content-center.align-items-center
-              .col-md-3.mb-4.mb-md-0
-                .jumbotron-5.p-4
+              .col-12.col-md-3.mb-4.mb-md-0
+                .jumbotron-5.p-5.px-3.h-100
                   ul.lista-ul--color
                     li 
                       i.fas.fa-circle.th-3
@@ -688,8 +675,8 @@
                     p.my-5
               
               
-              .col-md-3.mb-4.mb-md-0
-                .jumbotron-5.p-4
+              .col-12.col-md-3.mb-4.mb-md-0
+                .jumbotron-5.p-4.px-2.h-100
                   ul.lista-ul--color
                     li 
                       i.fas.fa-circle.th-3
@@ -703,8 +690,8 @@
                     li 
                       i.fas.fa-angle-right.th-3
                       | Modificación del acceso de plagas a las plantas.
-              .col-md-3.mb-4.mb-md-0
-                .jumbotron-5.p-4
+              .col-12.col-md-3.mb-4.mb-md-0
+                .jumbotron-5.p-5.px-3.h-100
                   ul.lista-ul--color
                     li 
                       i.fas.fa-circle.th-3

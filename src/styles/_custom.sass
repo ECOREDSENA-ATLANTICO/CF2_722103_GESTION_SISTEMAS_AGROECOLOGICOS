@@ -10,15 +10,15 @@
     top: 24%
     right: 15%
   &-3
-    animation: rotation 8.5s ease-in-out infinite alternate
+    animation: float1 1.8s ease-in-out infinite alternate
     position: absolute
-    top: 28%
-    right: 75%
+    top: 14%
+    right: 75% 
   &-4
-    animation: rotation 3.5s ease-in-out infinite alternate
+    animation: float1 1.8s ease-in-out infinite alternate
     position: absolute
     top: 54%
-    right: 5%
+    right: 15%
 
 @keyframes float1
   0%
@@ -118,6 +118,33 @@
 .th-5 
   background-color: #DEEBAD
 
+.th-6
+  background-color: #CEE284
+
+.th-7
+  background-color: #EFF5D6
+
+.th-8
+  background-color: #FFE9E1
+
+.tabla-a
+  border-top-left-radius: 30px
+  border-top-right-radius: 30px
+  border-bottom-left-radius: 30px
+  border-bottom-right-radius: 30px
+  border: 1px solid #000
+
+td, th 
+
+    border: 3px solid #0B481E
+    padding: 0.75em
+
+.tabla-a th 
+  border-color: #0B481E
+  font-weight: 700
+  text-align: center
+  font-size: 1.125em
+
 .tabla-a thead 
   color: #000
   border-top: none !important
@@ -171,7 +198,7 @@
 .bg
   background-color: #FFA686
   transition: transform .2s
-  height: 420px
+  height: 100%
   &:hover
     transform: scale(1.10)
   @media (max-width: 768px)
@@ -239,7 +266,11 @@
   @media (max-width: 768px)
     background-repeat: no-repeat
     background-size: cover
-    width: 280px
+    width: 500px !important
+  @media (max-width: 768px)
+    background-repeat: no-repeat
+    background-size: cover
+    width: 280px !important
     height: 385px !important
     margin-left: 10px
   @media (max-width: 576px)
@@ -276,15 +307,13 @@
 
 .fondo-1
   background-image: url("../assets/curso/images/tema1/jb_1.svg") !important
-  background-repeat: no-repeat !important
-  background-size: contain
-  margin-left: 15px !important
-  @media (max-width: 768px)
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  @media (max-width: $bp-max-md) 
     background-image: none !important
-  @media (max-width: 576px)
-    background-image: none !important
-  @media (max-width: 412px)
-    background-image: none !important
+    background-color: #DEEBAD 
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    background-size: 100% 98%
  
 
 .fondo-7
@@ -351,10 +380,18 @@
 .jumbotron-5
   background-color: #FFD3C3
   border-radius: 20px
-  height: 230px !important
+  width: 100%  !important
+  height: 300px !important
+  @media (max-width: 992px)
+    background-repeat: no-repeat
+    background-size: cover
+    width: 100%  !important
+    font-size: 12px
+    height: 280px !important
   @media (max-width: 768px)
     background-repeat: no-repeat
     background-size: cover
+    width: 100%  !important
     font-size: 12px
     height: 280px !important
 
@@ -389,16 +426,25 @@
     background-repeat: no-repeat
     background-size: cover
     width: auto
-    height: 85px
+    height: 100% !important
     margin-left: 80px !important
     margin-right: 120px
+    margin-top: -190px !important
+  @media (max-width: 576px)
+    background-repeat: no-repeat
+    background-size: cover
+    width: auto
+    height: 100% !important
+    margin-left: -1px !important
+    margin-right: 120px !important
+    margin-top: -190px !important
   @media (max-width: 412px)
     background-repeat: no-repeat
     background-size: cover
     width: auto
     height: 85px
     margin-left: 15px !important
-    margin-right: 120px
+    margin-right: -70px !important
 
 
 .tarjeta-avatar 
@@ -412,7 +458,20 @@
     height: 585px
     margin-left: 150px
     margin-right: 120px
- 
+  @media (max-width: 576px)
+    background-repeat: no-repeat
+    background-size: cover
+    width: auto
+    height: 585px
+    margin-left: 180px
+    margin-right: 10px
+  @media (max-width: 412px)
+    background-repeat: no-repeat
+    background-size: cover
+    width: auto
+    height: 85px
+    margin-left: 150px !important
+    margin-right: 100px !important
 
 
 .bg-color-1
@@ -422,59 +481,28 @@
 .horizontal-scroll
     align-items: stretch!important
 
-.tarjeta_grey-1
-  background-image: url("../assets/curso/images/tema1/back_slyder.svg") !important
-  width: 90%
-  height: 450px !important
-  background-repeat: no-repeat 
-  background-size: cover !important
-  box-shadow: 2px 4px 8px #cdcdcd
-  border-top-left-radius: 20px
-  border-top-right-radius: 20px
-  border-bottom-left-radius: 20px
-  border-bottom-right-radius: 20px
+.bg-1
+  background-color: #CEE284
+  border-radius: 20px !important
+  height: 97% !important
   @media (max-width: 992px)
     background-repeat: no-repeat
-    background-color:#B0C0D2
-    width: 100% !important
+    background-size: contain
+    height: 100% !important
   @media (max-width: 768px)
     background-repeat: no-repeat
-    background-color: #B0C0D2
-    width: 100% !important
+    background-size: contain
+    height: 97% !important
   @media (max-width: 576px)
     background-repeat: no-repeat
-    background-color: #B0C0D2
-    width: 100% !important
-    height: auto !important
-    font-size: 14px
+    background-size: cover
+    height: 97% !important
   @media (max-width: 412px)
     background-repeat: no-repeat
-    background-color: #B0C0D2
-    width: 100% !important
-    height: auto !important
-    font-size: 10.5px !important
-  @media (max-width: 397px)
-    background-repeat: no-repeat
-    background-color: #B0C0D2
-    width: 100% !important
+    background-size: cover
+    height: 97% !important
 
-.bg-1
-  background-color: #fff
-  height: 100% !important
-  width: 100% !important
-  @media (max-width: 768px)
-    background-repeat: no-repeat
-    background-size: cover
-    align-items: center !important
-  @media (max-width: 576px)
-    background-repeat: no-repeat
-    background-size: cover
-    margin-left: -2px !important
-  @media (max-width: 412px)
-    background-repeat: no-repeat
-    background-size: cover
-    margin-left: 2px !important
-    font-size: 18px !important
+  
 
 .bg_grad-01
   background-color: #EFF5D6
@@ -621,104 +649,6 @@
     background-repeat: no-repeat
     z-index: 0
 
-// CUSTOM BOX - LEFT-3
-.custom_box_left-3     
-  position: relative
-  padding: 1rem 14.5rem 
-  background-image: url("../assets/curso/images/tema1/img_3.svg") !important
-  background-repeat: no-repeat
-  margin-left: 50px
-  margin-right: -180px
-  p
-    position: relative 
-  &:before 
-    content: ""
-    position: absolute
-    top: -55px
-    left: -50%
-    width: 50%
-    height: 130%
-    margin-left: 30px
-    background-repeat: no-repeat
-    z-index: 0
-  @media (max-width: 768px)
-    background-image: none !important
-    width: 1110px 
-    margin-left: -230px !important
-  @media (max-width: 576px)
-    background-image: none !important
-    width: 960px 
-    margin-left: -230px !important
-  @media (max-width: 412px)
-    background-image: none !important
-    width: 850px 
-    margin-left: -240px !important
-
-// CUSTOM BOX - LEFT-4
-.custom_box_left-4    
-  position: relative
-  padding: 1rem 14.5rem 
-  background-image: url("../assets/curso/images/tema1/img_5.svg") !important
-  background-repeat: no-repeat
-  margin-left: 50px
-  margin-right: -180px
-  p
-    position: relative 
-  &:before 
-    content: ""
-    position: absolute
-    top: -55px
-    left: -50%
-    width: 50%
-    height: 130%
-    margin-left: 30px
-    background-repeat: no-repeat
-    z-index: 0
-  @media (max-width: 768px)
-    background-image: none !important
-    width: 1110px 
-    margin-left: -230px !important
-  @media (max-width: 576px)
-    background-image: none !important
-    width: 960px 
-    margin-left: -230px !important
-  @media (max-width: 412px)
-    background-image: none !important
-    width: 850px 
-    margin-left: -240px !important
-
-// CUSTOM BOX - LEFT-5
-.custom_box_left-5   
-  position: relative
-  padding: 1rem 14.5rem 
-  background-image: url("../assets/curso/images/tema1/img_7.svg") !important
-  background-repeat: no-repeat
-  margin-left: 50px
-  margin-right: -180px
-  p
-    position: relative 
-  &:before 
-    content: ""
-    position: absolute
-    top: -55px
-    left: -50%
-    width: 50%
-    height: 130%
-    margin-left: 30px
-    background-repeat: no-repeat
-    z-index: 0
-  @media (max-width: 768px)
-    background-image: none !important
-    width: 1110px 
-    margin-left: -230px !important
-  @media (max-width: 576px)
-    background-image: none !important
-    width: 960px 
-    margin-left: -230px !important
-  @media (max-width: 412px)
-    background-image: none !important
-    width: 850px 
-    margin-left: -240px !important
 
 .onTop
   position: relative

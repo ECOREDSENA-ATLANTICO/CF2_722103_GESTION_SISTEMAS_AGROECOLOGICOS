@@ -9,7 +9,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-7.col-lg-4(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema2/img_1.png'  alt='')
+        img.mb-3(src='@/assets/curso/images/tema2/img_1.png'  alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-3 La agroecología se estructura de una sucesión de postulados metodológicos para el desarrollo, integración y mejoramiento de las prácticas agroecológicas y que dan respuesta a los siguientes principios:
         ul.lista-ul--color
@@ -31,13 +31,153 @@
           h5 Figura 4
           span Enfoques de la agroecología
 
-    .row.align-items-center.justify-content-center.my-5
-      .col-lg-10(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema2/fig_1.svg')
-    .row.mb-5
-      .col-lg-12
-        .jumbotron-3.p-2
-          p.mb-0 Nota. Tomada de Sarandón y Flores (2014). 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-10(data-aos="fade")
+        .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-up") 
+          table
+            caption Nota. Tomada de Sarandón y Flores (2014). 
+            thead
+              tr
+                th.th-6  Enfoque productivista Agricultura Intensiva
+                th.th-6 Enfoque Agroecológico Agricultura Sustentable
+              tr
+                th.th-7.text-center(style="" colspan="2") Enfoque
+            tbody
+              tr
+                td 
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Reduccionista 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Hay un solo tipo de agricultura 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  <b>La ética:</b> un valor "difuso". 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Falta de una óptica sistémica 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Importancia de los componentes
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Reducción o mala definición de los límites del sistema
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Sólo reconoce al conocimiento científico. 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Lo local es poco importante. 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Uso exclusivo del territorio.  
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Minimiza aspectos socioculturales.
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Principalmente basada en tecnologías de insumos. 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0 Los científicos "generan" la tecnología.
+                td 
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Holístico
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Existen varios modos de hacer agricultura 
+
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  La ética como valor fundamental. 
+
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Empleo de una óptica sistémica 
+
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Importancia de las interrelaciones 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Ampliación y redefinición de los límites del sistema.
+
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Reconoce el conocimiento científico y otros. Concepto
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  pluriepistemológico 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Lo local es importante: potencial endógeno  
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Uso múltiple del territorio: alimentos, turismo, paisaje, servicios ecológicos
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Revaloriza aspectos socioculturales. 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0 Principalmente basada en tecnologías de procesos.
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0 Participación del agricultor en la generación de tecnología.
+            
+              tr
+                th.th-8.text-center(style="" colspan="2") Objetivo
+            tbody
+              tr
+                td 
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  A corto plazo 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Concepto productivista 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0 Énfasis en el rendimiento 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  No incorpora el costo ambiental 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Sistemas simples, baja diversidad (inestabilidad) 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  La biodiversidad como fuente de genes. 
+                    
+                td 
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  A largo plazo 
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Concepto sustentable 
+
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Énfasis en el agroecosistema y ecosistemas relacionados  
+
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Incorporación del costo ambiental 
+
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Sistemas complejos, alta diversidad (estabilidad) 
+
+                    li 
+                      i.fas.fa-angle-right
+                      p.mb-0  Ampliación y redefinición de los límites del sistema.La biodiversidad funcional y estructural en los agroecosistemas y como soporte de vida.
+                    
 
     p.mb-5 Asimismo, la agroecología busca promover el manejo de los agroecosistemas bajo las siguientes estrategias:
 
