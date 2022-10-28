@@ -182,82 +182,88 @@
     p.mb-5 Asimismo, la agroecología busca promover el manejo de los agroecosistemas bajo las siguientes estrategias:
 
     h3.text-center Estrategias para promover el manejo agroecológico de los agroecosistemas
-
+    
     .row.justify-content-center.align-items-center
-      .col-lg-8
-        PasosA.color-acento-contenido.mt-5(tipo="n")(data-aos="fade-right")
+      .col-lg-8(data-aos="fade-right")
+        PasosA.color-acento-contenido(tipo="n")
           .row.justify-content-center.align-items-center
-            .col-lg-7
+            .col-lg-7.order-2.order-lg-1 
               p(data-aos="fade-down") Una producción eficiente y rentable a largo plazo (considerando el costo ecológico) que promueva la conservación de suelos, agua, energía y recursos biológicos (como la biodiversidad). 
-            .col-7.col-lg-3.my-3 
+            .col-5.col-lg-3.my-3.order-1.order-lg-2 
               img(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_2.svg', alt='')
 
           .row.justify-content-center.align-items-center
-            .col-7.col-lg-3.my-3  
+            .col-5.col-lg-3.my-3.order-2.order-lg-1 
               img(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_3.svg', alt='')
-            .col-lg-7.text-start
+            .col-lg-7.text-start.order-2.order-lg-1 
               p(data-aos="fade-down") Una disminución del riesgo debido a fluctuaciones ambientales (bióticas y abióticas) o de mercado. Lograr una mayor estabilidad y resiliencia en el tiempo. 
+              
 
           .row.justify-content-center.align-items-center
-            .col-lg-7.my-3 
+            .col-lg-7.my-3.order-2.order-lg-1 2  
               p(data-aos="fade-down") Un uso o degradación de los recursos naturales renovables a un ritmo menor o igual a su tasa de reposición. 
-            .col-7.col-lg-3.my-3 
+            .col-7.col-lg-3.my-3.order-1.order-lg-2  
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_4.svg', alt='')
 
           .row.justify-content-center.align-items-center
-            .col-7.col-lg-3.my-3  
+            .col-7.col-lg-3.my-3.order-2.order-lg-1  
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_5.svg', alt='')
-            .col-lg-7.text-start
+            .col-lg-7.text-start.order-2.order-lg-1  
               p(data-aos="fade-down") Un uso o explotación de los recursos no renovables a un ritmo menor o igual al de la tasa de desarrollo de tecnologías alternativas. 
 
           .row.justify-content-center.align-items-center
-            .col-lg-7.my-3
+            .col-lg-7.my-3.order-2.order-lg-1 
               p(data-aos="fade-down") Una emisión de residuos similar o menor a la capacidad de asimilación del ambiente. 
-            .col-7.col-lg-3.my-3 
+            .col-7.col-lg-3.my-3.order-1.order-lg-2  
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_6.svg', alt='')
 
           .row.justify-content-center.align-items-center
-            .col-7.col-lg-3.my-3  
+            .col-7.col-lg-3.my-3.order-2.order-lg-1   
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_7.svg', alt='')
-            .col-lg-7.text-start
+            .col-lg-7.text-start.order-2.order-lg-1 
               p(data-aos="fade-down") Un aumento en la biodiversidad funcional de los sistemas productivos. 
 
           .row.justify-content-center.align-items-center
-            .col-lg-7.my-3 
+            .col-lg-7.my-3.order-2.order-lg-1  
               p(data-aos="fade-down") Una eliminación o disminución del daño al ambiente, a otras especies, y/o a la salud de agricultores y consumidores. 
-            .col-7.col-lg-3.my-3 
+            .col-7.col-lg-3.my-3.order-1.order-lg-2  
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_8.svg', alt='')
 
           .row.justify-content-center.align-items-center
-            .col-7.col-lg-3.my-3 
+            .col-7.col-lg-3.my-3.order-2.order-lg-1   
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_9.svg', alt='')
-            .col-lg-7.text-start
+            .col-lg-7.text-start.order-2.order-lg-1 
               p(data-aos="fade-down") Un uso más eficiente de la energía (principalmente fósil). 
 
           .row.justify-content-center.align-items-center
-            .col-7.col-lg-3.my-3 
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_10.svg', alt='')
-            .col-lg-7.text-start
+            .col-lg-7.text-start.order-2.order-lg-1 
               p(data-aos="fade-down") Un desarrollo de tecnologías que sean cultural y socialmente aceptables.
+            .col-7.col-lg-3.my-3.order-1.order-lg-2  
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_10.svg', alt='')
+            
 
           .row.justify-content-center.align-items-center
-            .col-lg-7.my-3.text-start
-              p(data-aos="fade-down") Una menor dependencia del uso de insumos externos (combustibles fósiles, plaguicidas, fertilizantes sintéticos, etc.).
-            .col-7.col-lg-3.my-3 
+            .col-7.col-lg-3.my-3.order-2.order-lg-1   
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_11.svg', alt='')
+            .col-lg-7.my-3.text-start.order-2.order-lg-1 
+              p(data-aos="fade-down") Una menor dependencia del uso de insumos externos (combustibles fósiles, plaguicidas, fertilizantes sintéticos, etc.).
+            
 
           .row.justify-content-center.align-items-center
-            .col-7.col-lg-3.my-3 
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_12.svg', alt='')
-            .col-lg-7.my-3 
+            .col-lg-7.my-3.order-2.order-lg-1  
               p(data-aos="fade-down") Un ajuste de los sistemas de cultivo a la productividad potencial y a las limitantes físicas, económicas y socioculturales de los agroecosistemas. 
+            .col-7.col-lg-3.my-3.order-1.order-lg-2  
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_12.svg', alt='')
+            
 
           .row.justify-content-center.align-items-center
-            .col-lg-7.my-3.text-start
+            .col-7.col-lg-3.my-3.order-2.order-lg-1  
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/ico_new.svg', alt='')
+            .col-lg-7.my-3.text-start.order-2.order-lg-1 
               p(data-aos="fade-down") Un mayor aprovechamiento de procesos naturales en la producción agrícola (reciclaje de materia orgánica y nutrientes, fijación de nitrógeno, alelopatía y relaciones predador-presa).
-            .col-7.col-lg-3.my-3 
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/planta.svg', alt='')
+            
       
+
     p.mb-3 Un mayor aprovechamiento de procesos naturales en la producción agrícola (reciclaje de materia orgánica y nutrientes, fijación de nitrógeno, alelopatía y relaciones predador-presa). 
 
     Separador
@@ -314,14 +320,14 @@
 
     
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-8(data-aos="fade-left")
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-left")
         p.mb-3 Para que una actividad o proyecto agrícola como un todo se considere sostenible, deberá integrar los componentes sociales, económicos y ambientales que correspondan y apliquen, sin embargo, estos no son suficientes, de acuerdo a la evolución del concepto de sostenibilidad y las dimensiones de la Agenda 2030, ya que adicionalmente se hace necesaria la adopción de decisiones conscientes de las externalidades positivas y negativas, así como las sinergias y el aporte a la construcción del territorio y sus zonas de influencia. 
 
         p.mb-0 Asimismo, el desarrollo sostenible busca asegurar que toda intervención en el medio se desarrolle, gestione y ejecute en un marco de acción que respete y proteja a todos los grupos de interés: 
-      .col-7.col-lg-4(data-aos="fade-right") 
+      .col-7.col-lg-4.order-1.order-lg-2(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/img_19.png'  alt='')
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
+    .row.align-items-center.justify-content-center.mb-2(data-aos="fade-down")
       .col-7.col-lg-3.mb-3
         .tarjeta.tarjeta-foto-hover
           .tarjeta-foto-hover__img: img(src='@/assets/curso/images/tema2/tj_1.svg')
@@ -384,7 +390,7 @@
 
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-7.col-lg-2(data-aos="fade-right") 
+      .col-5.col-lg-2(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/ico_2.svg'  alt='')
       .col-lg-10(data-aos="fade-left")
         p.mb-3 El ambiente, la economía, la tecnología y la sociedad son los cuatro componentes clave para el desarrollo sostenible ya que este desarrollo genera una compleja red de condiciones y procesos en la búsqueda del bienestar de la comunidad en su conjunto. Actualmente, el ambiente ha ganado espacio científico, académico y gerencial a escala planetaria; mientras la economía es el nervio de la actividad financiera que guarda equilibrio con las demás categorías; en tanto que la tecnología que va a tener mayor demanda es la amigable lo que tiende a disminuir el deterioro ambiental y la sociedad se convierta en el actor principal por excelencia para la gestión del desarrollo armónico y equilibrado.
@@ -406,21 +412,12 @@
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_21.png'  alt='')
 
-  
-      .row.justify-content-center.align-items-center.d-none.d-lg-block           
-        .col-lg
-          .custom_box_left-2(data-aos="fade-left") 
-            p.mb-0 La sociedad demanda a las actividades desarrolladas en proyectos de diversas disciplinas que se comprometan con el cuidado del medio ambiente y en respuesta a estas exigencias la sostenibilidad es la oportunidad para mejorar su comportamiento y desempeño. Dada esta realidad, la identificación y evaluación de los impactos ambientales y medir sus huellas ecológicas.
-  
-  
-    .row.mb-5.d-block.d-lg-none
-      .col-lg-11
-        .tarjeta-avatar
-          .tarjeta.fondo-7
-            .p-5
-              p.mt-5 La sociedad demanda a las actividades desarrolladas en proyectos de diversas disciplinas que se comprometan con el cuidado del medio ambiente y en respuesta a estas exigencias la sostenibilidad es la oportunidad para mejorar su comportamiento y desempeño. Dada esta realidad, la identificación y evaluación de los impactos ambientales y medir sus huellas ecológicas.
 
-      
+    .row.justify-content-center.fondo-10.mb-5
+      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema2/ico_new_1.svg', alt='')  
+      .col-lg-10
+        p.m-top La sociedad demanda a las actividades desarrolladas en proyectos de diversas disciplinas que se comprometan con el cuidado del medio ambiente y en respuesta a estas exigencias la sostenibilidad es la oportunidad para mejorar su comportamiento y desempeño. Dada esta realidad, la identificación y evaluación de los impactos ambientales y medir sus huellas ecológicas.
+  
 
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-3
@@ -433,7 +430,7 @@
         p.mb-0 Dentro de la huella ambiental se consideran un máximo de 14 tipos diferentes de impactos ambientales como se muestra a continuación: 
 
 
-      .col-5.col-lg-2(data-aos="fade-left")
+      .col-5.col-lg-2.d-none.d-lg.-flex(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/ico_19.svg'  alt='')
       
 
@@ -444,32 +441,32 @@
           span  Categorías de impacto de la huella ambiental
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-1
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_3.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
               p.my-5  Cambio climático.
 
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-1
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_4.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
               p.mt-5 Destrucción de la capa de ozono.
 
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-1
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_5.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
               p.mt-4 Toxicidad humana con efectos cancerígenos.
 
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-1
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_6.svg' alt='AvatarTop')
@@ -477,32 +474,32 @@
               p.mt-4 Toxicidad humana sin efectos cancerígenos.
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-1
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_7.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
               p.mt-0  Partículas y aspectos respiratorios.
 
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-1
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_8.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
               p.mt-5 Radiación ionizante.
 
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-1
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_9.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
               p.mt-4 Formación de ozono fotoquímico.
 
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-1
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_10.svg' alt='AvatarTop')
@@ -510,19 +507,52 @@
               p.mt-5 Acidificación.
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-1
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_11.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-4  Consumo de recursos hídricos.
+              p.mt-2  Eutrofización terrestre.
 
-      .col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_12.svg' alt='AvatarTop')
+            .col-6.col-lg-8.lg-0
+              p.mt-0 Eutrofización acuática.
+
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
+          .row.justify-content-center.align-items-center
+            .col-3.col-lg-4.lg-0
+              img(src='@/assets/curso/images/tema2/ico_13.svg' alt='AvatarTop')
+            .col-6.col-lg-8.lg-0
+              p.mt-0 Ecotoxicidad en medio acuático.
+
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4
+          .row.justify-content-center.align-items-center
+            .col-3.col-lg-4.lg-0
+              img(src='@/assets/curso/images/tema2/ico_14.svg' alt='AvatarTop')
+            .col-6.col-lg-8.lg-0
+              p.mt-0 Uso del suelo.
+    
+    .row.justify-content-center.align-items-stretch.mb-4
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4.mb-3
+          .row.justify-content-center.align-items-center
+            .col-3.col-lg-4.lg-0
+              img(src='@/assets/curso/images/tema2/ico_15.svg' alt='AvatarTop')
+            .col-6.col-lg-8.lg-0
+              p.mt-4  Consumo de recursos hídricos.
+
+      .col-10.col-lg-3(data-aos="fade-right")
+        .jumbotron-6.p-4
+          .row.justify-content-center.align-items-center
+            .col-3.col-lg-4.lg-0
+              img(src='@/assets/curso/images/tema2/ico_16.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
               p.mt-0 Consumo de recursos minerales y combustibles fósiles.
 
@@ -541,10 +571,10 @@
 
 
     .row.justify-content-center.align-items-center.mt-4
-      .col-lg-11.tarjeta-avatar-b(data-aos="fade-left").my-3
+      .col-lg-12.tarjeta-avatar-b(data-aos="fade-left").my-3
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/images/tema2/ico_17.svg' alt='AvatarTop')
-        .tarjeta.color-custom-5.p-5
+        .tarjeta-1.tarjeta.color-custom-5.p-2
           .row.justify-content-center.align-items-center
             .col-lg-4
               h4 ¿Cuál es la diferencia entre huella ecológica y huella de carbono?
@@ -552,10 +582,10 @@
               p.mt-4 La huella de carbono, considera las emisiones de CO2, cuenta todos los Gases de Efecto Invernadero (GEI) y se emplea para determinar el impacto de las actividades humanas en el medio ambiente. Por otro lado, la huella ecológica contempla todos los factores relacionados con el estilo de vida y su impacto, emitan o no emitan gases de efecto invernadero, los cuales son perjudiciales para el entorno.
 
     .row.justify-content-center.align-items-center.my-4
-      .col-lg-11.tarjeta-avatar-b(data-aos="fade-right").my-3
+      .col-lg-12.tarjeta-avatar-b(data-aos="fade-right").my-3
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/images/tema2/ico_17.svg' alt='AvatarTop')
-        .tarjeta.color-custom-6.p-5
+        .tarjeta-1.tarjeta.color-custom-6.p-2
           .row.justify-content-center.align-items-center
             .col-lg-4
               h4.mt-5 ¿Qué es la huella hídrica?
@@ -604,19 +634,20 @@
 
     p.mb-5 Existen dos tipos de huella de carbono, a saber:
 
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-5.lg-0
-        .jumbotron-7.p-5.mb-1(data-aos="fade-right") 
-            .col-5.col-lg-10
-            img.mb-4(src='@/assets/curso/images/tema2/ico_18.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
+    .row.justify-content-center.mb-5
+      .col-lg-5.lg-0.mb-3
+        .jumbotron-7.p-5.h-100(data-aos="fade-right") 
+          .col-5.col-lg-10
+            img(src='@/assets/curso/images/tema2/ico_18.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
             h3.mt-3 Huella de carbono organizacional
-            p.mb-5 Cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización
+            p.mb-0 Cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización
+          
       .col-lg-5.lg-0
-        .jumbotron-8.p-5(data-aos="fade-left")
-            .col-5.col-lg-10
+        .jumbotron-8.p-5.h-100(data-aos="fade-left")
+          .col-5.col-lg-10
             img(src='@/assets/curso/images/tema2/ico_18.svg',  alt='', style="width:90px; display:block; margin:auto 0 ;")
             h3.mt-3 Huella de carbono de producto
-            p.mb-2 Cuantifica la emisión de GEI a lo largo del ciclo de vida del producto, iniciando en la obtención de las materias primas, la fabricación, la distribución, el uso, hasta la etapa final de la vida útil de este (reutilización, reciclado o disposición final).
+            p.mb-0 Cuantifica la emisión de GEI a lo largo del ciclo de vida del producto, iniciando en la obtención de las materias primas, la fabricación, la distribución, el uso, hasta la etapa final de la vida útil de este (reutilización, reciclado o disposición final).
 
     Separador
 
@@ -629,23 +660,13 @@
       .col-7.col-lg-4(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/img_23.png'  alt='')
 
-    .row.d-none.d-lg-block   
-      .row.justify-content-center.align-items-center   
-        .col-auto.onTop(data-aos="fade-right")      
-          img(src="@/assets/curso/images/tema2/img_new.svg" alt='AvatarTop', style="width:350px;").m-auto     
-        .col-lg
-          .custom_box_left(data-aos="fade-left") 
-            p.mb-0 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.   
-  
-  
-    .row.mb-5.d-block.d-lg-none
-      .col-lg-11
-        .tarjeta-avatar
-          img(src="@/assets/curso/images/tema2/img_new.svg" alt='AvatarTop')
-          .tarjeta.fondo-9
-            .p-4
-              p.m-top-3 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.
-
+    
+    .row.fondo-1.mb-3
+      .col-lg-4.mb-3.mb-lg-0.ps-0.pe-5(style="place-self:center")
+        figure.text-center
+          img.mt-4(src="@/assets/curso/images/tema2/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:340px;")
+      .col-lg-8.mb-3.mb-lg-0.p-5(style="place-self:center")
+        p.mb-0.mx-4.mt-3 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.   
 
     .row.align-items-center.justify-content-center.mb-5
       .col-7.col-lg-4(data-aos="fade-right") 
@@ -683,6 +704,7 @@
       .col-lg-9.lg-0
         TabsA.color-acento-contenido(data-aos="fade")
           .tarjeta.back-tab.px-5.py-4(titulo="Conservación y regeneración de los recursos naturales.")
+            h4 Conservación y regeneración de los recursos naturales.
             ul.lista-ul--color
               li 
                 i.fas.fa-angle-right
@@ -695,6 +717,7 @@
                 | Germoplasma (especies nativas animales y vegetales, tipos de suelos, germoplasma adaptado).
 
           .tarjeta.back-tab.px-5.py-4(titulo="Manejo de recursos productivos.")
+            h4 Manejo de recursos productivos
             ul.lista-ul--color
               li 
                 i.fas.fa-angle-right
@@ -707,6 +730,7 @@
                 | Regulación biótica (protección del cultivo y salud animal).
 
           .tarjeta.back-tab.px-5.py-4(titulo="Puesta en práctica de los elementos técnicos.")
+            h4 Puesta en práctica de los elementos técnicos.
             ul.lista-ul--color
               li 
                 i.fas.fa-angle-right
@@ -716,15 +740,15 @@
                 | Puesta en práctica de la racionalidad campesina y la incorporación de elementos de manejo tradicional.
   
       .col-7.col-lg-3.lg-0
-        img(src='@/assets/curso/images/tema2/img_25.svg'  alt='')
+        img.mt-3(src='@/assets/curso/images/tema2/img_25.svg'  alt='')
 
-    .row.align-items-center.justify-content-star.my-5.ps-2(data-aos="zoom-in-down")
+    .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-3
         .h4.mx-3.mb-0 Barreras para una transición agroecológica sostenible
 
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-center.justify-content-center
       .col-7.col-lg-4(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema2/img_26.png'  alt='')
+        img.mb-3(src='@/assets/curso/images/tema2/img_26.png'  alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-3 Desde el componente práctico se han identificado una serie de limitaciones o barreras técnicas relacionadas con la falta de asistencia técnica y de información; sumado a la escasez de referencias técnicas adaptadas localmente; problemas asociados a la degradación previa del agroecosistema; falta de semillas certificadas adaptadas a cada latitud y las dificultades para la diversificación a nivel productivo y comercial. 
         p.mb-0 En cuanto a las barreras sociales identificadas, existen barreras asociadas al bajo compromiso desarrollado por actividades de conversión, así como la exigencia mayor de mano de obra para la producción agroecológica. Con respecto a las barreras de índole económico, se puede decir que estas corresponden a las dificultades para la comercialización de un producto más ecológico, y en el subsiguiente acceso a mercados que valoren la oferta de un producto diferenciado; sin mencionar las pérdidas productivas por contaminación por el uso de agroquímicos; la falta de apoyos indirectos o directos versus la producción convencional; sin mencionar los altos costos de los insumos ecológicos; problemas de liquidez para la readaptación de los terrenos hacia un modelo agroecológico y los altos costos asociados con la obtención de certificaciones para pequeños y medianos productores.

@@ -239,7 +239,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade")
-        .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-up") 
+        .tabla.color-acento-botones.mb-5(data-aos="zoom-in-up") 
           table
             caption Nota. Tomada de Casimiro (2016).  
             thead

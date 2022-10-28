@@ -170,7 +170,7 @@ td, th
     margin-top: 10px !important
 
 .m-top
-  margin-top: 255px
+  margin-top: 65px
 
 .m-top-1
   margin-top: -240px
@@ -218,7 +218,8 @@ td, th
     margin-left: -10px !important
     font-size: 14px !important
 
-
+.tarjeta-1 
+  border-radius: 0px
 
 .bg-degrade
   background: #DEEBAD
@@ -256,7 +257,8 @@ td, th
 
 .color-custom-5
 	background-color: #FFE9E1
-  
+
+
 .color-custom-6
 	background-color: #EFF5D6
 
@@ -300,7 +302,7 @@ td, th
     border-right-color: currentcolor
     border-bottom-color: currentcolor
     border-left-color: currentcolor
-  width: 96%
+  width: 100%
   position: relative
   border-radius: 0px
 
@@ -362,6 +364,12 @@ td, th
     background-size: cover
     margin-left: -110px !important
     width: 280px
+
+.fondo-10
+  background-image: url("../assets/curso/images/tema2/back_texto.svg") !important
+  background-repeat: no-repeat !important
+  background-size: contain
+
   
 .jumbotron-1
   background-color: #CEE284
@@ -406,6 +414,7 @@ td, th
 .jumbotron-8
   background-color: #FFD3C3 !important
   border-radius: 20px
+
 
 .jumbotron-9
   background-color: #FFFF !important
@@ -636,6 +645,18 @@ td, th
   background-repeat: no-repeat
   margin-left: 50px
   margin-right: -180px
+  @media (max-width: 769px)
+    background-image: none !important
+  @media (max-width: 992px)
+    width: 100%
+    background-image: none !important
+  @media (max-width: 768px)
+    width: 100%
+    margin-left: 5px
+  @media (max-width: 576px)
+    width: 100%
+  @media (max-width: 390px)
+    margin-left: -5px !important
   p
     position: relative 
   &:before 
