@@ -151,7 +151,7 @@ export default {
     },
     {
       referencia:
-        'Briggs, D., & Courtney, M. (1985). Agriculture and Environment. Longman.',
+        'Briggs, D., & Courtney, M. (1985). <i>Agriculture and Environment. Longman.</i>',
     },
     {
       referencia:
@@ -196,11 +196,11 @@ export default {
     },
     {
       referencia:
-        'Shiva, V. (1991). “Miracle seeds” and the destruction of genetic diversity. In: The violence of the green revolution. Third World Agriculture, Ecology and Politics. (pp. 61-102). Third World Network. ',
+        'Shiva, V. (1991). <i>“Miracle seeds” and the destruction of genetic diversity. In: The violence of the green revolution. Third World Agriculture, Ecology and Politics. (pp. 61-102). Third World Network.</i> ',
     },
     {
       referencia:
-        'Shiva, V. (2014). The GMO Emperor Has No Clothes - Genetic Engineering Is a Failed Technology. En V. Shiva, The Vandana Shiva Reader (pp. 277 - 297).  The University Press of Kentucky.',
+        'Shiva, V. (2014). <i>The GMO Emperor Has No Clothes - Genetic Engineering Is a Failed Technology. En V. Shiva, The Vandana Shiva Reader (pp. 277 - 297).  The University Press of Kentucky.</i>',
     },
   ],
   glosario: [
@@ -256,7 +256,7 @@ export default {
     {
       tema: '1.2 Metodologías y prácticas de la agroecología.',
       referencia:
-        'Wezel, A., Gemmill Herren, B., Bezner Kerr, R., Barrios, E., Rodrigues Gonçalves, A. L., y Sinclair, F. (2020). Principios y elementos agroecológicos y sus implicaciones para la transición a sistemas alimentarios sostenibles. Agronomy for Sustainable Development. ',
+        'Wezel, A., Gemmill Herren, B., Bezner Kerr, R., Barrios, E., Rodrigues Gonçalves, A. L., y Sinclair, F. (2020). Principios y elementos agroecológicos y sus implicaciones para la transición a sistemas alimentarios sostenibles. <i>Agronomy for Sustainable Development</i>. ',
       tipo: 'Artículo',
       link:
         'http://www.alimentosargentinos.gob.ar/HomeAlimentos/Organicos/documentos/Principios-agroecologicos-Wezel-2020.pdf',
@@ -273,7 +273,7 @@ export default {
       tema:
         '2.3 La agroecología como enfoque principal para una agricultura sostenible.',
       referencia:
-        'Food and Agriculture Organization of the United Nations. (2021). Agroecología, un enfoque para alcanzar sistemas agroalimentarios más sostenibles y resilientes. [Video]. YouTube. ',
+        '<i>Food and Agriculture Organization of the United Nations.</i> (2021). Agroecología, un enfoque para alcanzar sistemas agroalimentarios más sostenibles y resilientes. [Video]. YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=e_wOOOOZNrQ&ab_channel=FoodandAgricultureOrganizationoftheUnitedNations',

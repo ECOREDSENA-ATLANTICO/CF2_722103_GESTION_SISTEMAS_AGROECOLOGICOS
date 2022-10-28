@@ -48,7 +48,7 @@
         img(src='@/assets/curso/images/tema1/img_2.png'  alt='')
 
     .row.justify-content-center.mb-5
-      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_3.svg', alt='')  
+      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_3.svg', alt='').d-none.d-lg.-flex  
       .col-lg-10
         p Esto en un contexto agrícola tradicional, ahora como se verá impactado el medio ambiente, la sociedad y la economía nacional y global con la introducción de los Organismos Vivos Modificados (OVM) en el modelo de desarrollo agroindustrial, que busca, inicialmente, bajo una mirada de revolución del sector, ser parte de la solución de algunas de las problemáticas anteriormente expuestas, pero que trae consigo a su vez impactos que deben ser gestionados de manera adecuada para no convertirse en otro reto a solucionar, tal como lo plantea la Convención sobre Diversidad Biológica y sus diferentes protocolos.
 
@@ -156,7 +156,7 @@
               img.mx-1(src="@/assets/curso/images/tema1/ico_5.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
-              p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b> que se encuentra en el material comentario. 
+              p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b>, que se encuentra en el material comentario. 
             .col-md-auto
               a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y&ab_channel=SemillasdeIdentidadColombia')" target="_blank")
                 span Enlace
@@ -333,7 +333,7 @@
       .col-lg-8(data-aos="fade-left")
         p.mb-3 El agroecosistema, está compuesto por componentes bióticos y abióticos interdependientes, a través de los cuales se procesan los nutrientes y se dan los intercambios de flujos energéticos.
 
-        p.mb-0 El flujo energético total que fluye a través del agroecosistema depende de la cantidad de energía fijada por las plantas y por los nutrientes suministrados. El flujo energético al estar relacionado con la cadena trófica, a medida que se transfiere de un nivel trófico a otro se pierde una cantidad de esta lo que limita la cantidad de organismos que pueden estar y mantenerse en cada nivel trófico.
+        p.mb-0 La función de los agroecosistemas se relaciona con los flujos energéticos y con los diferentes ciclos de los nutrientes como el carbono, fósforo, oxígeno, agua, el azufre y nitrógeno, conocidos como macronutrientes, a excepción del agua, que por medio de los componentes estructurales del ecosistema son modificados de acuerdo con el manejo de diferentes insumos agrícolas. El flujo energético está directamente relacionado con la captura de la energía solar por parte del material vegetal del agroecosistema, y esta energía es almacenada en la estructura química de la biomasa de la planta. 
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-10(data-aos="zoom-in-down")
@@ -357,7 +357,7 @@
         p.mb-3 Los organismos del agroecosistema necesitan flujo energético, también requieren de entradas de materia prima para poder mantener y desarrollar sus funciones vitales, esta materia prima está relacionada con los nutrientes que contienen una variedad de elementos y compuestos cruciales para la formación de células, tejidos y moléculas orgánicas complejas requeridas, para el óptimo funcionamiento de los organismos. La circulación de estos nutrientes en el agroecosistema se encuentra directamente relacionado con el flujo energético y se puede dar desde una forma inorgánica a una orgánica y viceversa. 
 
         .jumbotron-4.p-4
-          p.mb-0 El flujo energético total que fluye a través del agroecosistema depende de la cantidad de energía fijada por las plantas y por los nutrientes suministrados. El flujo energético al estar relacionado con la cadena trófica, a medida que se transfiere de un nivel trófico a otro se pierde una cantidad de esta lo que limita la cantidad de organismos que pueden estar y mantenerse en cada nivel trófico.
+          p.mb-0 El flujo energético total que fluye a través del agroecosistema depende de la cantidad de energía fijada por las plantas y por los nutrientes suministrados. El flujo energético al estar relacionado con la cadena trófica, a medida que se transfiere de un nivel trófico a otro se pierde una cantidad de esta, lo que limita la cantidad de organismos que pueden estar y mantenerse en cada nivel trófico.
 
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_9.png'  alt='')
@@ -370,7 +370,7 @@
               img.mx-1(src="@/assets/curso/images/tema1/ico_10.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
-              p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad que es la cadena trófica o cadena alimenticia:
+              p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad qué es la cadena trófica o cadena alimenticia:
             .col-md-auto
               a.boton(:href="('https://youtu.be/RtpjVC6FGxE')" target="_blank")
                 span Enlace
@@ -379,7 +379,7 @@
                     img.mx-3(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
 
-    p.mb-5 Una gran proporción del componente orgánico del ecosistema está compuesto por biomasa que es la materia viva que tiene un organismo, y puede variar de acuerdo con el tipo de organismo, el ambiente, el estado del ecosistema y por las actividades humanas. Esta biomasa se encuentra en el agroecosistema en forma de materia orgánica muerta proveniente de las plantas.
+    p.mb-5 Una gran proporción del componente orgánico del ecosistema está compuesto por biomasa, que es la materia viva que tiene un organismo, y puede variar de acuerdo con el tipo de organismo, el ambiente, el estado del ecosistema y por las actividades humanas. Esta biomasa se encuentra en el agroecosistema en forma de materia orgánica muerta proveniente de las plantas.
 
     
     .row.fondo-1.mb-3
@@ -422,14 +422,14 @@
       .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg
           img(src='@/assets/curso/images/tema1/img_new_4.png'  alt='')
-          p.text-center.mt-3.p-3 La distribución de los productos para el consumo subsistencia y/o venta, entre otros
+          p.text-center.mt-3.p-3 La distribución de los productos para el consumo subsistencia y/o venta, entre otros.
 
       .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg
           img(src='@/assets/curso/images/tema1/img_new_5.png'  alt='')
           p.text-center.mt-3.p-3 Estructuras usadas para la casa y facilitar las operaciones en la unidad productiva.
 
-    p.mb-5 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas los cuales son:
+    p.mb-5 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas, los cuales son:
 
     .row.justify-content-center.align-items-center.mb-0
       .col-10.col-lg-4.lg-0
@@ -684,6 +684,9 @@
                     li 
                       i.fas.fa-angle-right.th-3
                       | Usos de variedades de cultivos resistentes.
+                    li 
+                      i.fas.fa-angle-right.th-3
+                      | Manipulación de fechas de siembra.
                     li 
                       i.fas.fa-angle-right.th-3
                       | Espaciamiento en hileras.

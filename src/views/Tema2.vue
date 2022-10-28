@@ -28,7 +28,7 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 4
+          h5 Tabla 2
           span Enfoques de la agroecología
 
     .row.justify-content-center.align-items-center.mb-3
@@ -48,22 +48,22 @@
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Reduccionista 
+                      p.mb-0  Reduccionista. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Hay un solo tipo de agricultura 
+                      p.mb-0  Hay un solo tipo de agricultura. 
                     li 
                       i.fas.fa-angle-right
                       p.mb-0  <b>La ética:</b> un valor "difuso". 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Falta de una óptica sistémica 
+                      p.mb-0  Falta de una óptica sistémica. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Importancia de los componentes
+                      p.mb-0  Importancia de los componentes.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Reducción o mala definición de los límites del sistema
+                      p.mb-0  Reducción o mala definición de los límites del sistema.
                     li 
                       i.fas.fa-angle-right
                       p.mb-0  Sólo reconoce al conocimiento científico. 
@@ -86,10 +86,10 @@
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Holístico
+                      p.mb-0  Holístico.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Existen varios modos de hacer agricultura 
+                      p.mb-0  Existen varios modos de hacer agricultura. 
 
                     li 
                       i.fas.fa-angle-right
@@ -97,27 +97,27 @@
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Empleo de una óptica sistémica 
+                      p.mb-0  Empleo de una óptica sistémica. 
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Importancia de las interrelaciones 
+                      p.mb-0  Importancia de las interrelaciones. 
                     li 
                       i.fas.fa-angle-right
                       p.mb-0  Ampliación y redefinición de los límites del sistema.
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Reconoce el conocimiento científico y otros. Concepto
+                      p.mb-0  Reconoce el conocimiento científico y otros. Concepto.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  pluriepistemológico 
+                      p.mb-0  pluriepistemológico. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Lo local es importante: potencial endógeno  
+                      p.mb-0  Lo local es importante: potencial endógeno.  
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Uso múltiple del territorio: alimentos, turismo, paisaje, servicios ecológicos
+                      p.mb-0  Uso múltiple del territorio: alimentos, turismo, paisaje, servicios ecológicos.
                     li 
                       i.fas.fa-angle-right
                       p.mb-0  Revaloriza aspectos socioculturales. 
@@ -136,19 +136,19 @@
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  A corto plazo 
+                      p.mb-0  A corto plazo. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Concepto productivista 
+                      p.mb-0  Concepto productivista. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0 Énfasis en el rendimiento 
+                      p.mb-0 Énfasis en el rendimiento. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  No incorpora el costo ambiental 
+                      p.mb-0  No incorpora el costo ambiental. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Sistemas simples, baja diversidad (inestabilidad) 
+                      p.mb-0  Sistemas simples, baja diversidad (inestabilidad). 
                     li 
                       i.fas.fa-angle-right
                       p.mb-0  La biodiversidad como fuente de genes. 
@@ -157,22 +157,22 @@
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  A largo plazo 
+                      p.mb-0  A largo plazo. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Concepto sustentable 
+                      p.mb-0  Concepto sustentable. 
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Énfasis en el agroecosistema y ecosistemas relacionados  
+                      p.mb-0  Énfasis en el agroecosistema y ecosistemas relacionados.  
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Incorporación del costo ambiental 
+                      p.mb-0  Incorporación del costo ambiental. 
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Sistemas complejos, alta diversidad (estabilidad) 
+                      p.mb-0  Sistemas complejos, alta diversidad (estabilidad). 
 
                     li 
                       i.fas.fa-angle-right
@@ -309,7 +309,7 @@
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
                 h4.mb-5 Nuevos marcos de resultados e instrumentos de evaluación
-                p.mb-3 Para abordar y entender adecuadamente la multifuncionalidad del agro y el carácter multidimensional de su sostenibilidad, se requieren nuevos marcos de resultados e instrumentos de evaluación. Para ello, se han desarrollado métodos de evaluación multicriterio como el <b>“Instrumento para la evaluación del desempeño agroecológico”</b> de la FAO. Ahora, nuevas herramientas permiten medir indicadores biofísicos de manera costo-efectiva, como el Land Degradation Surveillance Framework desarrollado por el World Agroforestry, que utiliza la espectrometría y el machine learning para evaluar la salud de los ecosistemas.
+                p.mb-3 Para abordar y entender adecuadamente la multifuncionalidad del agro y el carácter multidimensional de su sostenibilidad, se requieren nuevos marcos de resultados e instrumentos de evaluación. Para ello, se han desarrollado métodos de evaluación multicriterio como el <b>“Instrumento para la evaluación del desempeño agroecológico”</b> de la FAO. Ahora, nuevas herramientas permiten medir indicadores biofísicos de manera costo-efectiva, como el <i>Land Degradation Surveillance Framework</i> desarrollado por el <i>World Agroforestry</i>, que utiliza la espectrometría y el <i>machine learning</i> para evaluar la salud de los ecosistemas.
               .col-lg-5
                 img(src="@/assets/curso/images/tema2/img_18.png").mb-3
 
@@ -640,7 +640,7 @@
           .col-5.col-lg-10
             img(src='@/assets/curso/images/tema2/ico_18.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
             h3.mt-3 Huella de carbono organizacional
-            p.mb-0 Cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización
+            p.mb-0 Cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización.
           
       .col-lg-5.lg-0
         .jumbotron-8.p-5.h-100(data-aos="fade-left")
@@ -666,7 +666,7 @@
         figure.text-center
           img.mt-4(src="@/assets/curso/images/tema2/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:340px;")
       .col-lg-8.mb-3.mb-lg-0.p-5(style="place-self:center")
-        p.mb-0.mx-4.mt-3 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.   
+        p.mb-0.mx-4.mt-3 El proceso de agricultura sostenible se reconoce como un todo, los sistemas de nutrición animal, la producción de productos agrícolas y el modelo alimenticio, bajo un esquema en el que confluyen en balance y armonía equitativa de aspectos de igualdad social, viabilidad económica y la armonía con el medio ambiente, incluyendo factores intergeneracionales e intersectoriales.
 
     .row.align-items-center.justify-content-center.mb-5
       .col-7.col-lg-4(data-aos="fade-right") 
@@ -701,7 +701,7 @@
     p.mb-5 A continuación, se presentan algunos elementos técnicos básicos de una estrategia agroecológica.
 
     .row.justify-content-center.align-items-star.mb-3
-      .col-lg-9.lg-0
+      .col-lg-10.lg-0
         TabsA.color-acento-contenido(data-aos="fade")
           .tarjeta.back-tab.px-5.py-4(titulo="Conservación y regeneración de los recursos naturales.")
             h4 Conservación y regeneración de los recursos naturales.
@@ -739,7 +739,7 @@
                 i.fas.fa-angle-right
                 | Puesta en práctica de la racionalidad campesina y la incorporación de elementos de manejo tradicional.
   
-      .col-7.col-lg-3.lg-0
+      .col-7.col-lg-2.lg-0
         img.mt-3(src='@/assets/curso/images/tema2/img_25.svg'  alt='')
 
     .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
