@@ -43,7 +43,7 @@
       .col-lg-7(data-aos="fade-right") 
         p.mb-3 Por esta razón, los ecosistemas agrícolas son la principal interfaz entre las interacciones humanas y ambientales, siendo, sin duda, el espacio de solución más importante para abordar la sostenibilidad ambiental y los desafíos de la seguridad alimentaria, tal como se articulan en los Objetivos de Desarrollo Sostenible (Rodríguez, 2019).
 
-        p.mb-0 También modifican el uso de la energía, liberan nuevos genes y moléculas, intervienen en los procesos de fijación y liberación de carbono y con ello, en el cambio climático global, alteran el paisaje, afectan a los polinizadores y el hábitat de otras especies, y a la biodiversidad en general a diferentes niveles. Por otra parte, como proceso sociocultural la agricultura es influenciada por aspectos sociales y políticos, por saberes y cosmovisiones que son, a su vez, causa y efecto de diferentes concepciones sobre el territorio.
+        p.mb-0 También modifican el uso de la energía, liberan nuevos genes y moléculas, intervienen en los procesos de fijación y liberación de carbono y con ello, en el cambio climático global, alteran el paisaje, afectan a los polinizadores y el hábitat de otras especies, y a la biodiversidad en general a diferentes niveles. Por otra parte, como proceso sociocultural, la agricultura es influenciada por aspectos sociales y políticos, por saberes y cosmovisiones que son, a su vez, causa y efecto de diferentes concepciones sobre el territorio.
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_2.png'  alt='')
 
@@ -53,7 +53,7 @@
         p Esto en un contexto agrícola tradicional, ahora como se verá impactado el medio ambiente, la sociedad y la economía nacional y global con la introducción de los Organismos Vivos Modificados (OVM) en el modelo de desarrollo agroindustrial, que busca, inicialmente, bajo una mirada de revolución del sector, ser parte de la solución de algunas de las problemáticas anteriormente expuestas, pero que trae consigo a su vez impactos que deben ser gestionados de manera adecuada para no convertirse en otro reto a solucionar, tal como lo plantea la Convención sobre Diversidad Biológica y sus diferentes protocolos.
 
 
-    p.mb-5 A mediados del siglo XX surgió un aumento en la producción agrícola y este superó el aumento actual que se tenía de población y a esto se le llamó “revolución verde”. Esta fue una renovación en la manera de producir fuentes de comercio esta se basaba en la producción del monocultivo y donde se utilizaron con mayor proporción los fertilizantes y plaguicidas, en el siguiente video se profundiza sobre la revolución verde: 
+    p.mb-5 A mediados del siglo XX surgió un aumento en la producción agrícola y este superó el aumento actual que se tenía de población y a esto se le llamó “revolución verde”. Esta fue una renovación en la manera de producir fuentes de comercio, esta se basaba en la producción del monocultivo y donde se utilizaron con mayor proporción los fertilizantes y plaguicidas, en el siguiente video se profundiza sobre la revolución verde: 
 
     figure.mb-5(data-aos="fade-right")
       .video
@@ -400,7 +400,7 @@
 
     p.mb-3 La configuración de cada ecosistema depende de las características del suelo, el clima, la estructura social, las dinámicas económicas y la historia del territorio; y de acuerdo con el análisis y entendimiento de estas características se deben establecer las mejores prácticas agrícolas que promuevan la sostenibilidad del territorio.
 
-    p.mb-5 Se han reconocido cinco criterios claves para clasificar los agroecosistemas de una región que son: 
+    p.mb-5 Se han reconocido cinco criterios claves para clasificar los agroecosistemas de una región, que son: 
 
     
     .row.aling-items-center.justify-content.mb-4(data-aos="zoom-in-down")
@@ -422,7 +422,7 @@
       .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg
           img(src='@/assets/curso/images/tema1/img_new_4.png'  alt='')
-          p.text-center.mt-3.p-3 La distribución de los productos para el consumo subsistencia y/o venta, entre otros.
+          p.text-center.mt-3.p-3 La distribución de los productos para el consumo, subsistencia y/o venta, entre otros.
 
       .col-12.col-md-4.col-lg.mb-5.mb-lg-0
         .bg

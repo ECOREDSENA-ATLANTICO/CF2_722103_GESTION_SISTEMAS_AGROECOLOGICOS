@@ -398,7 +398,7 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 5
+          h5 Figura 4
           span  Cuatro componentes para el desarrollo sostenible
 
     .row.align-items-center.justify-content-center.my-5
@@ -437,7 +437,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 6
+          h5 Figura 5
           span  Categorías de impacto de la huella ambiental
 
     .row.justify-content-center.align-items-stretch.mb-4
@@ -598,7 +598,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 7
+          h5 Figura 6
           span  Componentes de la huella hídrica
 
     .row.align-items-center.justify-content-center.mb-5
@@ -625,7 +625,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 8
+          h5 Figura 7
           span  Consumo de combustible
 
     .row.align-items-center.justify-content-center.mb-5
@@ -636,18 +636,19 @@
 
     .row.justify-content-center.mb-5
       .col-lg-5.lg-0.mb-3
-        .jumbotron-7.p-5.h-100(data-aos="fade-right") 
+        .jumbotron-7.p-4.h-100(data-aos="fade-right") 
           .col-5.col-lg-10
             img(src='@/assets/curso/images/tema2/ico_18.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
-            h3.mt-3 Huella de carbono organizacional
-            p.mb-0 Cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización.
+          .h3.mt-3 Huella de carbono organizacional
+          p.mb-0 Cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización.
+          
           
       .col-lg-5.lg-0
-        .jumbotron-8.p-5.h-100(data-aos="fade-left")
+        .jumbotron-8.p-4.h-100(data-aos="fade-left")
           .col-5.col-lg-10
             img(src='@/assets/curso/images/tema2/ico_18.svg',  alt='', style="width:90px; display:block; margin:auto 0 ;")
-            h3.mt-3 Huella de carbono de producto
-            p.mb-0 Cuantifica la emisión de GEI a lo largo del ciclo de vida del producto, iniciando en la obtención de las materias primas, la fabricación, la distribución, el uso, hasta la etapa final de la vida útil de este (reutilización, reciclado o disposición final).
+          .h3.mt-3 Huella de carbono de producto
+          p.mb-0 Cuantifica la emisión de GEI a lo largo del ciclo de vida del producto, iniciando en la obtención de las materias primas, la fabricación, la distribución, el uso, hasta la etapa final de la vida útil de este (reutilización, reciclado o disposición final).
 
     Separador
 
@@ -684,7 +685,7 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 9
+          h5 Figura 8
           span Estrategias de diversificación para agroecosistemas modernos basados en cultivos perennes o anuales
 
     .row.align-items-center.justify-content-center.my-5
