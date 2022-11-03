@@ -199,8 +199,8 @@
               p(data-aos="fade-down") Una disminución del riesgo debido a fluctuaciones ambientales (bióticas y abióticas) o de mercado. Lograr una mayor estabilidad y resiliencia en el tiempo. 
               
 
-          .row.justify-content-center.align-items-center
-            .col-lg-7.my-3.order-2.order-lg-1 2  
+          .row.justify-content-center.align-items-center  
+            .col-lg-7.my-3.order-2.order-lg-1 
               p(data-aos="fade-down") Un uso o degradación de los recursos naturales renovables a un ritmo menor o igual a su tasa de reposición. 
             .col-7.col-lg-3.my-3.order-1.order-lg-2  
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_4.svg', alt='')
