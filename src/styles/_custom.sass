@@ -5,19 +5,19 @@
     top: 50%
     right: 73%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float4 2.8s ease-in-out infinite alternate
     position: absolute
     top: 24%
     right: 15%
   &-3
-    animation: float1 1.8s ease-in-out infinite alternate
+    animation: float4 8s ease-in-out infinite alternate
     position: absolute
-    top: 14%
-    right: 75% 
+    top: 20%
+    right: 70%
   &-4
-    animation: float1 1.8s ease-in-out infinite alternate
+    animation: float3 7.8s ease-in-out infinite alternate
     position: absolute
-    top: 54%
+    top: 58%
     right: 15%
 
 @keyframes float1
@@ -32,6 +32,23 @@
     transform: rotate(0deg)
   to 
     transform: rotate(359deg)
+
+@keyframes float4 
+	0% 
+		transform: rotate(0deg) translateX(-50px) rotate(0deg);
+
+  100% 
+		transform: rotate(180deg) translateX(-50px) rotate(-180deg)   
+
+@keyframes float3 
+	0% 
+		transform: rotate(0deg) translateX(-50px) rotate(0deg)
+	
+
+	100% 
+		transform: rotate(360deg) translateX(-50px) rotate(-360deg) 
+
+
 
 .banner-interno__fondo
   background-image: url("../assets/curso/images/header/interno.svg") !important
@@ -102,6 +119,11 @@
 
 .th 
   background-color: #FFD3C3
+
+th 
+  font-size: 1.2em
+  line-height: 1.2
+
 
 .th-1 
   background-color: #DEEBAD
@@ -195,22 +217,6 @@ td, th
 .text
   font-weight: 700
 
-.pasos-a__linea .top-left 
-  left: calc(-50% + 2.8px)
-  top: -50%
-
-.pasos-a__linea .left-bottom 
-  left: calc(-50% + 2.8px)
-  top: calc(50% - 3px)
-
-.pasos-a__linea .top-right 
-  left: 50%
-  top: -52%
-
-.pasos-a__linea .top-left 
-  left: calc(-50% + 2.7px)
-  top: -52%
-
 
 .bg
   background-color: #FFA686
@@ -237,6 +243,12 @@ td, th
 
 .tarjeta-1 
   border-radius: 0px
+  @media (max-width: 768px)
+    padding: 70px !important
+  @media (max-width: 576px)
+    padding: 70px !important
+  @media (max-width: 412px)
+    padding: 70px !important
 
 .bg-degrade
   background: #DEEBAD
@@ -418,7 +430,7 @@ td, th
     background-size: cover
     width: 100%  !important
     font-size: 12px
-    height: 280px !important
+    height: 370px !important
 
 .jumbotron-6
   background-color: #DEEBAD
@@ -505,28 +517,28 @@ td, th
   background-repeat: no-repeat 
 
 .horizontal-scroll
-    align-items: stretch!important
+  align-items: stretch !important
 
 .bg-1
   background-color: #CEE284
   border-radius: 20px !important
-  height: 97% !important
+  height: auto !important
   @media (max-width: 992px)
     background-repeat: no-repeat
     background-size: contain
-    height: 100% !important
+    height: auto !important
   @media (max-width: 768px)
     background-repeat: no-repeat
     background-size: contain
-    height: 97% !important
+    height: auto !important
   @media (max-width: 576px)
     background-repeat: no-repeat
     background-size: cover
-    height: 97% !important
+    height: auto !important
   @media (max-width: 412px)
     background-repeat: no-repeat
     background-size: cover
-    height: 97% !important
+    height: auto !important
 
   
 
@@ -568,10 +580,6 @@ button, [type="button"], [type="reset"], [type="submit"]
   text-align: left
   color: #111e61
   line-height: 2.5em
-
-
-.text-1
-  font-size: 11px
 
 .slyder-a__tipo-a .slyder-a__btn--atrs 
   transform: translateY(-50%) rotate(90deg)

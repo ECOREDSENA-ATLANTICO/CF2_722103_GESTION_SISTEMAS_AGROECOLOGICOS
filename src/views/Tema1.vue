@@ -48,7 +48,7 @@
         img(src='@/assets/curso/images/tema1/img_2.png'  alt='')
 
     .row.justify-content-center.mb-5
-      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_3.svg', alt='').d-none.d-lg.-flex  
+      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_3.svg', alt='').d-none.d-lg-block
       .col-lg-10
         p Esto en un contexto agrícola tradicional, ahora como se verá impactado el medio ambiente, la sociedad y la economía nacional y global con la introducción de los Organismos Vivos Modificados (OVM) en el modelo de desarrollo agroindustrial, que busca, inicialmente, bajo una mirada de revolución del sector, ser parte de la solución de algunas de las problemáticas anteriormente expuestas, pero que trae consigo a su vez impactos que deben ser gestionados de manera adecuada para no convertirse en otro reto a solucionar, tal como lo plantea la Convención sobre Diversidad Biológica y sus diferentes protocolos.
 
@@ -72,12 +72,12 @@
         SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_1.svg')
-            .p-4 
-              h4.text-center.mt-4 Dependencia creciente de agroquímicos. 
+            .p-5 
+              h4.text-center.mt-0 Dependencia creciente de agroquímicos. 
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_2.svg')
             .p-4 
-              h4.text-center.mt-4 Contaminación de alimentos, recurso hídrico, suelo por pesticidas y de fertilizantes sintéticos.
+              h4.text-center.mt-0 Contaminación de alimentos, recurso hídrico, suelo por pesticidas y de fertilizantes sintéticos.
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_3.svg')
             .p-4 
@@ -85,8 +85,8 @@
 
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_4.svg')
-            .p-4 
-              h4.text-center.mt-4 Pérdida de la capacidad productiva de los suelos.
+            .p-5 
+              h4.text-center.mt-0 Pérdida de la capacidad productiva de los suelos.
 
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_5.svg')
@@ -95,13 +95,13 @@
           
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_6.svg')
-            .p-4 
+            .p-5 
               h4.text-center.mt-4 Pérdida de biodiversidad.
 
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_7.svg')
-            .p-4 
-              h4.text-center.mt-4 Pérdida de variabilidad genética.
+            .p-5 
+              h4.text-center.mt-0 Pérdida de variabilidad genética.
 
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_8.svg')
@@ -110,13 +110,13 @@
 
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_9.svg')
-            .p-4 
-              h4.text-center.mt-4 Contribución al calentamiento global. 
+            .p-5 
+              h4.text-center.mt-0 Contribución al calentamiento global. 
 
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_10.svg')
             .p-4 
-              h4.text-center.mt-4 Dependencia de los combustibles fósiles y la disminución de la eficiencia productiva en términos energéticos.
+              h4.text-center Dependencia de los combustibles fósiles y la disminución de la eficiencia productiva en términos energéticos.
      
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_11.svg')
@@ -144,20 +144,20 @@
           p.mb-0  
 
     .row.justify-content-center.mb-5
-      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_5.svg', alt='')  
+      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_5.svg', alt='').d-none.d-lg-block  
       .col-lg-10
         p La agroecología vincula una orientación de la agricultura basada en criterios ambientales y con mayor sensibilidad social; donde la agricultura no solo está centrada en la producción, sino también en la sostenibilidad ecológica del sistema de producción. Lo que involucra que la producción agrícola va más allá de los límites físicos de un predio, ya que permite que se desarrollen fenómenos ecológicos como relaciones de competencia entre el cultivo-maleza hasta de depredador-presa, entre otros, y se comprenda la compleja interacción que existe entre los procesos sociales y entre los procesos biológicos y ambientales que pueden darse espacialmente en una unidad de producción agrícola.
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
-          .row.justify-content-center.align-items-center
+          .row.justify-content-end.align-items-center
             .col-3.col-lg-2
               img.mx-1(src="@/assets/curso/images/tema1/ico_5.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
               p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b>, que se encuentra en el material comentario. 
-            .col-md-auto
+            .col-6.col-lg-2
               a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y&ab_channel=SemillasdeIdentidadColombia')" target="_blank")
                 span Enlace
                 .row
@@ -221,7 +221,7 @@
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
               p.mb-1.text-white En este video se puede detallar los 7 principios de la agroecología, creado por el Programa de las Naciones Unidas para el Desarrollo (PNUD).
-            .col-md-auto
+            .col-5.col-lg-2
               a.boton(:href="('https://www.youtube.com/watch?v=cZwVQuvxohg&ab_channel=PNUDCostaRica ')" target="_blank")
                 span Enlace
                 .row
@@ -306,10 +306,10 @@
     #t_1_3.titulo-segundo
       .h2 1.3  Componentes, determinantes, recursos, procesos y estructura de los agroecosistemas 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_7.svg', alt='')  
       .col-lg-10
-        p Un agroecosistema es el sitio en el cual se establecerá la unidad de producción agrícola, es considerado la unidad de ecología principal, siendo este el concepto bajo el cual se sustenta el análisis de la totalidad del sistema de producción de alimentos, este incluye entradas y salidas; y las interacciones entre sus partes a continuación se puede observar: 
+        p.mb-0 Un agroecosistema es el sitio en el cual se establecerá la unidad de producción agrícola, es considerado la unidad de ecología principal, siendo este el concepto bajo el cual se sustenta el análisis de la totalidad del sistema de producción de alimentos, este incluye entradas y salidas; y las interacciones entre sus partes a continuación se puede observar: 
 
 
     .row.align-items-center.justify-content-center.mb-3
@@ -574,7 +574,7 @@
       .col-lg-12(data-aos="fade-right") 
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-down")
           .row.justify-content-center.align-items-center(titulo="Procesos energéticos")
-            .col-md-7.mb-4.mb-md-0
+            .col-md-12.col-lg-7.mb-4.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-angle-right.th-2
@@ -594,7 +594,7 @@
             .col-6.col-lg-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_14.svg', alt='')  
             
           .row.justify-content-center.align-items-center(titulo="Procesos biogeoquímicos")
-            .col-md-7.mb-4.mb-md-0
+            .col-md-12.col-lg-7.mb-4.mb-md-0
               h4 Los principales insumos biogeoquímicos de un agroecosistema son los nutrientes:
               ul.lista-ul--color
                 li 
@@ -620,7 +620,7 @@
      
             
           .row.justify-content-center.align-items-center(titulo="Procesos hidrológicos")
-            .col-md-7.mb-4.mb-md-0
+            .col-md-12.col-lg-7.mb-4.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-angle-right.th-2
@@ -641,7 +641,7 @@
         
             
           .row.justify-content-center.align-items-center(titulo="Procesos sucesionales")
-            .col-md-7.mb-4.mb-md-0
+            .col-md-12.col-lg-7.mb-4.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-angle-right.th-2
@@ -656,7 +656,7 @@
         
 
           .row.justify-content-center.align-items-center(titulo="Procesos de regulación biótica")
-            .col-md-12.mb-4.mb-md-0
+            .col-md-12.col-lg-7.mb-4.mb-md-0
               ul.lista-ul--color
                 li 
                   i.fas.fa-angle-right.th-2

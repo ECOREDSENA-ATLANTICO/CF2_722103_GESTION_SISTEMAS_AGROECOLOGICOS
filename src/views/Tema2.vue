@@ -182,13 +182,13 @@
     p.mb-5 Asimismo, la agroecología busca promover el manejo de los agroecosistemas bajo las siguientes estrategias:
 
     h3.text-center Estrategias para promover el manejo agroecológico de los agroecosistemas
-    
+
     .row.justify-content-center.align-items-center
       .col-lg-8(data-aos="fade-right")
         PasosA.color-acento-contenido(tipo="n")
           .row.justify-content-center.align-items-center
             .col-lg-7.order-2.order-lg-1 
-              p(data-aos="fade-down") Una producción eficiente y rentable a largo plazo (considerando el costo ecológico) que promueva la conservación de suelos, agua, energía y recursos biológicos (como la biodiversidad). 
+              p Una producción eficiente y rentable a largo plazo (considerando el costo ecológico) que promueva la conservación de suelos, agua, energía y recursos biológicos (como la biodiversidad). 
             .col-5.col-lg-3.my-3.order-1.order-lg-2 
               img(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_2.svg', alt='')
 
@@ -430,7 +430,7 @@
         p.mb-0 Dentro de la huella ambiental se consideran un máximo de 14 tipos diferentes de impactos ambientales como se muestra a continuación: 
 
 
-      .col-5.col-lg-2.d-none.d-lg.-flex(data-aos="fade-left")
+      .col-5.col-lg-2.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/ico_19.svg'  alt='')
       
 
