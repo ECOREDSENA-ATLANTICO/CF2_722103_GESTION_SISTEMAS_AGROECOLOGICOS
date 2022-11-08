@@ -490,7 +490,7 @@
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_8.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-5 Radiación ionizante.
+              p.mt-3 Radiación ionizante.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
@@ -506,7 +506,7 @@
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_10.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-5 Acidificación.
+              p.mt-3 Acidificación.
 
     .row.justify-content-center.align-items-stretch.mb-4
       .col-10.col-lg-3(data-aos="fade-right")
@@ -534,7 +534,7 @@
               p.mt-0 Ecotoxicidad en medio acuático.
 
       .col-10.col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4
+        .jumbotron-6.p-5
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_14.svg' alt='AvatarTop')

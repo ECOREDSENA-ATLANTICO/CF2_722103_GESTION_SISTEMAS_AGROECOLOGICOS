@@ -381,7 +381,7 @@
 
     p.mb-5 Una gran proporción del componente orgánico del ecosistema está compuesto por biomasa, que es la materia viva que tiene un organismo, y puede variar de acuerdo con el tipo de organismo, el ambiente, el estado del ecosistema y por las actividades humanas. Esta biomasa se encuentra en el agroecosistema en forma de materia orgánica muerta proveniente de las plantas.
 
-    .contenedor-hojas-1(style='background-color: #EFF5D6').p-4.mb-5
+    .contenedor-hojas-2(style='background-color: #EFF5D6').p-4.mb-5
       .contenedor-hojas-2
         .row.mb-0
           .col-lg-7.mb-3.mb-lg-0.p-3(style="place-self:center")

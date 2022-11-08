@@ -438,6 +438,21 @@ td, th
 .jumbotron-6
   background-color: #DEEBAD
   border-radius: 20px
+  height: 132px
+  width: 290px
+  @media screen and ( max-width: 992px)
+    width: 205px !important
+    height: 150px
+    margin-left: 120px !important
+  @media screen and ( max-width: 428px)
+    width: 345px
+    margin-left: -20px !important
+  @media (min-width: $bp-min-sm) and (max-width: $bp-max-md) 
+    width: 355px 
+    margin-left: 20px !important
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    width: 207px
+    margin-left: -120px !important
   
 .jumbotron-7 
   background-color: #DEEBAD !important
@@ -766,7 +781,7 @@ button, [type="button"], [type="reset"], [type="submit"]
     transform: translate(1035%, 290%)
 
 
-.contenedor-hojas-1
+.contenedor-hojas-2
   position: relative
   height: auto
   &::before
@@ -776,7 +791,7 @@ button, [type="button"], [type="reset"], [type="submit"]
     left: 0
     transform: translate(2%, -50%)
 
-.contenedor-hojas-2
+.contenedor-hojas-3
   position: relative
   height: auto
   &::before  
