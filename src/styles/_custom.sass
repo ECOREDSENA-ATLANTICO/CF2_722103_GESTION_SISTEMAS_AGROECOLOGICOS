@@ -154,15 +154,15 @@ th
   border-top-right-radius: 30px
   border-bottom-left-radius: 30px
   border-bottom-right-radius: 30px
-  border: 1px solid #000
+  border: 1px solid #0B481E !important
 
 td, th 
 
-    border: 3px solid #0B481E
+    border: 1px solid #0B481E !important
     padding: 0.75em
 
 .tabla-a th 
-  border-color: #0B481E
+  border-color: #0B481E !important
   font-weight: 700
   text-align: center
   font-size: 1.125em
@@ -217,6 +217,9 @@ td, th
 .text
   font-weight: 700
 
+.pasos-a__linea div 
+  padding: 0
+  height: 39px
 
 .bg
   background-color: #FFA686
@@ -439,11 +442,12 @@ td, th
 .jumbotron-7 
   background-color: #DEEBAD !important
   border-radius: 20px
+  height: 340px !important
 
 .jumbotron-8
   background-color: #FFD3C3 !important
   border-radius: 20px
-
+  height: 340px !important
 
 .jumbotron-9
   background-color: #FFFF !important
@@ -727,3 +731,51 @@ button, [type="button"], [type="reset"], [type="submit"]
   background-repeat: no-repeat !important
   @media (max-width: 992px)  
     background-size: cover
+
+button, [type="button"], [type="reset"], [type="submit"] 
+  cursor: pointer
+  color: #fff
+  font-family: "Roboto", sans-serif
+  font-weight: 400
+  font-size: 1em
+  line-height: 1em
+  white-space: nowrap
+  text-transform: none
+
+
+.contenedor-hojas
+  position: relative
+  border-top-right-radius: 90px !important
+  height: auto
+  &::before
+    position: absolute
+    content: url(../assets/curso/images/tema2/jb_4.svg)
+    top: 0
+    left: 0
+    transform: translate(2%, -50%)
+
+.contenedor-hojas-1
+  position: relative
+  border-top-right-radius: 90px !important
+  height: auto
+  &::before  
+    position: absolute
+    content: url(../assets/curso/images/tema2/jb_5.svg)
+    top: 0
+    left: 0
+    transform: translate(1035%, 290%)
+
+
+.contenedor-fondo
+  position: relative
+  &__franja
+    position: absolute
+    left: 5px
+    top: 0px
+    width: 50%
+    height: 80%
+    z-index: 0
+  &__contenido
+    z-index: 1
+    position: relative
+    

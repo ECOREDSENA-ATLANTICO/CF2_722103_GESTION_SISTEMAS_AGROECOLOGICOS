@@ -35,7 +35,6 @@
       .col-lg-10(data-aos="fade")
         .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-up") 
           table
-            caption Nota. Tomada de Sarandón y Flores (2014). 
             thead
               tr
                 th.th-6  Enfoque productivista Agricultura Intensiva
@@ -177,7 +176,10 @@
                     li 
                       i.fas.fa-angle-right
                       p.mb-0  Ampliación y redefinición de los límites del sistema.La biodiversidad funcional y estructural en los agroecosistemas y como soporte de vida.
-                    
+        .row.mb-5
+          .col-lg-12
+            .jumbotron-3.p-2
+              p.mb-0 <b>Nota. Tomada de Sarandón y Flores (2014). </b>      
 
     p.mb-5 Asimismo, la agroecología busca promover el manejo de los agroecosistemas bajo las siguientes estrategias:
 
@@ -442,7 +444,7 @@
 
     .row.justify-content-center.align-items-stretch.mb-4
       .col-10.col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-3
+        .jumbotron-6.p-2.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_3.svg' alt='AvatarTop')
@@ -450,7 +452,7 @@
               p.my-5  Cambio climático.
 
       .col-10.col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-3
+        .jumbotron-6.p-2.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_4.svg' alt='AvatarTop')
@@ -458,7 +460,7 @@
               p.mt-5 Destrucción de la capa de ozono.
 
       .col-10.col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-3
+        .jumbotron-6.p-3.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_5.svg' alt='AvatarTop')
@@ -466,7 +468,7 @@
               p.mt-4 Toxicidad humana con efectos cancerígenos.
 
       .col-10.col-lg-3(data-aos="fade-right")
-        .jumbotron-6.p-4.mb-3
+        .jumbotron-6.p-3.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.lg-0
               img(src='@/assets/curso/images/tema2/ico_6.svg' alt='AvatarTop')
@@ -662,12 +664,15 @@
         img(src='@/assets/curso/images/tema2/img_23.png'  alt='')
 
     
-    .row.fondo-1.mb-3
-      .col-lg-4.mb-3.mb-lg-0.ps-0.pe-5(style="place-self:center")
-        figure.text-center
-          img.mt-4(src="@/assets/curso/images/tema2/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:340px;")
-      .col-lg-8.mb-3.mb-lg-0.p-5(style="place-self:center")
-        p.mb-0.mx-4.mt-3 El proceso de agricultura sostenible se reconoce como un todo, los sistemas de nutrición animal, la producción de productos agrícolas y el modelo alimenticio, bajo un esquema en el que confluyen en balance y armonía equitativa de aspectos de igualdad social, viabilidad económica y la armonía con el medio ambiente, incluyendo factores intergeneracionales e intersectoriales.
+    .contenedor-hojas(style='background-color: #DEEBAD').p-4.mb-5
+      .contenedor-hojas-1
+        .row.mb-0
+          .col-lg-4.mb-3.mb-lg-0.ps-0.pe-5(style="place-self:center")
+            figure.text-center
+              img.mt-4(src="@/assets/curso/images/tema2/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:340px;")
+          .col-lg-7.mb-3.mb-lg-0.p-3(style="place-self:center")
+            p.mb-0.mt-3 El proceso de agricultura sostenible se reconoce como un todo, los sistemas de nutrición animal, la producción de productos agrícolas y el modelo alimenticio, bajo un esquema en el que confluyen en balance y armonía equitativa de aspectos de igualdad social, viabilidad económica y la armonía con el medio ambiente, incluyendo factores intergeneracionales e intersectoriales.
+
 
     .row.align-items-center.justify-content-center.mb-5
       .col-7.col-lg-4(data-aos="fade-right") 
