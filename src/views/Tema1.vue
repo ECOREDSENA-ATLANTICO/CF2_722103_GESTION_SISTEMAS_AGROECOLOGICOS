@@ -382,7 +382,7 @@
     p.mb-5 Una gran proporción del componente orgánico del ecosistema está compuesto por biomasa, que es la materia viva que tiene un organismo, y puede variar de acuerdo con el tipo de organismo, el ambiente, el estado del ecosistema y por las actividades humanas. Esta biomasa se encuentra en el agroecosistema en forma de materia orgánica muerta proveniente de las plantas.
 
     .contenedor-hojas-2(style='background-color: #EFF5D6').p-4.mb-5
-      .contenedor-hojas-2
+      .contenedor-hojas-3
         .row.mb-0
           .col-lg-7.mb-3.mb-lg-0.p-3(style="place-self:center")
             p.mb-0.mx-5.mt-3 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.
