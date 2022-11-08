@@ -221,7 +221,7 @@
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
               p.mb-1.text-white En este video se puede detallar los 7 principios de la agroecología, creado por el Programa de las Naciones Unidas para el Desarrollo (PNUD).
-            .col-5.col-lg-2
+            .col-6.col-lg-2
               a.boton(:href="('https://www.youtube.com/watch?v=cZwVQuvxohg&ab_channel=PNUDCostaRica ')" target="_blank")
                 span Enlace
                 .row
@@ -344,7 +344,7 @@
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
               p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad los diferentes ciclos de los nutrientes o ciclos biogeoquímicos nombrados anteriormente:
-            .col-md-auto
+            .col-6.col-lg-2
               a.boton(:href="('https://youtu.be/_Kmlr3V10SU')" target="_blank")
                 span Enlace
                 .row
@@ -371,7 +371,7 @@
             .col.mb-3.mb-sm-0
               h3.text-white Enlace <i>web</i>
               p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad qué es la cadena trófica o cadena alimenticia:
-            .col-md-auto
+            .col-6.col-lg-2
               a.boton(:href="('https://youtu.be/RtpjVC6FGxE')" target="_blank")
                 span Enlace
                 .row
@@ -381,14 +381,15 @@
 
     p.mb-5 Una gran proporción del componente orgánico del ecosistema está compuesto por biomasa, que es la materia viva que tiene un organismo, y puede variar de acuerdo con el tipo de organismo, el ambiente, el estado del ecosistema y por las actividades humanas. Esta biomasa se encuentra en el agroecosistema en forma de materia orgánica muerta proveniente de las plantas.
 
-    
-    .row.fondo-1.mb-3
-      .col-lg-8.mb-3.mb-lg-0.p-5(style="place-self:center")
-        p.mb-0.mx-4.mt-3 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.
+    .contenedor-hojas-1(style='background-color: #EFF5D6').p-4.mb-5
+      .contenedor-hojas-2
+        .row.mb-0
+          .col-lg-7.mb-3.mb-lg-0.p-3(style="place-self:center")
+            p.mb-0.mx-5.mt-3 La unidad funcional del agroecosistema es la población del cultivo, tiene un rol fundamental en el flujo energético y el ciclo de los nutrientes, sin embargo, no se puede dejar aparte a la biodiversidad porque esta es parte fundamental para que se dé el desarrollo óptimo del agroecosistema, esta unidad funcional ocupa un nicho en el ecosistema y este puede ser ocupado indefinida y, simultáneamente por una población de más de una especie.
 
-      .col-lg-4.mb-3.mb-lg-0.ps-0.pe-5(style="place-self:center")
-        figure.text-center
-          img.mt-4(src="@/assets/curso/images/tema1/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:340px;")
+          .col-lg-5.mb-3.mb-lg-0.ps-4.pe-1(style="place-self:center")
+            figure.text-center
+              img.mt-4(src="@/assets/curso/images/tema1/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:340px;")
 
  
     p.mb-5 Cuando una población llega al límite establecido por el ecosistema, el número de especies de esta debe llegar a un equilibrio, si este equilibrio no se da, puede ser debido a enfermedades, procesos de depredación o competencia, hasta la reducción de los patrones de reproducción o cambios o fluctuaciones en el ambiente pueden ocasionar que la población descienda drásticamente para que el ecosistema logre su estabilización debido a las presiones selectivas sobre esta.
