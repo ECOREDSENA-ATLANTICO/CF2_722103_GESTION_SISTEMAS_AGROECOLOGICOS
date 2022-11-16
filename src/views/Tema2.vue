@@ -185,6 +185,7 @@
 
     h3.text-center Estrategias para promover el manejo agroecológico de los agroecosistemas
 
+
     .row.justify-content-center.align-items-center
       .col-lg-8(data-aos="fade-right")
         PasosA.color-acento-contenido(tipo="n")
@@ -442,121 +443,121 @@
           h5 Figura 5
           span  Categorías de impacto de la huella ambiental
 
-    .row.justify-content-center.align-items-stretch.mb-4
+    .row.justify-content-center.align-items-stretch
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-2.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_3.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.my-5  Cambio climático.
+              p.mb-0 Cambio climático.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-2.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_4.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-5 Destrucción de la capa de ozono.
+              p.mb-0 Destrucción de la capa de ozono.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-3.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_5.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-4 Toxicidad humana con efectos cancerígenos.
+              p.mb-0 Toxicidad humana con efectos cancerígenos.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-3.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_6.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-4 Toxicidad humana sin efectos cancerígenos.
+              p.mb-0 Toxicidad humana sin efectos cancerígenos.
 
-    .row.justify-content-center.align-items-stretch.mb-4
+    .row.justify-content-center.align-items-stretch
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_7.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-0  Partículas y aspectos respiratorios.
+              p.mb-0  Partículas y aspectos respiratorios.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_8.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-3 Radiación ionizante.
+              p.mb-0 Radiación ionizante.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_9.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-4 Formación de ozono fotoquímico.
+              p.mb-0 Formación de ozono fotoquímico.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_10.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-3 Acidificación.
+              p.mb-0 Acidificación.
 
-    .row.justify-content-center.align-items-stretch.mb-4
+    .row.justify-content-center.align-items-stretch.mb-3
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_11.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-2  Eutrofización terrestre.
+              p.mb-0  Eutrofización terrestre.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_12.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-0 Eutrofización acuática.
+              p.mb-0 Eutrofización acuática.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_13.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-0 Ecotoxicidad en medio acuático.
+              p.mb-0 Ecotoxicidad en medio acuático.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-5
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_14.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-0 Uso del suelo.
+              p.mb-0 Uso del suelo.
     
-    .row.justify-content-center.align-items-stretch.mb-4
+    .row.justify-content-center.align-items-stretch
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_15.svg' alt='AvatarTop')
             .col-6.col-lg-8.lg-0
-              p.mt-4  Consumo de recursos hídricos.
+              p.mb-0  Consumo de recursos hídricos.
 
       .col-10.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4
           .row.justify-content-center.align-items-center
-            .col-3.col-lg-4.lg-0
+            .col-3.col-lg-4.py-4
               img(src='@/assets/curso/images/tema2/ico_16.svg' alt='AvatarTop')
-            .col-6.col-lg-8.lg-0
-              p.mt-0 Consumo de recursos minerales y combustibles fósiles.
+            .col-8.col-lg-8.lg-0
+              p.mb-0 Consumo de recursos minerales y combustibles fósiles.
 
     .row.align-items-center.justify-content-star.my-5.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-3

@@ -148,22 +148,25 @@
       .col-lg-10
         p La agroecología vincula una orientación de la agricultura basada en criterios ambientales y con mayor sensibilidad social; donde la agricultura no solo está centrada en la producción, sino también en la sostenibilidad ecológica del sistema de producción. Lo que involucra que la producción agrícola va más allá de los límites físicos de un predio, ya que permite que se desarrollen fenómenos ecológicos como relaciones de competencia entre el cultivo-maleza hasta de depredador-presa, entre otros, y se comprenda la compleja interacción que existe entre los procesos sociales y entre los procesos biológicos y ambientales que pueden darse espacialmente en una unidad de producción agrícola.
 
-    .row.align-items-center.justify-content-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
-          .row.justify-content-end.align-items-center
-            .col-3.col-lg-2
-              img.mx-1(src="@/assets/curso/images/tema1/ico_5.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
-            .col.mb-3.mb-sm-0
-              h3.text-white Enlace <i>web</i>
-              p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b>, que se encuentra en el material comentario. 
-            .col-6.col-lg-2
-              a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y&ab_channel=SemillasdeIdentidadColombia')" target="_blank")
-                span Enlace
-                .row
-                  .col-auto
-                    img.mx-3(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img.mx-1(src="@/assets/curso/images/tema1/ico_5.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.text-white Enlace <i>web</i>
+                  p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b>, que se encuentra en el material comentario. 
+                .col-sm-auto
+                  a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y&ab_channel=SemillasdeIdentidadColombia')" target="_blank")
+                    span Enlace
+                    .row
+                      .col-auto
+                        img.mx-2(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
+   
     p.mb-3 La agroecología aplica un enfoque integral u holístico y transdisciplinar porque, conceptual y metodológicamente, aplica el conocimiento de diversas disciplinas como la agronomía, ecología, sociología, antropología, la economía y la geografía para entender y construir una nueva forma de implementación de prácticas agrícolas sustentables a través de la aplicación de metodologías participativas de investigación social y las técnicas agrícolas. Asimismo, el pensamiento agroecológico está influenciado por: 
 
     .row.align-items-center.justify-content-center.mb-5
@@ -211,22 +214,24 @@
 
     p.mb-5 En la agroecología se tiene en cuenta el sistema agroecológico y el sistema social en el que se desarrollan las actividades de los agricultores para permitir una mayor participación de estos en el proceso de transición agroecológica y está fundamentada en siete principios que se detallan en el siguiente video.
 
-
-    .row.align-items-center.justify-content-center.mb-0
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
-          .row.justify-content-center.align-items-center
-            .col-3.col-lg-2
-              img.mx-1(src="@/assets/curso/images/tema1/ico_8.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
-            .col.mb-3.mb-sm-0
-              h3.text-white Enlace <i>web</i>
-              p.mb-1.text-white En este video se puede detallar los 7 principios de la agroecología, creado por el Programa de las Naciones Unidas para el Desarrollo (PNUD).
-            .col-6.col-lg-2
-              a.boton(:href="('https://www.youtube.com/watch?v=cZwVQuvxohg&ab_channel=PNUDCostaRica ')" target="_blank")
-                span Enlace
-                .row
-                  .col-auto
-                    img.mx-3(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img.mx-1(src="@/assets/curso/images/tema1/ico_8.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.text-white Enlace <i>web</i>
+                  p.mb-1.text-white En este video se puede detallar los 7 principios de la agroecología, creado por el Programa de las Naciones Unidas para el Desarrollo (PNUD).
+                .col-sm-auto
+                  a.boton(:href="('https://www.youtube.com/watch?v=cZwVQuvxohg&ab_channel=PNUDCostaRica ')" target="_blank") 
+                    span Enlace
+                    .row
+                      .col-auto
+                        img.mx-2(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+
 
 
     p.mb-5 Estos principios básicos pueden verse traducidos en la aplicación de diversas técnicas o prácticas tecnológicas, en función del contexto de la unidad productiva, los cuales pueden traducirse en variados efectos en la productividad o resiliencia, en dependencia del entorno y la disponibilidad de recursos, como se observa en la siguiente tabla.
@@ -335,22 +340,25 @@
 
         p.mb-0 La función de los agroecosistemas se relaciona con los flujos energéticos y con los diferentes ciclos de los nutrientes como el carbono, fósforo, oxígeno, agua, el azufre y nitrógeno, conocidos como macronutrientes, a excepción del agua, que por medio de los componentes estructurales del ecosistema son modificados de acuerdo con el manejo de diferentes insumos agrícolas. El flujo energético está directamente relacionado con la captura de la energía solar por parte del material vegetal del agroecosistema, y esta energía es almacenada en la estructura química de la biomasa de la planta. 
 
-    .row.align-items-center.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
-          .row.justify-content-center.align-items-center
-            .col-3.col-lg-2
-              img.mx-1(src="@/assets/curso/images/tema1/ico_new.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
-            .col.mb-3.mb-sm-0
-              h3.text-white Enlace <i>web</i>
-              p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad los diferentes ciclos de los nutrientes o ciclos biogeoquímicos nombrados anteriormente:
-            .col-6.col-lg-2
-              a.boton(:href="('https://youtu.be/_Kmlr3V10SU')" target="_blank")
-                span Enlace
-                .row
-                  .col-auto
-                    img.mx-3(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img.mx-1(src="@/assets/curso/images/tema1/ico_new.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.text-white Enlace <i>web</i>
+                  p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad los diferentes ciclos de los nutrientes o ciclos biogeoquímicos nombrados anteriormente:
+                .col-sm-auto
+                  a.boton(:href="('https://youtu.be/_Kmlr3V10SU')" target="_blank")
+                    span Enlace
+                    .row
+                      .col-auto
+                        img.mx-2(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
+  
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right") 
@@ -361,22 +369,24 @@
 
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema1/img_9.png'  alt='')
-      
-    .row.align-items-center.justify-content-center.mb-3
+
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
-          .row.justify-content-center.align-items-center
-            .col-3.col-lg-2
-              img.mx-1(src="@/assets/curso/images/tema1/ico_10.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
-            .col.mb-3.mb-sm-0
-              h3.text-white Enlace <i>web</i>
-              p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad qué es la cadena trófica o cadena alimenticia:
-            .col-6.col-lg-2
-              a.boton(:href="('https://youtu.be/RtpjVC6FGxE')" target="_blank")
-                span Enlace
-                .row
-                  .col-auto
-                    img.mx-3(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img.mx-1(src="@/assets/curso/images/tema1/ico_10.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.text-white Enlace <i>web</i>
+                  p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad qué es la cadena trófica o cadena alimenticia:
+                .col-sm-auto
+                  a.boton(:href="('https://youtu.be/RtpjVC6FGxE')" target="_blank")
+                    span Enlace
+                    .row
+                      .col-auto
+                        img.mx-2(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
 
     p.mb-5 Una gran proporción del componente orgánico del ecosistema está compuesto por biomasa, que es la materia viva que tiene un organismo, y puede variar de acuerdo con el tipo de organismo, el ambiente, el estado del ecosistema y por las actividades humanas. Esta biomasa se encuentra en el agroecosistema en forma de materia orgánica muerta proveniente de las plantas.
