@@ -39,7 +39,7 @@
               tr
                 th.th-6  Enfoque productivista Agricultura Intensiva
                 th.th-6 Enfoque Agroecológico Agricultura Sustentable
-              tr
+              tr.tabl-2
                 th.th-7.text-center(style="" colspan="2") Enfoque
             tbody
               tr
@@ -81,7 +81,7 @@
                     li 
                       i.fas.fa-angle-right
                       p.mb-0 Los científicos "generan" la tecnología.
-                td 
+                td.tabbl-3 
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
@@ -127,7 +127,7 @@
                       i.fas.fa-angle-right
                       p.mb-0 Participación del agricultor en la generación de tecnología.
             
-              tr
+              tr.tabl-2
                 th.th-8.text-center(style="" colspan="2") Objetivo
             tbody
               tr
@@ -152,7 +152,7 @@
                       i.fas.fa-angle-right
                       p.mb-0  La biodiversidad como fuente de genes. 
                     
-                td 
+                td.tabbl-3 
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
@@ -241,7 +241,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-7.text-start.order-2.order-lg-1 
               p(data-aos="fade-down") Un desarrollo de tecnologías que sean cultural y socialmente aceptables.
-            .col-7.col-lg-3.my-3.order-1.order-lg-2  
+            .col-7.col-lg-3.order-1.order-lg-2  
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/images/tema2/img_10.svg', alt='')
             
 
@@ -444,7 +444,7 @@
           span  Categorías de impacto de la huella ambiental
 
     .row.justify-content-center.align-items-stretch
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-2.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -452,7 +452,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0 Cambio climático.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-2.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -460,7 +460,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0 Destrucción de la capa de ozono.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-3.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -468,7 +468,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0 Toxicidad humana con efectos cancerígenos.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-3.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -477,7 +477,7 @@
               p.mb-0 Toxicidad humana sin efectos cancerígenos.
 
     .row.justify-content-center.align-items-stretch
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -485,7 +485,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0  Partículas y aspectos respiratorios.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -493,7 +493,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0 Radiación ionizante.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -501,7 +501,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0 Formación de ozono fotoquímico.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -510,7 +510,7 @@
               p.mb-0 Acidificación.
 
     .row.justify-content-center.align-items-stretch.mb-3
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -518,7 +518,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0  Eutrofización terrestre.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -526,7 +526,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0 Eutrofización acuática.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -534,7 +534,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0 Ecotoxicidad en medio acuático.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-5
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -543,7 +543,7 @@
               p.mb-0 Uso del suelo.
     
     .row.justify-content-center.align-items-stretch
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3.h-100(data-aos="fade-right")
         .jumbotron-6.p-4.mb-3
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -551,7 +551,7 @@
             .col-6.col-lg-8.lg-0
               p.mb-0  Consumo de recursos hídricos.
 
-      .col-10.col-lg-3(data-aos="fade-right")
+      .col-8.col-lg-3(data-aos="fade-right")
         .jumbotron-6.p-4
           .row.justify-content-center.align-items-center
             .col-3.col-lg-4.py-4
@@ -638,16 +638,16 @@
     p.mb-5 Existen dos tipos de huella de carbono, a saber:
 
     .row.justify-content-center.mb-5
-      .col-lg-5.lg-0.mb-3
-        .jumbotron-7.p-4.h-100(data-aos="fade-right") 
+      .col-lg-5.lg-0.mb-3.h-100
+        .jumbotron-7.p-4(data-aos="fade-right") 
           .col-5.col-lg-10
             img(src='@/assets/curso/images/tema2/ico_18.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
           .h3.mt-3 Huella de carbono organizacional
           p.mb-0 Cuantifica el total de emisiones de GEI directas e indirectas debido al desarrollo de las actividades de una organización.
           
           
-      .col-lg-5.lg-0
-        .jumbotron-8.p-4.h-100(data-aos="fade-left")
+      .col-lg-5.lg-0.h-100
+        .jumbotron-8.p-4(data-aos="fade-left")
           .col-5.col-lg-10
             img(src='@/assets/curso/images/tema2/ico_18.svg',  alt='', style="width:90px; display:block; margin:auto 0 ;")
           .h3.mt-3 Huella de carbono de producto

@@ -248,61 +248,61 @@
           table
             caption Nota. Tomada de Casimiro (2016).  
             thead
-              tr
-                th.th-4  Principios agroecológicos
-                th.th-5 Tecnologías o procesos socio ecológicos asociados al desarrollo de fincas familiares
+              tr.tab-x
+                th.th-4.tab-x-1   Principios agroecológicos
+                th.th-5.tab-x-1  Tecnologías o procesos socio ecológicos asociados al desarrollo de fincas familiares
      
             tbody
-              tr
-                td 
+              tr.tab-x
+                td.tab-x-1
                   p.mb-0 Reciclaje de nutrientes y materia orgánica, optimización de la disponibilidad y balances del flujo de nutrientes (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
-                td 
+                td.tab-x-1 
                   p.mb-0 No generar desechos, cierre de ciclos, aprovechamiento de oportunidades, fomento de la biodiversidad debajo del suelo y tratamiento de residuales. Proceso de capacitación, sensibilización, acción participativa y gestión del conocimiento por parte de familias campesinas y actores implicados en el desarrollo de la agroecología familiar (para todos los principios)
                   
               
-              tr
-                td 
+              tr.tab-x
+                td.tab-x-1 
                   p.mb-0 Diversificación vegetal y animal a nivel de especies o genética en tiempo y en espacio (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
-                td 
+                td.tab-x-1 
                   p.mb-0 Policultivos, rotaciones, integración ganadería-agricultura, máxima biodiversidad posible y fomento de la diversidad funcional.
                   
-              tr
-                td 
+              tr.tab-x
+                td.tab-x-1 
                   p.mb-0 Optimización del flujo de nutrientes y agua (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
 
-                td 
+                td.tab-x-1 
                   p.mb-0 Producción de abonos orgánicos a partir de los residuos de cosecha o excretas de animales, zanjas de infiltración, barreras de contención, cosechas de agua, laboreo mínimo, surcos en contorno, integración de cultivos y crías animales.
-              tr
-                td 
+              tr.tab-x
+                td.tab-x-1 
                   p.mb-0 Provisión de condiciones edáficas óptimas para el crecimiento de cultivos, manejando materia orgánica y estimulando la biología del suelo (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
 
-                td 
+                td.tab-x-1 
                   p.mb-0 Adición de abonos orgánicos, coberturas, abonos verdes, incorporación de Mulch, riego óptimo, uso de insumos biológicos.
                   
-              tr
-                td 
+              tr.tab-x
+                td.tab-x-1 
                   p.mb-0 Minimización de pérdidas por insectos, patógenos y malezas mediante medidas preventivas y estímulo de fauna benéfica, antagonistas, alelopatía, etcétera. (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013)
-                td 
+                td.tab-x-1 
                   p.mb-0 Coberturas, barreras de contención, terrazas, cortinas rompe-vientos, estímulo de fauna benéfica, cierre de ciclos.  
 
-              tr 
-                td 
+              tr.tab-x 
+                td.tab-x-1 
                   p.mb-0 Explotación de sinergias que emergen de interacciones planta-planta, plantas-animales y animales-animales (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
 
-                td 
+                td.tab-x-1  
                   p.mb-0 Policultivos y rotaciones, incorporación de árboles frutales o forestales, incorporación de animales, uso de las fuentes renovables de energía. Cada elemento realizando varias funciones y cada función soportada por varios elementos (Cruz y Cabrera, 2015).
 
-              tr 
-                td 
+              tr.tab-x 
+                td.tab-x-1 
                   h4.text-center.mb-0 Viabilidad económica         
-                td
+                td.tab-x-1
                   p.mb-0 Uso de las fuentes renovables de energía y las tecnologías apropiadas para lograr la máxima eficiencia posible; independencia del mercado de insumos externos; innovación, experimentación campesina y diálogo de saberes; utilización óptima de los recursos disponibles. Precios de las producciones familiares ajustadas a los costos de producción. Desarrollo de razas rústicas y cultivos adaptados al entorno y posibilidades locales, conservación de las semillas autóctonas o adaptadas, ajuste a las preferencias de la familia y al mercado de consumidores locales. Máximo valor agregado a las producciones. Articulación de canales cortos de comercialización de las producciones familiares agroecológicas y políticas de mercado que las favorezcan.
 
-              tr
-                td 
+              tr.tab-x 
+                td.tab-x-1 
                   h4.text-center.mb-0 Justicia social
 
-                td 
+                td.tab-x-1 
                   p.mb-0 Articulación local, políticas públicas de fomento y apoyo, institucionalización de la agricultura familiar, mercados justos, economía solidaria, consumidores conscientes de la importancia del consumo de alimentos sanos y el desarrollo de la agricultura familiar, valorización de la calidad de los productos agroecológicos, “denominación de origen familiar”, certificación popular, reconocimiento social de la ética de la agroecología.
 
 

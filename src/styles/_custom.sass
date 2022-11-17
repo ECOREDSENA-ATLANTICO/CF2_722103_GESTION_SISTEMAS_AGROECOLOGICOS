@@ -151,31 +151,30 @@ th
   background-color: #FFE9E1
 
 .tab-2.tabla-a
-  border: 0px solid !important
+  border: 2px solid #0B481E 
+  border-radius: 20px
 
 .tab-2.tabla-a td
-  border: 0px solid #0B481E !important
+  border: 0px solid #0B481E 
 
 .tab-2.tabla-a th
   border: 0px solid #0B481E !important
 
-.tabla-a
-  border-top-left-radius: 30px 
-  border-top-right-radius: 30px
-  border-bottom-left-radius: 30px
-  border-bottom-right-radius: 30px
-  border: 2px solid #0B481E !important
+.tabl-2
+  border-color: #0B481E 
+  border-top: 2px solid 
+  border-bottom: 2px solid
 
-td, th 
+td.tabbl-3
+  border-left: 2px solid #0B481E !important
 
+.tab-x
     border: 1px solid #0B481E !important
     padding: 0.75em
 
-.tabla-a th 
-  border-color: #0B481E !important
-  font-weight: 700
-  text-align: center
-  font-size: 1.125em
+.tab-x-1
+    border: 1px solid #0B481E !important
+    padding: 0.75em
 
 .tabla-a thead 
   color: #000
@@ -200,6 +199,22 @@ td, th
     background-size: contain
     margin-left: -110px !important
     margin-top: 10px !important
+
+.pasos-a__linea .left-bottom
+  left: calc(-50% + 2.5px)
+  top: calc(50% - 2.5px)
+  
+.pasos-a__linea .right-bottom 
+  left: 50%
+  top: calc(51% - 3px)
+
+.pasos-a__linea .top-left 
+  left: calc(-50% + 2.5px)
+  top: calc(-50% + -0.5px)
+
+.pasos-a__linea .top-right 
+  left: 50%
+  top: -51%
 
 .m-top
   margin-top: 65px
@@ -448,15 +463,11 @@ td, th
 .jumbotron-6
   background-color: #DEEBAD
   border-radius: 20px
-  height: 162px!important
-  width: 290px
+  height: 162px
   padding: 15px !important
-  @media (min-width: $bp-min-sm) and (max-width: $bp-max-md) 
-    width: 305px !important
-    height: 150px
-    margin-left: 90px !important
+  @media (max-width: $bp-max-md) 
+    height: auto !important
   @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-    width: 345px
     height: 190px !important
 
 
