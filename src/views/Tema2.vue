@@ -33,7 +33,7 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="fade")
-        .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-up") 
+        .tab-2.tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-up") 
           table
             thead
               tr
@@ -677,7 +677,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-7.col-lg-4(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema2/img_24.png'  alt='')
+        img(src='@/assets/curso/images/tema2/img_24.png'  alt='').mb-3
       .col-lg-8(data-aos="fade-left")
         p.mb-3 El concepto que abarca esta definición, integra las interacciones e interconexiones entre componentes sociales y ecológicos. Una estrategia clave para lograr una agricultura sostenible es restituir la diversidad a los países agropecuarios, dado que una de las principales problemáticas de la agricultura moderna, tiene relación con la pérdida de la biodiversidad, causada, principalmente, por el aumento de los monocultivos, derivando en una uniformidad genética de los países y del suelo.
         p.mb-0 Por esta razón, es clave aumentar, restituir y mantener la biodiversidad de los agroecosistemas, pues tiene relación directa con los bienes y servicios ecosistémicos, tales como, el control de microclimas, el reciclaje de nutrientes, la regulación de plagas y procesos hidrológicos y el control de sustancias químicas, entre otros. La pérdida de estos servicios naturales, producto de la simplificación biológica, podría generar grandes impactos ambientales y económicos, dado que los agroecosistemas carecen de la capacidad de regular la fertilidad del suelo, el control de los nutrientes y el control natural de plagas. 

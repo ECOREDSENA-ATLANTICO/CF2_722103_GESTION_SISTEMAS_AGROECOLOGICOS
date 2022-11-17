@@ -1,19 +1,19 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 4.5s ease-in-out infinite alternate
     position: absolute
     top: 50%
     right: 73%
   &-2
-    animation: float4 2.8s ease-in-out infinite alternate
+    animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
     top: 24%
     right: 15%
   &-3
-    animation: float4 8s ease-in-out infinite alternate
+    animation: float4 4s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 70%
+    right: 78%
   &-4
     animation: float3 7.8s ease-in-out infinite alternate
     position: absolute
@@ -35,18 +35,19 @@
 
 @keyframes float4 
 	0% 
-		transform: rotate(0deg) translateX(-50px) rotate(0deg);
+		transform: scale(0.8)
 
   100% 
-		transform: rotate(180deg) translateX(-50px) rotate(-180deg)   
+		transform: scale(1)
 
 @keyframes float3 
 	0% 
-		transform: rotate(0deg) translateX(-50px) rotate(0deg)
-	
+		opacity: 0.8
+    transform: scale(0.8)
 
 	100% 
-		transform: rotate(360deg) translateX(-50px) rotate(-360deg) 
+		opacity: 1
+    transform: scale(1)
 
 
 
@@ -148,6 +149,15 @@ th
 
 .th-8
   background-color: #FFE9E1
+
+.tab-2.tabla-a
+  border: 0px solid !important
+
+.tab-2.tabla-a td
+  border: 0px solid #0B481E !important
+
+.tab-2.tabla-a th
+  border: 0px solid #0B481E !important
 
 .tabla-a
   border-top-left-radius: 30px 
@@ -650,8 +660,8 @@ button, [type="button"], [type="reset"], [type="submit"]
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   @media (max-width: $bp-max-sm )
-    width: 25px
-    height: 25px  
+    width: 45px
+    height: 45px  
       
 .slyder-a__bullets__item    
   @media (max-width: $bp-max-sm )
