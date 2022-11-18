@@ -239,6 +239,10 @@ td.tabbl-3
   display: block
   margin: auto
 
+.m-left
+  @media (max-width: 412px)
+    margin-left: 95px
+
 .text
   font-weight: 700
 
@@ -353,17 +357,6 @@ td.tabbl-3
 .pasos-a.color-acento-contenido .pasos-a__circle div 
   color: #fff
 
-.pasos-a__linea__esquina__linea 
-  border: 3px solid
-    border-top-color: currentcolor
-    border-right-color: currentcolor
-    border-bottom-color: currentcolor
-    border-left-color: currentcolor
-  width: 100%
-  position: relative
-  border-radius: 0px
-
-
 .fondo-1
   background-image: url("../assets/curso/images/tema1/jb_1.svg") !important
   background-repeat: no-repeat
@@ -446,7 +439,7 @@ td.tabbl-3
   background-color: #FFD3C3
   border-radius: 20px
   width: 100%  !important
-  height: 300px !important
+  height: 330px !important
   @media (max-width: 992px)
     background-repeat: no-repeat
     background-size: cover
@@ -458,7 +451,14 @@ td.tabbl-3
     background-size: cover
     width: 100%  !important
     font-size: 12px
-    height: 370px !important
+    height: 280 |px !important
+  @media (max-width: 412px)
+    background-repeat: no-repeat
+    background-size: cover
+    width: 100%  !important
+    font-size: 14px
+    padding: 30px !important
+    height: 280 |px !important
 
 .jumbotron-6
   background-color: #DEEBAD
@@ -518,7 +518,6 @@ td.tabbl-3
     background-repeat: no-repeat
     background-size: cover
     width: auto
-    height: 85px
     margin-left: 15px !important
     margin-right: -70px !important
 
@@ -560,7 +559,7 @@ td.tabbl-3
 .bg-1
   background-color: #CEE284
   border-radius: 20px !important
-  height: auto !important
+  height: 520px !important
   @media (max-width: 992px)
     background-repeat: no-repeat
     background-size: contain

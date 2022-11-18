@@ -185,7 +185,6 @@
 
     h3.text-center Estrategias para promover el manejo agroecológico de los agroecosistemas
 
-
     .row.justify-content-center.align-items-center
       .col-lg-8(data-aos="fade-right")
         PasosA.color-acento-contenido(tipo="n")
