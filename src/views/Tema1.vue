@@ -160,7 +160,7 @@
                   h3.text-white Enlace <i>web</i>
                   p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b>, que se encuentra en el material comentario. 
                 .col-sm-auto
-                  a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y&ab_channel=SemillasdeIdentidadColombia')" target="_blank").m-left
+                  a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y&ab_channel=SemillasdeIdentidadColombia')" target="_blank").float-end
                     span Enlace
                     .row
                       .col-auto
