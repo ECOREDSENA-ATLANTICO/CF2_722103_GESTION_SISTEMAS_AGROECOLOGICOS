@@ -226,7 +226,7 @@
                   h3.text-white Enlace <i>web</i>
                   p.mb-1.text-white En este video se puede detallar los 7 principios de la agroecología, creado por el Programa de las Naciones Unidas para el Desarrollo (PNUD).
                 .col-sm-auto
-                  a.boton(:href="('https://www.youtube.com/watch?v=cZwVQuvxohg&ab_channel=PNUDCostaRica ')" target="_blank").m-left 
+                  a.boton(:href="('https://www.youtube.com/watch?v=cZwVQuvxohg&ab_channel=PNUDCostaRica ')" target="_blank").float-end
                     span Enlace
                     .row
                       .col-auto
@@ -352,7 +352,7 @@
                   h3.text-white Enlace <i>web</i>
                   p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad los diferentes ciclos de los nutrientes o ciclos biogeoquímicos nombrados anteriormente:
                 .col-sm-auto
-                  a.boton(:href="('https://youtu.be/_Kmlr3V10SU')" target="_blank").m-left
+                  a.boton(:href="('https://youtu.be/_Kmlr3V10SU')" target="_blank").float-end
                     span Enlace
                     .row
                       .col-auto
@@ -382,7 +382,7 @@
                   h3.text-white Enlace <i>web</i>
                   p.mb-1.text-white En el siguiente video, podrá detallar con mayor profundidad qué es la cadena trófica o cadena alimenticia:
                 .col-sm-auto
-                  a.boton(:href="('https://youtu.be/RtpjVC6FGxE')" target="_blank").m-left
+                  a.boton(:href="('https://youtu.be/RtpjVC6FGxE')" target="_blank").float-end
                     span Enlace
                     .row
                       .col-auto
@@ -443,24 +443,24 @@
     p.mb-5 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas, los cuales son:
 
     .row.justify-content-center.mb-0
-      .col-10.col-lg-4.lg-0.h-100
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-10.col-lg-4.lg-0
+        .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_11.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
             .p-5.ps-4
               p.mb-0 Sistemas de cultivo itinerante.
 
-      .col-10.col-lg-4.lg-0.h-100
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-10.col-lg-4.lg-0
+        .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_12.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
             .p-4
               p.mb-4 Sistemas semipermanentes de cultivo secano.
 
-      .col-10.col-lg-4.lg-0.h-100
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-10.col-lg-4.lg-0
+        .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
@@ -468,24 +468,24 @@
               p.mb-4 Sistemas permanentes de cultivo secano.
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-10.col-lg-4.lg-0.h-100
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-10.col-lg-4.lg-0
+        .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
             .p-4
               p.my-4 Sistemas arables de bajo riego.
 
-      .col-10.col-lg-4.lg-0.h-100
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-10.col-lg-4.lg-0
+        .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_15.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
             .p-4.ps-5
               p.my-4 Sistema de cultivos perennes.
 
-      .col-10.col-lg-4.lg-0.h-100
-        .tarjeta-avatar-b.mb-5.h-100
+      .col-10.col-lg-4.lg-0
+        .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_16.svg' alt='AvatarTop')
           .tarjeta.color-custom-3

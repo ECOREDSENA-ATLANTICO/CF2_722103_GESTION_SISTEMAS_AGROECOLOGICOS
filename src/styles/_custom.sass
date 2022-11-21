@@ -500,6 +500,10 @@ td.tabbl-3
   display: block
   width: 150px
   margin: 0 auto
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl) 
+    width: calc( 100% + 2rem) !important
+    height: 130px !important
+    font-size: 12px !important
   @media (max-width: 768px)
     background-repeat: no-repeat
     background-size: cover
