@@ -443,7 +443,7 @@
     p.mb-5 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas, los cuales son:
     
     .row.justify-content-center.mb-0
-      .col-10.col-lg-4.lg-0
+      .col-10.col-lg-4.lg-0.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_11.svg' alt='AvatarTop')
@@ -451,7 +451,7 @@
             .p-5.ps-4
               p.mb-0 Sistemas de cultivo itinerante.
 
-      .col-10.col-lg-4.lg-0
+      .col-10.col-lg-4.lg-0.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_12.svg' alt='AvatarTop')
@@ -459,7 +459,7 @@
             .p-4
               p.mb-4 Sistemas semipermanentes de cultivo secano.
 
-      .col-10.col-lg-4.lg-0
+      .col-10.col-lg-4.lg-0.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop')
@@ -468,7 +468,7 @@
               p.mb-4 Sistemas permanentes de cultivo secano.
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-10.col-lg-4.lg-0
+      .col-10.col-lg-4.lg-0.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop')
@@ -476,20 +476,20 @@
             .p-4
               p.my-4 Sistemas arables de bajo riego.
 
-      .col-10.col-lg-4.lg-0
+      .col-10.col-lg-4.lg-0.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_15.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-4.ps-5
-              p.my-4 Sistema de cultivos perennes.
+            .p-4.pe-5.ps-5.py-5
+              p.mb-0 Sistema de cultivos perennes.
 
-      .col-10.col-lg-4.lg-0
+      .col-10.col-lg-4.lg-0.d-flex
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_16.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-3.ps-5
+            .p-3
               p.mt-0 Sistemas con ganado cultivo (alternando cultivos arables con sembrado de pasturas).
 
     p.mb-3 Asimismo, se han reconocido los tipos de determinantes del agroecosistema que influyen en el tipo de agricultura de cada región, estos se pueden visualizar en la siguiente infografía.
