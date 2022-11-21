@@ -442,55 +442,55 @@
 
     p.mb-5 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas, los cuales son:
     
-    .row.justify-content-center.mb-0
-      .col-10.col-lg-4.lg-0.d-flex
-        .tarjeta-avatar-b.mb-5
+    .row.mb-3
+      .col-10.col-lg-4.lg-0.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_11.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-5.ps-4
-              p.mb-0 Sistemas de cultivo itinerante.
+            .p-2.ps-5
+              p.mt-5 Sistemas de cultivo itinerante.
 
-      .col-10.col-lg-4.lg-0.d-flex
-        .tarjeta-avatar-b.mb-5
+      .col-10.col-lg-4.lg-0.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_12.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-4
-              p.mb-4 Sistemas semipermanentes de cultivo secano.
+            .p-2.ps-5
+              p.mt-5 Sistemas semipermanentes de cultivo secano.
 
-      .col-10.col-lg-4.lg-0.d-flex
-        .tarjeta-avatar-b.mb-5
+      .col-10.col-lg-4.lg-0.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-4
-              p.mb-4 Sistemas permanentes de cultivo secano.
+            .p-2.ps-5
+              p.mt-5 Sistemas permanentes de cultivo secano.
 
-    .row.justify-content-center.align-items-center.mb-3
-      .col-10.col-lg-4.lg-0.d-flex
-        .tarjeta-avatar-b.mb-5
+    .row.mb-3
+      .col-10.col-lg-4.lg-0.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-4
-              p.my-4 Sistemas arables de bajo riego.
+            .p-2.ps-5
+              p.mt-5 Sistemas arables de bajo riego.
 
-      .col-10.col-lg-4.lg-0.d-flex
-        .tarjeta-avatar-b.mb-5
+      .col-10.col-lg-4.lg-0.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_15.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-4.pe-5.ps-5.py-5
-              p.mb-0 Sistema de cultivos perennes.
+            .p-2.ps-5
+              p.mt-5 Sistema de cultivos perennes.
 
-      .col-10.col-lg-4.lg-0.d-flex
-        .tarjeta-avatar-b.mb-5
+      .col-10.col-lg-4.lg-0.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_16.svg' alt='AvatarTop')
           .tarjeta.color-custom-3
-            .p-3
-              p.mt-0 Sistemas con ganado cultivo (alternando cultivos arables con sembrado de pasturas).
+            .p-2.ps-5
+              p.mt-5 Sistemas con ganado cultivo (alternando cultivos arables con sembrado de pasturas).
 
     p.mb-3 Asimismo, se han reconocido los tipos de determinantes del agroecosistema que influyen en el tipo de agricultura de cada región, estos se pueden visualizar en la siguiente infografía.
 
@@ -675,19 +675,18 @@
                 li 
                   i.fas.fa-angle-right.th-2
                   | Los agricultores han usado diversos métodos en forma universal. Estos son:
-              .row.justify-content-center.align-items-center
+              .row
                 .col-12.col-md-4.mb-4.mb-md-0
-                  .jumbotron-5.p-5.px-3.h-100
+                  .tarjeta(style='background-color: #FFD3C3').py-5.px-3.h-100
                     ul.lista-ul--color
                       li 
                         i.fas.fa-circle.th-3
-                        p <b>Ninguna acción.</b>
-                        p.my-5
-                      p.my-5
+                        p <b>Ninguna acción.</b> 
+                    
                 
                 
                 .col-12.col-md-4.mb-4.mb-md-0
-                  .jumbotron-5.p-4.px-2.h-100
+                  .tarjeta(style='background-color: #FFD3C3').py-5.px-3.h-100
                     ul.lista-ul--color.mt-4
                       li 
                         i.fas.fa-circle.th-3
@@ -705,7 +704,7 @@
                         i.fas.fa-angle-right.th-3
                         | Modificación del acceso de plagas a las plantas.
                 .col-12.col-md-4.mb-4.mb-md-0
-                  .jumbotron-5.p-5.px-3.h-100
+                  .tarjeta(style='background-color: #FFD3C3').py-5.px-3.h-100
                     ul.lista-ul--color
                       li 
                         i.fas.fa-circle.th-3
@@ -719,7 +718,8 @@
                       li 
                         i.fas.fa-angle-right.th-3
                         | Técnicas culturales.
-
+                        
+                        
             .col-6.col-lg-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_18.svg', alt='').mt-3
 
     Separador

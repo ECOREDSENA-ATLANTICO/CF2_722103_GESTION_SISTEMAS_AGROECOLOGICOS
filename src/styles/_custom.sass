@@ -203,18 +203,47 @@ td.tabbl-3
 .pasos-a__linea .left-bottom
   left: calc(-50% + 2.5px)
   top: calc(50% - 2.5px)
+  @media (max-width: $bp-max-md) 
+    left: calc(-50% + 2.5px)
+    top: calc(51% - 2.5px)
+  @media (min-width: $bp-min-md) and (max-width: $bp-max-lg)
+    left: calc(-50% + 2.5px)
+    top: calc(50% - 2.5px)
   
 .pasos-a__linea .right-bottom 
   left: 50%
   top: calc(51% - 3px)
+  @media (max-width: $bp-max-md) 
+    top: calc(52% - 3px)
+  @media (min-width: $bp-min-md) and (max-width: $bp-max-lg)
+    left: calc(48% + 2.5px)
+    top: calc(49% - 2.5px)
 
 .pasos-a__linea .top-left 
   left: calc(-50% + 2.5px)
   top: calc(-50% + -0.5px)
+  @media (min-width: $bp-min-md) and (max-width: $bp-max-lg)
+    left: calc(-49% + 2.5px)
+    top: calc(-40% - 2.5px)
+
+
+.pasos-a__linea .top-right 
+  @media (min-width: $bp-min-md) and (max-width: $bp-max-lg)
+    left: 50%
+    top: -47% !important
+
 
 .pasos-a__linea .top-right 
   left: 50%
   top: -51%
+
+
+
+.pasos-a__linea .left-bottom 
+  @media (min-width: $bp-min-md) and (max-width: $bp-max-lg)
+    left: calc(-49% + 2.5px)
+    top: calc(50% - 2.5px)
+
 
 .m-top
   margin-top: 65px
@@ -443,7 +472,6 @@ td.tabbl-3
   background-color: #FFD3C3
   border-radius: 20px
   width: 100%  !important
-  height: 330px !important
   @media (max-width: 992px)
     background-repeat: no-repeat
     background-size: cover
@@ -509,24 +537,18 @@ td.tabbl-3
     height: 130px !important
     font-size: 15px !important
   @media (max-width: 768px)
-    background-repeat: no-repeat
-    background-size: cover
     width: auto
     height: 100% !important
     margin-left: 80px !important
     margin-right: 120px
     margin-top: -190px !important
   @media (max-width: 576px)
-    background-repeat: no-repeat
-    background-size: cover
     width: auto
     height: 100% !important
     margin-left: -1px !important
     margin-right: 120px !important
     margin-top: -190px !important
   @media (max-width: 412px)
-    background-repeat: no-repeat
-    background-size: cover
     width: auto
     margin-left: 15px !important
     margin-right: -70px !important
