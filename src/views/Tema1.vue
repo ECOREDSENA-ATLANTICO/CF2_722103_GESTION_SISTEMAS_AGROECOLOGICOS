@@ -687,7 +687,7 @@
                 
                 .col-12.col-md-4.mb-4.mb-md-0
                   .tarjeta(style='background-color: #FFD3C3').py-5.px-3.h-100
-                    ul.lista-ul--color.mt-4
+                    ul.lista-ul--color.mt-1
                       li 
                         i.fas.fa-circle.th-3
                         p.mb-0 <b>Acción preventiva:</b>
