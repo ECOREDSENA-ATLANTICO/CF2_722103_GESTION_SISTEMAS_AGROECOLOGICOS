@@ -441,7 +441,7 @@
           p.text-center.mt-3.p-3 Estructuras usadas para la casa y facilitar las operaciones en la unidad productiva.
 
     p.mb-5 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas, los cuales son:
-
+    
     .row.justify-content-center.mb-0
       .col-10.col-lg-4.lg-0
         .tarjeta-avatar-b.mb-5
