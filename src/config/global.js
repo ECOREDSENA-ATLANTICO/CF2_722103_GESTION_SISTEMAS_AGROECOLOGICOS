@@ -259,7 +259,7 @@ export default {
         'Wezel, A., Gemmill Herren, B., Bezner Kerr, R., Barrios, E., Rodrigues Gonçalves, A. L., y Sinclair, F. (2020). Principios y elementos agroecológicos y sus implicaciones para la transición a sistemas alimentarios sostenibles. <i>Agronomy for Sustainable Development</i>. ',
       tipo: 'Artículo',
       link:
-        'http://www.alimentosargentinos.gob.ar/HomeAlimentos/Organicos/documentos/Principios-agroecologicos-Wezel-2020.pdf',
+        'http://www.alimentosargentinos.gob.ar/HomeAlimentos/organicos/documentos/Principios-agroecologicos-Wezel-2020.pdf',
     },
     {
       tema: '1.2 Metodologías y prácticas de la agroecología.',
