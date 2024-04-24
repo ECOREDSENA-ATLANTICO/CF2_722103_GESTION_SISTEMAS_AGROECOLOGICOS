@@ -14,11 +14,8 @@
         p.mb-3 Le damos la bienvenida al componente formativo <b>Bases conceptuales de la agroecología</b> y en el siguiente video se podrá conocer un poco de qué se trata.
       figure.mt-5(data-aos="fade-right")
         .video
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/iPpLdjtIbtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wbmaK0eQw5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
- 
-    
-
 
 </template>
 

@@ -129,7 +129,7 @@
       .col-7.col-lg-4(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema1/img_4.png'  alt='')
       .col-lg-8(data-aos="fade-left")
-        p.mb-3 Asimismo, este modelo ha traído consigo la exclusión de gran parte de familias agricultoras de países en desarrollo de los continentes africano, asiático y americano, ya que para poder establecer este modelo de agricultura es necesario contar con un músculo financiero considerable para poder adquirir la maquinaria e insumos agrícolas como #[em <b>fertilizantes y pesticidas</b>], produciendo el decrecimiento de los sistemas de producción por la notable disminución de pequeños agricultores y la concentración de las tierras productivas en manos de grandes productores.
+        p.mb-3 Asimismo, este modelo ha traído consigo la exclusión de gran parte de familias agricultoras de países en desarrollo de los continentes africano, asiático y americano, ya que para poder establecer este modelo de agricultura es necesario contar con un músculo financiero considerable para poder adquirir la maquinaria e insumos agrícolas como <em> <b>fertilizantes y pesticidas</b></em>, produciendo el decrecimiento de los sistemas de producción por la notable disminución de pequeños agricultores y la concentración de las tierras productivas en manos de grandes productores.
 
         p.mb-0 Por ello, para lograr una agricultura sostenible se requiere la vinculación de conocimientos técnicos de la agronomía, ecología, la etnobotánica y otras ciencias y, un manejo ecológicamente adecuado de los recursos naturales existentes en el agroecosistema, teniendo en cuenta las prácticas agrícolas utilizadas por familias agricultoras y productores tradicionales e incorporar la idea del uso múltiple del territorio, la multifuncionalidad de la agricultura que los agroecosistemas no solo deben producir, sino que sirven para conservar la biodiversidad y otros atributos o funciones.
 
@@ -277,7 +277,7 @@
                   p.mb-0 Provisión de condiciones edáficas óptimas para el crecimiento de cultivos, manejando materia orgánica y estimulando la biología del suelo (Gliessman, 1998; Altieri, 2002b; 2009; 2010; Altieri y Nicholls 2013).
 
                 td.tab-x-1 
-                  p.mb-0 Adición de abonos orgánicos, coberturas, abonos verdes, incorporación de Mulch, riego óptimo, uso de insumos biológicos.
+                  p.mb-0 Adición de abonos orgánicos, coberturas, abonos verdes, incorporación de <em>Mulch</em>, riego óptimo, uso de insumos biológicos.
                   
               tr.tab-x
                 td.tab-x-1 
@@ -314,7 +314,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_7.svg', alt='')  
       .col-lg-10
-        p.mb-0 Un agroecosistema es el sitio en el cual se establecerá la unidad de producción agrícola, es considerado la unidad de ecología principal, siendo este el concepto bajo el cual se sustenta el análisis de la totalidad del sistema de producción de alimentos, este incluye entradas y salidas; y las interacciones entre sus partes a continuación se puede observar: 
+        p.mb-0 Un agroecosistema es el sitio en el cual se establecerá la unidad de producción agrícola, es considerado la unidad de ecología principal, siendo este el concepto bajo el cual se sustenta el análisis de la totalidad del sistema de producción de alimentos, este incluye entradas y salidas; y las interacciones entre sus partes a continuación: 
 
 
     .row.align-items-center.justify-content-center.mb-3

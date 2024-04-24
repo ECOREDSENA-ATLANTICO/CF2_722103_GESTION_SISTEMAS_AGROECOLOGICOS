@@ -232,7 +232,7 @@ export default {
   ],
   complementario: [
     {
-      tema: '1.1	Evolución del pensamiento agroecológico.',
+      tema: 'Bases conceptuales de la agroecología ',
       referencia:
         'Semillas de Identidad Colombia. (2020). ¿Qué agroecología necesitamos? [Video]. YouTube. ',
       tipo: 'Video ',
@@ -240,21 +240,21 @@ export default {
         'https://www.youtube.com/watch?v=xGC5B_-Nj-Y&ab_channel=SemillasdeIdentidadColombia',
     },
     {
-      tema: '1.1.	Evolución del pensamiento agroecológico',
+      tema: 'Bases conceptuales de la agroecología ',
       referencia:
         'Puma, R., D. (2020). ¿Cómo se llega a la agroecología? TEDx Talks. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=U9ZH-d9c5qc&ab_channel=TEDxTalks',
     },
     {
-      tema: '1.1 Evolución del pensamiento agroecológico',
+      tema: 'Bases conceptuales de la agroecología ',
       referencia:
         'Armbrecht. (2017). Agroecología y respeto por la biodiversidad. TEDx Talks. [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=-pg0ldOnUyA&ab_channel=TEDxTalks',
     },
     {
-      tema: '1.2 Metodologías y prácticas de la agroecología.',
+      tema: 'Bases conceptuales de la agroecología ',
       referencia:
         'Wezel, A., Gemmill Herren, B., Bezner Kerr, R., Barrios, E., Rodrigues Gonçalves, A. L., y Sinclair, F. (2020). Principios y elementos agroecológicos y sus implicaciones para la transición a sistemas alimentarios sostenibles. <i>Agronomy for Sustainable Development</i>. ',
       tipo: 'Artículo',
@@ -262,7 +262,7 @@ export default {
         'http://www.alimentosargentinos.gob.ar/HomeAlimentos/organicos/documentos/Principios-agroecologicos-Wezel-2020.pdf',
     },
     {
-      tema: '1.2 Metodologías y prácticas de la agroecología.',
+      tema: 'Bases conceptuales de la agroecología ',
       referencia:
         'PNUD Costa Rica. (2022). CONUBI - Los 7 principios de la agroecologia. [Video]. YouTube. ',
       tipo: 'Video',
@@ -270,8 +270,7 @@ export default {
         'https://www.youtube.com/watch?v=cZwVQuvxohg&ab_channel=PNUDCostaRic',
     },
     {
-      tema:
-        '2.3 La agroecología como enfoque principal para una agricultura sostenible.',
+      tema: 'Enfoques de la agroecología',
       referencia:
         '<i>Food and Agriculture Organization of the United Nations.</i> (2021). Agroecología, un enfoque para alcanzar sistemas agroalimentarios más sostenibles y resilientes. [Video]. YouTube. ',
       tipo: 'Video',
