@@ -2,6 +2,38 @@
 
 Estos son los cambios hechos en la ECORED-BASE-2021
 
+## 7.0.1 - 16-04-2023
+
+### Arreglado
+
+- Ocultar menu cuando se hace click en un enlace
+- Arreglo de iconos en el menu
+
+## 7.0.0 - 11-04-2023
+
+### Agregado
+
+- Creditos dinamicos donde se puede cambiar el titulo (nueva estructural en global.js)
+- Creditos adicionales para imagenes y crfeatavie commons
+
+### Arreglado
+
+- Logo sena (cambio de nombre logo-sena-naranja.svg a logo-sena.svg)
+- Arreglo de nombre en el inicio 'Ecosistema de Recursos Educativos Digitales'
+
+## 6.4.0 - 20-12-2022
+
+### Agregado
+
+- Componente .bloque-texto-g se puede reversar con la clase .bloque-texto-g--inverso
+- Componentes complementarios para dialogos de ingles
+
+### Arreglado
+
+- Componente slyder F los elementos toman toda la altura
+- Componentes de listas inconsistencias con la tipografia italica arreglado
+- El manu siempre va sobrepuesto en el contenido y se va a cerrar al hacer click por fuera del mismo
+
 ## 6.3.1 - 28-06-2022
 
 ### Agregado
