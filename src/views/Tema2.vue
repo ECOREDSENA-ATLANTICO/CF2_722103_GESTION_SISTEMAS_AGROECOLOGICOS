@@ -270,7 +270,7 @@
 
     Separador
 
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo(data-aos="fade-down")
       .h2 2.1  Enfoque multifuncional y multidimensional
 
     
@@ -317,7 +317,7 @@
 
     Separador
 
-    #t_2_2.titulo-segundo
+    #t_2_2.titulo-segundo(data-aos="fade-up")
       .h2 2.2 Relación entre sostenibilidad, capacidad de carga, huella ecológica y cambio climático
 
     
@@ -654,7 +654,7 @@
 
     Separador
 
-    #t_2_3.titulo-segundo
+    #t_2_3.titulo-segundo(data-aos="fade")
       .h2 2.3 La agroecología como enfoque principal para una agricultura sostenible
 
     .row.align-items-center.justify-content-center.mb-5

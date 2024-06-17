@@ -8,9 +8,9 @@
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
-      .col-12.col-md-8.col-lg-9
+      .col-12.col-md-8.col-lg-9(data-aos="fade-down")
         .titulo-segundo
-          h2 Actividad 1
+          h2 Acertar lo visto
         p.mb-4 Esta actividad trata de relacionar las columnas de términos con su respectiva definición, el objetivo es que el aprendiz haga la correcta unión y de este modo hacer un repaso de lo estudiado.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
@@ -22,14 +22,12 @@
                 i.fas.fa-puzzle-piece
 
 
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+    .row.mb-5.justify-content-center.align-items-center(data-aos="fade-up")
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
             img(src="@/assets/template/completar-espacios.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Actividad 2
         p.mb-4 Complete las frases con el término al que hace referencia.
 
         .tarjeta.actividad.p-3

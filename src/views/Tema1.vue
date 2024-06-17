@@ -7,7 +7,7 @@
         span 1
       h1 Bases conceptuales de la agroecología
 
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
       .col-7.col-lg-4(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema1/img_1.png'  alt='')
       .col-lg-8(data-aos="fade-left")
@@ -135,7 +135,7 @@
 
     Separador
 
-    #t_1_1.titulo-segundo
+    #t_1_1.titulo-segundo(data-aos="fade-down")
       .h2 1.1  Evolución del pensamiento agroecológico
 
     .row.justify-content-center.align-items-center          
@@ -173,7 +173,7 @@
       .col-lg-12(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema1/img_6.svg')
 
-    p.mb-5 La agroecología contempla diferentes dimensiones, las cuales según las propuestas de Ottmann pueden ser tres, dada su complementariedad y que articuladas permiten transformar los procesos agrícolas insostenibles a procesos agroecológicos. A continuación, se podrán observar las tres dimensiones y algunas propuestas de acción agroecológicas.
+    p.mb-5 La agroecología contempla diferentes dimensiones, las cuales según las propuestas de Ottmann pueden ser tres, dada su complementariedad y que articuladas permiten transformar los procesos agrícolas insostenibles a procesos agroecológicos. A continuación, se presentan las tres dimensiones y algunas propuestas de acción agroecológicas.
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
@@ -188,7 +188,7 @@
 
     Separador
 
-    #t_1_2.titulo-segundo
+    #t_1_2.titulo-segundo(data-aos="fade-down")
       .h2 1.2  Metodologías y prácticas de la agroecología
 
     p.mb-5 Las metodologías y prácticas de la agroecología proceden de diversos orígenes filosóficos que no son las mismas de las ciencias agrícolas tradicionales y al tener diferentes raíces las técnicas, metodologías y consecuencias sociales y ambientales difieren trascendentalmente de la agricultura convencional. La agroecología ha evolucionado dadas las siguientes condiciones: 
@@ -234,7 +234,7 @@
 
 
 
-    p.mb-5 Estos principios básicos pueden verse traducidos en la aplicación de diversas técnicas o prácticas tecnológicas, en función del contexto de la unidad productiva, los cuales pueden traducirse en variados efectos en la productividad o resiliencia, en dependencia del entorno y la disponibilidad de recursos, como se observa en la siguiente tabla.
+    p.mb-5 Estos principios básicos pueden verse traducidos en la aplicación de diversas técnicas o prácticas tecnológicas, en función del contexto de la unidad productiva, los cuales pueden traducirse en variados efectos en la productividad o resiliencia, en dependencia del entorno y la disponibilidad de recursos, como se presenta en la siguiente tabla.
 
     .row.align-items-center.justify-content-center.p-4
       .col-lg-12
@@ -308,7 +308,7 @@
 
     Separador
 
-    #t_1_3.titulo-segundo
+    #t_1_3.titulo-segundo(data-aos="fade-down")
       .h2 1.3  Componentes, determinantes, recursos, procesos y estructura de los agroecosistemas 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -724,7 +724,7 @@
 
     Separador
 
-    #t_1_4.titulo-segundo
+    #t_1_4.titulo-segundo(data-aos="fade-up")
       .h2 1.4  Funcionamiento de los agroecosistemas
 
     .row.align-items-center.justify-content-center.mb-5
