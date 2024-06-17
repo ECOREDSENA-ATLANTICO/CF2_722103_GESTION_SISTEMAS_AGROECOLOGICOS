@@ -183,7 +183,7 @@
 
     .row.align-items-center.justify-content-center.my-5
       .col-lg-12(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/fig_1.svg')
+          img(src='@/assets/curso/images/tema1/fig_1.svg', alt='Las dimensiones y propuestas de acciones agroecológicas se dividen en 3, a continuación de la imagen, se explican.' )
 
 
     Separador
