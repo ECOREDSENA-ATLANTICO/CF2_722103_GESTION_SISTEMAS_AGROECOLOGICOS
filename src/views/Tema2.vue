@@ -15,13 +15,13 @@
         ul.lista-ul--color
           li 
             i.fas.fa-check
-            p.mb-0 Un enfoque holístico y sistémico.
+            | Un enfoque holístico y sistémico.
           li 
             i.fas.fa-check
-            p.mb-0 Una mirada multidisciplinaria, entendiendo que los sistemas solo pueden entenderse a través de las perspectivas que aportan diferentes áreas del conocimiento.
+            | Una mirada multidisciplinaria, entendiendo que los sistemas solo pueden entenderse a través de las perspectivas que aportan diferentes áreas del conocimiento.
           li 
             i.fas.fa-check
-            p.mb-0 Una investigación-acción participativa, en que los agricultores son sujetos y no solo objetos del proceso de investigación.
+            | Una investigación-acción participativa, en que los agricultores son sujetos y no solo objetos del proceso de investigación.
         .cajon.p-4
           p.mb-0 La agroecología es entendida como un nuevo enfoque que no solo involucra una perspectiva técnica, sino que incluye la relación entre medio ambiente, agricultura y las dimensiones sociales, éticas, económicas, políticas y culturales que buscan la sostenibilidad del sector agrícola.
 
@@ -47,85 +47,85 @@
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Reduccionista. 
+                      |  Reduccionista. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Hay un solo tipo de agricultura. 
+                      |  Hay un solo tipo de agricultura. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  <b>La ética:</b> un valor "difuso". 
+                      |  <b>La ética:</b> un valor "difuso". 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Falta de una óptica sistémica. 
+                      |  Falta de una óptica sistémica. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Importancia de los componentes.
+                      |  Importancia de los componentes.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Reducción o mala definición de los límites del sistema.
+                      |  Reducción o mala definición de los límites del sistema.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Sólo reconoce al conocimiento científico. 
+                      |  Sólo reconoce al conocimiento científico. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Lo local es poco importante. 
+                      |  Lo local es poco importante. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Uso exclusivo del territorio.  
+                      |  Uso exclusivo del territorio.  
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Minimiza aspectos socioculturales.
+                      |  Minimiza aspectos socioculturales.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Principalmente basada en tecnologías de insumos. 
+                      |  Principalmente basada en tecnologías de insumos. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0 Los científicos "generan" la tecnología.
+                      | Los científicos "generan" la tecnología.
                 td.tabbl-3 
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Holístico.
+                      |  Holístico.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Existen varios modos de hacer agricultura. 
+                      |  Existen varios modos de hacer agricultura. 
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  La ética como valor fundamental. 
+                      |  La ética como valor fundamental. 
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Empleo de una óptica sistémica. 
+                      |  Empleo de una óptica sistémica. 
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Importancia de las interrelaciones. 
+                      |  Importancia de las interrelaciones. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Ampliación y redefinición de los límites del sistema.
+                      |  Ampliación y redefinición de los límites del sistema.
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Reconoce el conocimiento científico y otros. Concepto.
+                      |  Reconoce el conocimiento científico y otros. Concepto.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  pluriepistemológico. 
+                      |  pluriepistemológico. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Lo local es importante: potencial endógeno.  
+                      |  Lo local es importante: potencial endógeno.  
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Uso múltiple del territorio: alimentos, turismo, paisaje, servicios ecológicos.
+                      |  Uso múltiple del territorio: alimentos, turismo, paisaje, servicios ecológicos.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Revaloriza aspectos socioculturales. 
+                      |  Revaloriza aspectos socioculturales. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0 Principalmente basada en tecnologías de procesos.
+                      | Principalmente basada en tecnologías de procesos.
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0 Participación del agricultor en la generación de tecnología.
+                      | Participación del agricultor en la generación de tecnología.
             
               tr.tabl-2
                 th.th-8.text-center(style="" colspan="2") Objetivo
@@ -135,47 +135,47 @@
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  A corto plazo. 
+                      |  A corto plazo. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Concepto productivista. 
+                      |  Concepto productivista. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0 Énfasis en el rendimiento. 
+                      | Énfasis en el rendimiento. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  No incorpora el costo ambiental. 
+                      |  No incorpora el costo ambiental. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Sistemas simples, baja diversidad (inestabilidad). 
+                      |  Sistemas simples, baja diversidad (inestabilidad). 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  La biodiversidad como fuente de genes. 
+                      |  La biodiversidad como fuente de genes. 
                     
                 td.tabbl-3 
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  A largo plazo. 
+                      |  A largo plazo. 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Concepto sustentable. 
+                      |  Concepto sustentable. 
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Énfasis en el agroecosistema y ecosistemas relacionados.  
+                      |  Énfasis en el agroecosistema y ecosistemas relacionados.  
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Incorporación del costo ambiental. 
+                      |  Incorporación del costo ambiental. 
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Sistemas complejos, alta diversidad (estabilidad). 
+                      |  Sistemas complejos, alta diversidad (estabilidad). 
 
                     li 
                       i.fas.fa-angle-right
-                      p.mb-0  Ampliación y redefinición de los límites del sistema.La biodiversidad funcional y estructural en los agroecosistemas y como soporte de vida.
+                      |  Ampliación y redefinición de los límites del sistema.La biodiversidad funcional y estructural en los agroecosistemas y como soporte de vida.
         .row.mb-5
           .col-lg-12
             .jumbotron-3.p-2
@@ -387,7 +387,7 @@
               p.text-center.mb-0 Promover la autosuficiencia regional. 
         
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-5.py-3
+      .col-lg-10.bg-color-1.px-5.py-lg-3
         .h4.mx-3.mb-0 Componentes clave para el desarrollo sostenible (ambiente, economía, tecnología y sociedad)
 
 
@@ -415,10 +415,10 @@
         img(src='@/assets/curso/images/tema2/img_21.png'  alt='')
 
 
-    .row.justify-content-center.fondo-10.mb-5
+    .row.justify-content-center.th-7.mb-5.p-3
       .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema2/ico_new_1.svg', alt='')  
-      .col-lg-10
-        p.m-top La sociedad demanda a las actividades desarrolladas en proyectos de diversas disciplinas que se comprometan con el cuidado del medio ambiente y en respuesta a estas exigencias la sostenibilidad es la oportunidad para mejorar su comportamiento y desempeño. Dada esta realidad, la identificación y evaluación de los impactos ambientales y medir sus huellas ecológicas.
+      .col-lg-10.align-content-center
+        p.mb-0 La sociedad demanda a las actividades desarrolladas en proyectos de diversas disciplinas que se comprometan con el cuidado del medio ambiente y en respuesta a estas exigencias la sostenibilidad es la oportunidad para mejorar su comportamiento y desempeño. Dada esta realidad, la identificación y evaluación de los impactos ambientales y medir sus huellas ecológicas.
   
 
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
@@ -706,7 +706,7 @@
 
     p.mb-5 A continuación, se presentan algunos elementos técnicos básicos de una estrategia agroecológica.
 
-    .row.justify-content-center.align-items-star.mb-3
+    .row.justify-content-center.align-items-star.mb-5
       .col-lg-10.lg-0
         TabsA.color-acento-contenido(data-aos="fade")
           .tarjeta.back-tab.px-5.py-4(titulo="Conservación y regeneración de los recursos naturales.")
@@ -749,7 +749,7 @@
         img.mt-3(src='@/assets/curso/images/tema2/img_25.svg'  alt='')
 
     .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-5.py-3
+      .col-lg-10.bg-color-1.px-5.py-lg-3
         .h4.mx-3.mb-0 Barreras para una transición agroecológica sostenible
 
     .row.align-items-center.justify-content-center

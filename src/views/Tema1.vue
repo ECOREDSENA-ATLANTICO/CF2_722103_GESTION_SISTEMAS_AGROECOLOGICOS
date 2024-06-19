@@ -15,29 +15,35 @@
 
         p.mb-0 Dentro de los principales desafíos de sostenibilidad a nivel mundial se encuentran los cultivos de alimentos y la ganadería, los cuales aportan en conjunto entre:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
-      .col-lg-12.lg-0
-        .row.justify-content-star.align-items-star
-            .col-md-10.col-lg-4.mb-5.mb-lg-0
-              .tarjeta-avatar
-                img(src='@/assets/curso/images/tema1/ico_1.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;")
-                .tarjeta.color-custom
-                  .p-5
-                    p.my-5 Total de las emisiones de Gases Efecto Invernadero (GEI).
-            .col-md-10.col-lg-4.mb-5.mb-lg-0
-              .tarjeta-avatar
-                img(src='@/assets/curso/images/tema1/ico_2.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;")
-                .tarjeta.color-custom-7
-                  .p-4
-                    p.mb-4 Consumo de agua dulce, este genera una sustantiva pérdida de suelos, son la causa del rompimiento de los ciclos del fósforo y nitrógeno, y es una causa importante de la contaminación de las aguas y la degradación de los suelos como consecuencia del uso de agroquímicos.
+    .row.mb-5
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/images/tema1/ico_1.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.th-8.align-content-center
+            .p-4
+              p Total de las emisiones de Gases Efecto Invernadero (GEI).
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/images/tema1/ico_2.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.th-8.align-content-center
+            .p-4
+              p Consumo de agua dulce, este genera una sustantiva pérdida de suelos, son la causa del rompimiento de los ciclos del fósforo y nitrógeno, y es una causa importante de la contaminación de las aguas y la degradación de los suelos como consecuencia del uso de agroquímicos.
 
-            .col-md-12.col-lg-4.mb-5.mb-lg-0
-              .tarjeta-avatar
-                img(src='@/assets/curso/images/tema1/ico_3.svg',  alt='', style="width:80px; display:block; margin:auto 0 ;")
-                .tarjeta.color-custom
-                  .p-5
-                    p.my-5.px-5 Pérdida de especies de la flora y fauna silvestres.
-        
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/images/tema1/ico_3.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.th-8.align-content-center
+            .p-4
+              p Pérdida de especies de la flora y fauna silvestres.     
 
     .row.align-items-center.justify-content-center.mb-5     
       .col-lg-7(data-aos="fade-right") 
@@ -62,7 +68,7 @@
     p.mb-5 De igual manera, se hace necesario considerar que los bienes biológicos de la Tierra son vitales para el desarrollo económico y social de la humanidad. Sin embargo, las especies y los ecosistemas están hoy severamente amenazados a causa de un desarrollo incompatible con la sostenibilidad ecológica y el crecimiento económico (Shiva, 2014). Como resultado, existe un creciente reconocimiento de que la diversidad biológica es un bien global de enorme valor para las generaciones presentes y futuras y, debe ser conservado.
 
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-5.py-3
+      .col-lg-10.bg-color-1.px-5.py-lg-3
         .h4.mx-3.mb-0 La insostenibilidad de la agricultura basada en la revolución verde
 
     p.mb-5 El modelo establecido por la revolución verde trajo consigo un aumento considerable en la producción y productividad agrícola, sin embargo, al analizar este modelo en América Latina, se han podido observar diferentes problemáticas ambientales y sociales que ponen en tela de juicio la sostenibilidad de la agricultura en el tiempo. Las principales características que hacen que este modelo de agricultura sea inviable son: 
@@ -312,7 +318,7 @@
       .h2 1.3  Componentes, determinantes, recursos, procesos y estructura de los agroecosistemas 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_7.svg', alt='')  
+      .col-lg-2.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_7.svg', alt='')  
       .col-lg-10
         p.mb-0 Un agroecosistema es el sitio en el cual se establecerá la unidad de producción agrícola, es considerado la unidad de ecología principal, siendo este el concepto bajo el cual se sustenta el análisis de la totalidad del sistema de producción de alimentos, este incluye entradas y salidas; y las interacciones entre sus partes a continuación: 
 
@@ -405,7 +411,7 @@
     p.mb-5 Cuando una población llega al límite establecido por el ecosistema, el número de especies de esta debe llegar a un equilibrio, si este equilibrio no se da, puede ser debido a enfermedades, procesos de depredación o competencia, hasta la reducción de los patrones de reproducción o cambios o fluctuaciones en el ambiente pueden ocasionar que la población descienda drásticamente para que el ecosistema logre su estabilización debido a las presiones selectivas sobre esta.
 
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-5.py-3
+      .col-lg-10.bg-color-1.px-5.py-lg-3
         .h4.mx-3.mb-0 Clasificación de los agroecosistemas
 
 
@@ -443,7 +449,7 @@
     p.mb-5 De acuerdo con estos criterios, se reconocen actualmente seis tipos de sistemas agrícolas, los cuales son:
     
     .row.mb-3
-      .col-10.col-lg-4.lg-0.mb-3
+      .col-lg-4.lg-0.mb-3
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_11.svg' alt='AvatarTop')
@@ -451,7 +457,7 @@
             .p-2.ps-5
               p.mt-5 Sistemas de cultivo itinerante.
 
-      .col-10.col-lg-4.lg-0.mb-3
+      .col-lg-4.lg-0.mb-3
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_12.svg' alt='AvatarTop')
@@ -459,7 +465,7 @@
             .p-2.ps-5
               p.mt-5 Sistemas semipermanentes de cultivo secano.
 
-      .col-10.col-lg-4.lg-0.mb-3
+      .col-lg-4.lg-0.mb-3
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop')
@@ -468,7 +474,7 @@
               p.mt-5 Sistemas permanentes de cultivo secano.
 
     .row.mb-3
-      .col-10.col-lg-4.lg-0.mb-3
+      .col-lg-4.lg-0.mb-3
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop')
@@ -476,7 +482,7 @@
             .p-2.ps-5
               p.mt-5 Sistemas arables de bajo riego.
 
-      .col-10.col-lg-4.lg-0.mb-3
+      .col-lg-4.lg-0.mb-3
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_15.svg' alt='AvatarTop')
@@ -484,7 +490,7 @@
             .p-2.ps-5
               p.mt-5 Sistema de cultivos perennes.
 
-      .col-10.col-lg-4.lg-0.mb-3
+      .col-lg-4.lg-0.mb-3
         .tarjeta-avatar-b.mb-5.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/images/tema1/ico_16.svg' alt='AvatarTop')
@@ -503,7 +509,7 @@
 
 
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-5.py-3
+      .col-lg-10.bg-color-1.px-5.py-lg-3
         .h4.mx-3.mb-0 Recursos de los agroecosistemas
 
     p.mb-5 En los agroecosistemas se pueden encontrar generalmente cuatro categorías de recursos, a saber: 
@@ -575,7 +581,7 @@
                 img(src="@/assets/curso/images/tema1/img_13.png").mb-3
 
     .row.align-items-center.justify-content-star.mb-5.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-5.py-3
+      .col-lg-10.bg-color-1.px-5.py-lg-3
         .h4.mx-3.mb-0 Procesos ecológicos en el agroecosistema
 
     p.mb-5 Los cinco procesos ecológicos que se dan en un agroecosistema son los procesos energéticos, hidrológicos, biogeoquímicos, sucesionales y de regulación biótica. Estos son evaluados ya que los agroecosistemas tienen condiciones físicas y biológicas particulares de acuerdo con la región donde se desea establecer la unidad productiva, estas características se pueden evidenciar en el siguiente recurso: 
