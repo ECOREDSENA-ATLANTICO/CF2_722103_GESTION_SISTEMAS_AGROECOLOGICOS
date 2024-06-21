@@ -135,11 +135,11 @@ export default {
         titulo: 'Descargar PDF',
         download: 'downloads/722103_CF02_DU.zip',
       },
-      //{
-      //icono: 'fas fa-download',
-      //titulo: 'Descargar material',
-      //download: 'downloads/material.zip',
-      //},
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
