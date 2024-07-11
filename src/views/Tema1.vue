@@ -87,7 +87,7 @@
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_3.svg')
             .p-4 
-              h4.text-center.mt-4 Desarrollo de resistencia a los plaguicidas de ciertos patógenos y plagas.sintéticos.
+              h4.text-center.mt-4 Desarrollo de resistencia a los plaguicidas de ciertos patógenos y plagas. Sintéticos.
 
           .bg-1.h-100
             img.mt-3(src='@/assets/curso/images/tema1/back_slyder_4.svg')
@@ -152,7 +152,7 @@
     .row.justify-content-center.mb-5
       .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_5.svg', alt='').d-none.d-lg-block  
       .col-lg-10
-        p La agroecología vincula una orientación de la agricultura basada en criterios ambientales y con mayor sensibilidad social; donde la agricultura no solo está centrada en la producción, sino también en la sostenibilidad ecológica del sistema de producción. Lo que involucra que la producción agrícola va más allá de los límites físicos de un predio, ya que permite que se desarrollen fenómenos ecológicos como relaciones de competencia entre el cultivo-maleza hasta de depredador-presa, entre otros, y se comprenda la compleja interacción que existe entre los procesos sociales y entre los procesos biológicos y ambientales que pueden darse espacialmente en una unidad de producción agrícola.
+        p La agroecología vincula una orientación de la agricultura basada en criterios ambientales y con mayor sensibilidad social; donde la agricultura no solo está centrada en la producción, sino también en la sostenibilidad ecológica del sistema de producción. Lo que involucra que la producción agrícola va más allá de los límites físicos de un predio, ya que permite que se desarrollen fenómenos ecológicos como relaciones de competencia entre el cultivo-maleza hasta de depredador-presa, entre otros, y se comprenda la compleja interacción que existe entre los procesos sociales y entre los procesos biológicos y ambientales que pueden darse especialmente en una unidad de producción agrícola.
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
@@ -164,7 +164,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.text-white Enlace <i>web</i>
-                  p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b>, que se encuentra en el material comentario. 
+                  p.mb-1.text-white Para conocer un poco más sobre la agroecología, le recomendamos observar el video <b>¿Qué agroecología necesitamos?</b>, que se encuentra en el material complementario. 
                 .col-sm-auto
                   a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y&ab_channel=SemillasdeIdentidadColombia')" target="_blank").float-end
                     span Enlace
@@ -189,7 +189,7 @@
 
     .row.align-items-center.justify-content-center.my-5
       .col-lg-12(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/fig_1.svg', alt='Las dimensiones y propuestas de acciones agroecológicas se dividen en 3, a continuación de la imagen, se explican.' )
+          img(src='@/assets/curso/images/tema1/fig_1.svg', alt='Las dimensiones y propuestas de acciones agroecológicas se dividen en 3, a continuación de la imagen, se explican. 1.	Dimensión ecológico-productivo: *recuperación conocimiento tradicional *experimentación en la unidad de producción agrícola. *asesoría y formación en agroecología. 2.	Dimensión sociopolítica: *creación de modelos alternativos de desarrollo local. *reflexión, crisis global de la agricultura. *organización del sector agrario. *capitalismo consciente. 3.	Dimensión socioeconómica y cultural: *agroturismo. * transformación agroalimentaria artesanal. *agregar valor a la actividad agraria. *regular el mercado de trabajo agrario.' )
 
 
     Separador
@@ -197,7 +197,7 @@
     #t_1_2.titulo-segundo(data-aos="fade-down")
       .h2 1.2  Metodologías y prácticas de la agroecología
 
-    p.mb-5 Las metodologías y prácticas de la agroecología proceden de diversos orígenes filosóficos que no son las mismas de las ciencias agrícolas tradicionales y al tener diferentes raíces las técnicas, metodologías y consecuencias sociales y ambientales difieren trascendentalmente de la agricultura convencional. La agroecología ha evolucionado dadas las siguientes condiciones: 
+    p.mb-5 Las metodologías y prácticas de la agroecología proceden de diversos orígenes filosóficos que no son las mismas de las ciencias agrícolas tradicionales y al tener diferentes raíces, las técnicas, metodologías y consecuencias sociales y ambientales difieren trascendentalmente de la agricultura convencional. La agroecología ha evolucionado dadas las siguientes condiciones: 
 
 
     .row.justify-content-center.align-items-betwen.mb-5(data-aos="zoom-in-up")
@@ -207,7 +207,7 @@
             .col-auto.mb-4.mb-lg-0
               img(src='@/assets/curso/images/tema1/ico_6.svg' alt='').p-4.h-100
             .col.mb-3.mb-sm-0
-              p.mt-1 Agricultura considerada como proceso que sigue principios ecológicos, y provee nuevo conocimiento sobre el manejo y comportamiento del agroecosistema.
+              p.mt-1 Agricultura, considerada como proceso que sigue principios ecológicos, y provee nuevo conocimiento sobre el manejo y comportamiento del agroecosistema.
     
       .col-lg-6
         .jumbotron-2.p-4
@@ -331,7 +331,7 @@
 
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-12(data-aos="fade-left") 
-        img(src='@/assets/curso/images/tema1/fig_2.svg')
+        img(src='@/assets/curso/images/tema1/fig_2.svg', alt="El análisis del sistema de producción de alimentos incluye entradas y salidas: a. En el sistema de manejo: insumos, cultivo, suelo, ganado, cosecha. b. En el sistema externo: ciudades, paisajes, corrientes, aguas subterráneas, vegetación, fauna, etc.")
     .row.mb-5
       .col-lg-12
         .jumbotron-3.p-2
@@ -738,7 +738,7 @@
         img(src='@/assets/curso/images/tema1/img_19.png'  alt='')
       .col-lg-8(data-aos="fade-left")
         p.mb-3 El funcionamiento del agroecosistema se refiere al proceso dinámico que ocurre en su interior como el movimiento de materia-energía, las interacciones, las relaciones entre los organismos y materiales del sistema.
-        p.mb-0 Es importante entender estos procesos para abordar el concepto de dinámica de ecosistemas, eficiencia, productividad y desarrollo. Los dos procesos fundamentales en cualquier agroecosistema son el flujo energético entre las partes y el ciclo de los nutrientes
+        p.mb-0 Es importante entender estos procesos para abordar el concepto de dinámica de ecosistemas, eficiencia, productividad y desarrollo. Los dos procesos fundamentales en cualquier agroecosistema son el flujo energético entre las partes y el ciclo de los nutrientes.
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
@@ -748,7 +748,7 @@
 
     .row.align-items-center.justify-content-center.my-5
       .col-lg-12(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/fig_3.svg')
+          img(src='@/assets/curso/images/tema1/fig_3.svg', alt="En la imagen, se explica el funcionamiento del agroecosistema, este se describirá a continuación de la imagen, ")
 
 
 

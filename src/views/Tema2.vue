@@ -264,9 +264,6 @@
             .col-lg-7.my-3.text-start.order-2.order-lg-1 
               p(data-aos="fade-down") Un mayor aprovechamiento de procesos naturales en la producción agrícola (reciclaje de materia orgánica y nutrientes, fijación de nitrógeno, alelopatía y relaciones predador-presa).
             
-      
-
-    p.mb-3 Un mayor aprovechamiento de procesos naturales en la producción agrícola (reciclaje de materia orgánica y nutrientes, fijación de nitrógeno, alelopatía y relaciones predador-presa). 
 
     Separador
 
@@ -405,7 +402,7 @@
 
     .row.align-items-center.justify-content-center.my-5
       .col-7.col-lg-4(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema2/img_20.svg')
+          img(src='@/assets/curso/images/tema2/img_20.svg', alt="Existen cuatro componentes para el desarrollo sostenible: 1. economía. 2. sociedad. 3. ambiente 4. tecnología.")
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right") 
@@ -632,7 +629,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8.lg-0(data-aos="zoom-in-right")
-        img(src='@/assets/curso/images/tema2/fig_2.svg'  alt='')
+        img(src='@/assets/curso/images/tema2/fig_2.svg'  alt='El consumo de combustible es de mayor importancia para el consumo de energía y el transporte.')
 
     p.mb-5 Existen dos tipos de huella de carbono, a saber:
 
@@ -659,7 +656,7 @@
 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-left")
-        p.mb-3 La agroecología cumple un papel central, referido en la Agenda 2030 de la ONU, en la construcción de ciudades y comunidades sostenibles, la reducción de las desigualdades, la igualdad de género, la acción por el clima, entre otros. Específicamente, se relaciona con el Objetivo de Desarrollo Sostenible (ODS) N.° 2: Hambre cero, teniendo en cuenta que la agricultura es la principal fuente de ingresos, empleos y garantiza la seguridad alimentaria en los países en desarrollo. Por otro lado, el ODS N.° 12: Consumo y producción sostenible, partiendo del hecho de que el 30% del consumo de energía en el mundo y el 22% del total de emisiones de gases de efecto invernadero provienen del sector de la alimentación. De este modo, se plantea la necesidad de detener la degradación de los suelos, el uso insostenible del agua y la pérdida de biodiversidad agrícola de cara a sistemas de producción más resilientes y sostenibles (FAO, 2018).    
+        p.mb-3 La agroecología cumple un papel central, referido en la Agenda 2030 de la ONU, en la construcción de ciudades y comunidades sostenibles, la reducción de las desigualdades, la igualdad de género, la acción por el clima, entre otros. Específicamente, se relaciona con el Objetivo de Desarrollo Sostenible (ODS) N.° 2: Hambre cero, teniendo en cuenta que la agricultura es la principal fuente de ingresos, empleos y garantiza la seguridad alimentaria en los países en desarrollo. Por otro lado, el ODS N.° 12: Consumo y producción sostenible, partiendo del hecho de que el 30 % del consumo de energía en el mundo y el 22 % del total de emisiones de gases de efecto invernadero provienen del sector de la alimentación. De este modo, se plantea la necesidad de detener la degradación de los suelos, el uso insostenible del agua y la pérdida de biodiversidad agrícola de cara a sistemas de producción más resilientes y sostenibles (FAO, 2018).    
       .col-7.col-lg-4(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/img_23.png'  alt='')
 
