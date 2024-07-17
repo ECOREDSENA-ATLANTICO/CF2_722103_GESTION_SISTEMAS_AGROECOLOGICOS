@@ -37,7 +37,7 @@
           table
             thead
               tr
-                th.th-6  Enfoque productivista Agricultura Intensiva
+                th.th-6.t-1  Enfoque productivista Agricultura Intensiva
                 th.th-6 Enfoque Agroecológico Agricultura Sustentable
               tr.tabl-2
                 th.th-7.text-center(style="" colspan="2") Enfoque
@@ -175,7 +175,7 @@
 
                     li 
                       i.fas.fa-angle-right
-                      |  Ampliación y redefinición de los límites del sistema.La biodiversidad funcional y estructural en los agroecosistemas y como soporte de vida.
+                      |  Ampliación y redefinición de los límites del sistema. La biodiversidad funcional y estructural en los agroecosistemas y como soporte de vida.
         .row.mb-5
           .col-lg-12
             .jumbotron-3.p-2

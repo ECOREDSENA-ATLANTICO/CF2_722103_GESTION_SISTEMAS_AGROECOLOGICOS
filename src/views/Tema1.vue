@@ -748,7 +748,7 @@
 
     .row.align-items-center.justify-content-center.my-5
       .col-lg-12(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/fig_3.svg', alt="En la imagen, se explica el funcionamiento del agroecosistema, este se describirá a continuación de la imagen, ")
+          img(src='@/assets/curso/images/tema1/fig_3.svg', alt="En la imagen, se explica el funcionamiento del agroecosistema.")
 
 
 
